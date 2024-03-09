@@ -1,0 +1,1434 @@
+pass1,pass2,pass3,site_code,collection_date,genus,species,common_name,order,family,lowest_taxon,guild,transient,transient_type,is_diadromous
+1,6,6,AR,2017-09-12,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,1,AR,2017-09-12,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,5,AR,2017-09-12,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2017-09-12,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+1,0,1,AR,2017-09-12,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+0,1,0,AR,2017-09-12,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+4,2,6,AR,2017-09-12,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,1,6,AR,2017-09-12,Macrobrachium,ohione,Machrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,4,0,AR,2017-09-12,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,0,1,SF,2017-09-19,Astyanax,mexicanus,Mexican tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+4,0,0,SF,2017-09-19,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+19,5,2,SF,2017-09-19,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,0,1,SF,2017-09-19,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+0,1,1,SF,2017-09-19,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,1,0,SF,2017-09-19,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+22,13,7,SF,2017-09-19,Poecilia,formosa,Amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+5,7,4,SF,2017-09-19,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+5,1,0,TR,2017-09-25,Fundulus,grandis,Unidentified stripe,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+2,1,0,TR,2017-09-25,Astyanax,mexicanus,Mexican tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+7,2,2,TR,2017-09-25,Cyprinodon,variegatus,Sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+231,51,68,TR,2017-09-25,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+58,121,9,MR,2017-09-26,Anchoa,mitchilli,Bay Anchovy,Clupeiformes,Engraulidae,A. mitchilli,Fish,Transient,Amphidromous,Diadromous
+0,6,0,MR,2017-09-26,Gambusia,affinis,Mosquito fish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+8,0,0,MR,2017-09-26,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+16,0,0,GC,2017-10-03,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+4,0,0,GC,2017-10-03,Gambusia,affinis,Mosquito fish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+6,0,0,GC,2017-10-03,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+4,0,0,GC,2017-10-03,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2017-10-03,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+9,0,0,GC,2017-10-03,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,1,1,PD,2017-10-04,Ameiurus,melas,Black bullhead,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+0,0,1,PD,2017-10-04,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2017-10-04,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+5,3,4,PD,2017-10-04,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,4,1,PD,2017-10-04,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+4,0,1,PD,2017-10-04,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,1,0,PD,2017-10-04,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,1,0,PD,2017-10-04,Micropterus,salmoides,Spotted Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,1,PD,2017-10-04,Poecilia,formosa,Amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+3,0,0,EM,2017-10-10,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2017-10-10,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+4,3,0,EM,2017-10-10,Dorosoma,cepedianum,Gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+0,1,1,EM,2017-10-10,Etheostoma,gracile,Slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+28,20,9,EM,2017-10-10,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2017-10-10,Ictiobus,bubalus,Smallmouth buffalo,Cypriniformes,Catostomidae,I. bubalus,Fish,Resident,Freshwater,Freshwater
+3,1,0,EM,2017-10-10,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+3,4,0,EM,2017-10-10,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+29,11,5,EM,2017-10-10,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,1,0,EM,2017-10-10,Notropis,texanus,Mimic shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+2,2,0,EM,2017-10-10,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+4,14,6,EM,2017-10-10,Pimephales,vigilax,Bluntnose Minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2017-10-10,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+6,0,0,PL,2017-10-10,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+15,7,0,PL,2017-10-10,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+20,20,0,PL,2017-10-10,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,PL,2017-10-10,Lepisosteus,oculatus,Longnose gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2017-10-10,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+12,5,0,PL,2017-10-10,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+63,6,0,PL,2017-10-10,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,PL,2017-10-10,Micropterus,salmoides,Largemouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+89,18,0,PL,2017-10-10,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,WM,2017-10-10,Ameiurus,natalis,Yellow bullhead,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+0,0,1,WM,2017-10-10,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+0,0,0,WM,2017-10-10,Dorosoma,cepedianum,Gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,WM,2017-10-10,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2017-10-10,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,0,1,WM,2017-10-10,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,0,0,WM,2017-10-10,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+7,2,2,WM,2017-10-10,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+8,5,0,WM,2017-10-10,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,0,0,WM,2017-10-10,Pimephales,vigilax,Bluntnose Minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+5,1,0,MR,2017-10-31,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2017-10-31,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+81,33,65,MR,2017-10-31,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,MR,2017-10-31,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+2,1,2,MR,2017-10-31,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+3,0,1,MR,2017-10-31,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+3,0,0,MR,2017-10-31,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+1,1,0,MR,2017-10-31,Mugil,cephalus,Striped Mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+41,40,26,MR,2017-10-31,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,MR,2017-10-31,Poecilia,formosa,Amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+48,37,19,MR,2017-10-31,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,1,0,AR,2017-11-01,Anguilla,rostrata,American eel,Anguilliformes,Anguillidae,A. rostrata,Fish,Transient,Catadromous,Diadromous
+24,16,19,AR,2017-11-01,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+2,2,6,AR,2017-11-01,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+4,14,2,AR,2017-11-01,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,AR,2017-11-01,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+0,0,1,AR,2017-11-01,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+0,0,1,AR,2017-11-01,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+7,2,5,AR,2017-11-01,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+14,7,8,AR,2017-11-01,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+4,0,0,AR,2017-11-01,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,0,1,AR,2017-11-01,Micropterus,salmoides,Spotted Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+10,1,3,AR,2017-11-01,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+5,0,2,PD,2017-11-01,Fundulus,notatus,Black stripe minnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+6,3,4,PD,2017-11-01,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,PD,2017-11-01,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2017-11-01,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+9,3,1,PD,2017-11-01,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+2,3,0,PD,2017-11-01,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+3,0,2,PD,2017-11-01,Lepomis,microlophus,Red ear sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+2,0,0,PD,2017-11-01,Micropterus,salmoides,Spotted Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+2,0,0,PD,2017-11-01,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+4,2,4,EM,2017-11-03,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2017-11-03,Ameiurus,natalis,Yellow bullhead,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2017-11-03,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+5,2,4,EM,2017-11-03,Dorosoma,cepedianum,Gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+0,3,1,EM,2017-11-03,Etheostoma,gracile,Slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+53,46,40,EM,2017-11-03,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,EM,2017-11-03,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2017-11-03,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+2,1,0,EM,2017-11-03,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+5,6,0,EM,2017-11-03,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+15,51,30,EM,2017-11-03,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2017-11-03,Lepomis,miniatus,Redspot sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+1,3,1,EM,2017-11-03,Noturus,gyrinus,Tadpole madtom,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+32,18,9,EM,2017-11-03,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+7,15,11,EM,2017-11-03,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2017-11-03,Pylodictis,olivaris,Flathead catfish,Siluriformes,Ictaluridae,P. olivaris,Fish,Resident,Freshwater,Freshwater
+0,1,0,WM,2017-11-03,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,1,0,WM,2017-11-03,Cyprinella,venusta,Blacktail shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+0,0,0,WM,2017-11-03,Cyprinodon,variegatus,Sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+9,19,11,WM,2017-11-03,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,1,0,WM,2017-11-03,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,WM,2017-11-03,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+10,5,6,WM,2017-11-03,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+3,1,0,WM,2017-11-03,Lepomis,microlophus,Red ear sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+2,0,2,WM,2017-11-03,Lepomis,miniatus,Redspot sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+27,26,6,WM,2017-11-03,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+3,0,0,GC,2017-11-04,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,0,0,GC,2017-11-04,Etheostoma,gracile,Slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+2,0,0,GC,2017-11-04,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+40,38,0,GC,2017-11-04,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2017-11-04,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+13,8,0,GC,2017-11-04,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+59,34,0,GC,2017-11-04,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+3,0,0,GC,2017-11-04,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,GC,2017-11-04,Micropterus,salmoides,Largemouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,3,0,GC,2017-11-04,Notropis,texanus,Ironcolor shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2017-11-04,Noturus,gyrinus,Tadpole madtom,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+13,11,0,GC,2017-11-04,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,1,0,GC,2017-11-04,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+2,0,1,SF,2017-11-05,Procambarus,clarkii,Crawdad,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,2,0,SF,2017-11-05,Pimephales,vigilax,Unidentified minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+2,1,NA,SF,2017-11-05,Astyanax,mexicanus,Mexican tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+6,8,1,SF,2017-11-05,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+0,1,0,SF,2017-11-05,Cyprinodon,variegatus,Sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+47,34,14,SF,2017-11-05,Gambusia,affinis,Gambusia spp.,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+101,113,71,SF,2017-11-05,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+1,2,0,SF,2017-11-05,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+13,14,3,SF,2017-11-05,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+138,158,94,SF,2017-11-05,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+29,28,21,TR,2017-11-05,Cyprinodon,variegatus,Sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,TR,2017-11-05,Dormitator,maculatus,Fat sleeper,Gobiiformes,Eleotridae,D. maculatus,Fish,Transient,Catadromous,Diadromous
+2,8,1,TR,2017-11-05,Fundulus,grandis,Plains killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+8,4,0,TR,2017-11-05,Gambusia,affinis,Gambusia spp.,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,1,TR,2017-11-05,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,TR,2017-11-05,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,1,0,TR,2017-11-05,Noturus,gyrinus,Tadpole madtom,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+3,2,2,TR,2017-11-05,Oreochromis,aureus,Blue tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+63,55,35,TR,2017-11-05,Poecilia,formosa,Amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+50,32,14,TR,2017-11-05,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+8,3,3,PL,2017-11-11,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,2,1,PL,2017-11-11,Procambarus,clarkii,Crawfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,0,1,PL,2017-11-11,Lepomis,megalotis,Unidentified sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,0,1,PL,2017-11-11,Trinectes,maculatus,Unidentified flatfish,Pleuronectiformes,Achiridae,T. maculatus,Fish,Transient,Amphidromous,Diadromous
+17,2,0,PL,2017-11-11,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+1,2,0,PL,2017-11-11,Anguilla,rostrata,American eel,Anguilliformes,Anguillidae,A. rostrata,Fish,Transient,Catadromous,Diadromous
+0,1,0,PL,2017-11-11,Rhonciscus,crocro,Freshwater drum,Perciformes,Haemulidae,R. crocro,Fish,Transient,Amphidromous,Diadromous
+47,10,38,PL,2017-11-11,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+150,70,29,PL,2017-11-11,Gambusia,affinis,Gambusia spp.,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,2,1,PL,2017-11-11,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+7,11,0,PL,2017-11-11,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+6,2,2,PL,2017-11-11,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+78,60,29,PL,2017-11-11,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+46,30,27,PL,2017-11-11,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+4,1,0,PL,2017-11-11,Mugil,cephalus,Striped Mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+103,35,96,PL,2017-11-11,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,4,PL,2017-11-11,Poecilia,formosa,Amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+0,3,1,PL,2017-11-11,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+10,5,1,EM,2017-12-02,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+14,15,12,EM,2017-12-02,Lepomis,megalotis,Sunfish juvi,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2017-12-02,Lepomis,megalotis,Warmouth/ longear,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,0,0,EM,2017-12-02,Pimephales,vigilax,Pimephales sp.,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+0,0,2,EM,2017-12-02,Procambarus,clarkii,Crawfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,EM,2017-12-02,Aphredoderus,sayanus,Pirate perch,Percopsiformes,Aphredoderidae,A. sayanus,Fish,Resident,Freshwater,Freshwater
+2,3,2,EM,2017-12-02,Dorosoma,cepedianum,gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+2,3,2,EM,2017-12-02,Etheostoma,gracile,slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+1,1,1,EM,2017-12-02,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+241,91,63,EM,2017-12-02,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2017-12-02,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+0,0,1,EM,2017-12-02,Lepomis,humilis,Orangespotted sunfish,Centrarchiformes,Centrarchidae,L. humilis,Fish,Resident,Freshwater,Freshwater
+10,4,1,EM,2017-12-02,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+70,55,31,EM,2017-12-02,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+3,0,4,EM,2017-12-02,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2017-12-02,Micropterus,salmoides,Largemouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,2,3,EM,2017-12-02,Noturus,gyrinus,Tadpole madtom,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+41,53,25,EM,2017-12-02,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+6,12,3,EM,2017-12-02,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+1,0,1,EM,2017-12-02,Pomoxis,annularis,white crappie,Centrarchiformes,Centrarchidae,P. annularis,Fish,Resident,Freshwater,Freshwater
+6,2,0,WM,2017-12-02,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2017-12-02,Notropis,texanus,blackstripe shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+2,1,0,WM,2017-12-02,Lepomis,megalotis,Sunfish juvi,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,3,1,WM,2017-12-02,Notropis,texanus,Blacktail/red shiner Hybrid,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+3,1,1,WM,2017-12-02,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,WM,2017-12-02,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+1,1,0,WM,2017-12-02,Aphredoderus,sayanus,Pirate perch,Percopsiformes,Aphredoderidae,A. sayanus,Fish,Resident,Freshwater,Freshwater
+11,48,2,WM,2017-12-02,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+2,3,0,WM,2017-12-02,Cyprinella,venusta,Blacktail shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+26,29,23,WM,2017-12-02,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,0,0,WM,2017-12-02,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,WM,2017-12-02,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+6,4,4,WM,2017-12-02,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,0,1,WM,2017-12-02,Lepomis,humilis,Orangespotted sunfish,Centrarchiformes,Centrarchidae,L. humilis,Fish,Resident,Freshwater,Freshwater
+4,3,4,WM,2017-12-02,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+31,26,7,WM,2017-12-02,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,1,0,WM,2017-12-02,Micropterus,salmoides,Largemouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+2,2,0,WM,2017-12-02,Notropis,texanus,Taillight shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+0,3,0,WM,2017-12-02,Noturus,gyrinus,Madtom catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+47,100,45,WM,2017-12-02,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,1,0,WM,2017-12-02,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2017-12-02,Pylodictis,olivaris,Flathead catfish,Siluriformes,Ictaluridae,P. olivaris,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2017-12-02,Gambusia,affinis,Gambusia blackspot?,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,3,0,GC,2017-12-03,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2017-12-03,Lepomis,megalotis,Sunfish juvi,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2017-12-03,Procambarus,clarkii,Crawfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,1,0,GC,2017-12-03,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+1,1,2,GC,2017-12-03,Etheostoma,gracile,slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+1,1,1,GC,2017-12-03,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+19,12,1,GC,2017-12-03,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,0,2,GC,2017-12-03,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,2,0,GC,2017-12-03,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+6,5,1,GC,2017-12-03,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+14,6,4,GC,2017-12-03,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+4,0,3,GC,2017-12-03,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+2,0,0,GC,2017-12-03,Lepomis,microlophus,Redear sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+0,1,1,GC,2017-12-03,Lepomis,miniatus,Redspotted sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2017-12-03,Lepomis,macrochirus,Bantum sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,0,2,GC,2017-12-03,Notropis,texanus,Blackspot shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+1,1,0,GC,2017-12-03,Notropis,texanus,Ironcolor shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+41,28,23,GC,2017-12-03,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+2,18,12,GC,2017-12-03,Poecilia,formosa,Amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+3,0,1,PL,2017-12-03,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+43,20,3,PL,2017-12-03,Cyprinella,venusta,shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2017-12-03,Procambarus,clarkii,Crawfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+4,3,0,PL,2017-12-03,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2017-12-03,Callinectes,sapidus,Blue crab,Decapoda,Portunidae,C. sapidus,Invertebrate,Transient,Euryhaline,Euryhaline
+12,9,2,PL,2017-12-03,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,PL,2017-12-03,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+3,1,0,PL,2017-12-03,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+34,20,2,PL,2017-12-03,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+4,1,0,PL,2017-12-03,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+142,50,10,PL,2017-12-03,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+99,32,15,PL,2017-12-03,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+35,17,7,PL,2017-12-03,Poecilia,formosa,amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+1,1,0,MR,2017-12-05,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,0,MR,2017-12-05,Fundulus,grandis,mottled killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+5,2,0,MR,2017-12-05,Procambarus,clarkii,Crawfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+2,0,0,MR,2017-12-05,Agonostomus,monticola,mullet,Mugiliformes,Mugilidae,A. monticola,Fish,Transient,Amphidromous,Diadromous
+1,0,0,MR,2017-12-05,Anchoa,mitchilli,anchovy,Clupeiformes,Engraulidae,A. mitchilli,Fish,Transient,Amphidromous,Diadromous
+1,0,0,MR,2017-12-05,Anguilla,rostrata,American eel,Anguilliformes,Anguillidae,A. rostrata,Fish,Transient,Catadromous,Diadromous
+42,17,11,MR,2017-12-05,Cyprinodon,variegatus,sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,MR,2017-12-05,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+23,11,8,MR,2017-12-05,Fundulus,grandis,Gulf Killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+2,0,0,MR,2017-12-05,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+44,10,13,MR,2017-12-05,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,MR,2017-12-05,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+4,1,1,MR,2017-12-05,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+3,0,0,MR,2017-12-05,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+4,0,2,MR,2017-12-05,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,0,1,MR,2017-12-05,Poecilia,formosa,amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+58,19,14,MR,2017-12-05,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,3,0,PD,2017-12-05,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,2,0,PD,2017-12-05,Micropterus,salmoides,bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2017-12-05,Lepomis,auritus,Sunfish juvi,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,1,3,PD,2017-12-05,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+2,6,2,PD,2017-12-05,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+7,6,9,PD,2017-12-05,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,2,1,PD,2017-12-05,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2017-12-05,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+2,7,7,PD,2017-12-05,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+4,7,3,PD,2017-12-05,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+7,8,5,PD,2017-12-05,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,0,2,PD,2017-12-05,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+10,9,7,PD,2017-12-05,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,2,0,PD,2017-12-05,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,AR,2017-12-07,Lepomis,macrochirus,Sunfish juvi,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+3,9,30,AR,2017-12-07,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+12,0,0,AR,2017-12-07,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,3,0,AR,2017-12-07,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+4,5,0,AR,2017-12-07,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+13,7,0,AR,2017-12-07,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2017-12-07,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,1,0,AR,2017-12-07,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+4,0,0,SF,2017-12-11,Ameiurus,melas,Bullhead minnow,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+3,0,0,SF,2017-12-11,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+7,1,0,SF,2017-12-11,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+14,0,0,SF,2017-12-11,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,SF,2017-12-11,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+13,0,0,SF,2017-12-11,Poecilia,formosa,amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+93,11,0,SF,2017-12-11,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+5,107,80,TR,2017-12-11,Cyprinodon,variegatus,sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+0,19,25,TR,2017-12-11,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,17,9,TR,2017-12-11,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+7,0,1,SF,2018-02-02,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,3,5,SF,2018-02-02,Ameiurus,melas,Bullhead minnow,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+2,3,0,SF,2018-02-02,Cyprinodon,variegatus,sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+9,9,3,SF,2018-02-02,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+25,13,8,SF,2018-02-02,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,SF,2018-02-02,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+40,23,21,SF,2018-02-02,Poecilia,formosa,amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+127,90,85,SF,2018-02-02,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+9,4,3,TR,2018-02-02,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+2,10,1,TR,2018-02-02,Astyanax,mexicanus,Mexican tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+470,720,250,TR,2018-02-02,Cyprinodon,variegatus,Sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+3,1,0,TR,2018-02-02,Fundulus,grandis,Gulf Killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+7,14,6,TR,2018-02-02,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,0,1,TR,2018-02-02,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+9,6,11,TR,2018-02-02,Poecilia,formosa,Amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+110,77,50,TR,2018-02-02,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+8,0,0,AR,2018-02-03,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,AR,2018-02-03,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+21,0,1,AR,2018-02-03,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,0,2,AR,2018-02-03,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+3,0,0,AR,2018-02-03,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+12,9,6,AR,2018-02-03,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,1,2,AR,2018-02-03,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+41,16,7,AR,2018-02-03,Cyprinella,lutrensis,Mimic shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2018-02-03,Cyprinella,lutrensis,Mimic shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+3,0,0,AR,2018-02-03,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,1,2,MR,2018-02-05,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+24,20,4,MR,2018-02-05,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+3,1,1,MR,2018-02-05,Adinia,xenica,Diamond killifish,Cyprinodontiformes,Fundulidae,A. xenica,Fish,Transient,Euryhaline,Euryhaline
+80,37,52,MR,2018-02-05,Cyprinodon,variegatus,Sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+6,3,0,MR,2018-02-05,Fundulus,grandis,Bayou topminnow,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+12,13,2,MR,2018-02-05,Fundulus,grandis,Gulf Killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+38,8,9,MR,2018-02-05,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2018-02-05,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+9,5,2,MR,2018-02-05,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2018-02-05,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,2,0,MR,2018-02-05,Lepomis,microlophus,Redear sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+1,0,1,MR,2018-02-05,Lepomis,miniatus,Redspotted sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+2,1,4,MR,2018-02-05,Mugil,cephalus,Striped Mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+1,0,0,MR,2018-02-05,Noturus,gyrinus,Madtom catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+40,7,5,MR,2018-02-05,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+3,0,0,MR,2018-02-05,Poecilia,formosa,Amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+122,63,15,MR,2018-02-05,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+0,1,1,PD,2018-02-05,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,2,1,PD,2018-02-05,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,1,0,PD,2018-02-05,Ameiurus,melas,Black bullhead catfish,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+3,1,2,PD,2018-02-05,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+1,1,2,PD,2018-02-05,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,2,2,PD,2018-02-05,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+7,5,0,PD,2018-02-05,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,3,5,PD,2018-02-05,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,PD,2018-02-05,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+7,1,2,EM,2018-02-09,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,2,EM,2018-02-09,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,3,0,EM,2018-02-09,Dorosoma,cepedianum,Gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+8,4,2,EM,2018-02-09,Etheostoma,gracile,Slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+71,44,33,EM,2018-02-09,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,EM,2018-02-09,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,3,0,EM,2018-02-09,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+15,12,5,EM,2018-02-09,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+105,70,30,EM,2018-02-09,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,1,0,EM,2018-02-09,Lepomis,humilis,Orangespotted sunfish,Centrarchiformes,Centrarchidae,L. humilis,Fish,Resident,Freshwater,Freshwater
+4,4,3,EM,2018-02-09,Noturus,gyrinus,Madtom catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+94,37,36,EM,2018-02-09,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+17,14,7,EM,2018-02-09,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+0,0,1,EM,2018-02-09,Pomoxis,annularis,White crappie,Centrarchiformes,Centrarchidae,P. annularis,Fish,Resident,Freshwater,Freshwater
+6,1,0,WM,2018-02-09,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+25,17,5,WM,2018-02-09,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,2,WM,2018-02-09,Etheostoma,gracile,Slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+56,7,4,WM,2018-02-09,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,WM,2018-02-09,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-02-09,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+5,4,2,WM,2018-02-09,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-02-09,Lepomis,humilis,Orangespotted sunfish,Centrarchiformes,Centrarchidae,L. humilis,Fish,Resident,Freshwater,Freshwater
+1,2,0,WM,2018-02-09,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+18,14,1,WM,2018-02-09,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,2,WM,2018-02-09,Notropis,texanus,Ribbon shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+48,35,17,WM,2018-02-09,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,0,2,WM,2018-02-09,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+0,1,0,WM,2018-02-09,Pylodictis,olivaris,Flathead catfish,Siluriformes,Ictaluridae,P. olivaris,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2018-02-11,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+6,2,0,GC,2018-02-11,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,GC,2018-02-11,Etheostoma,gracile,Slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+1,2,0,GC,2018-02-11,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+63,42,5,GC,2018-02-11,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,0,1,GC,2018-02-11,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+13,1,0,GC,2018-02-11,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,0,1,GC,2018-02-11,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,4,1,GC,2018-02-11,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+4,4,1,GC,2018-02-11,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,0,0,GC,2018-02-11,Lepomis,miniatus,Redspot sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+4,8,0,GC,2018-02-11,Notropis,texanus,Mimic shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2018-02-11,Noturus,gyrinus,Madtom catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+19,13,2,GC,2018-02-11,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,1,GC,2018-02-11,Micropterus,salmoides,Largemouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+2,3,0,PL,2018-02-11,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+8,9,6,PL,2018-02-11,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+3,0,0,PL,2018-02-11,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+81,38,39,PL,2018-02-11,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,2,0,PL,2018-02-11,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+47,32,75,PL,2018-02-11,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,2,1,PL,2018-02-11,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+52,42,40,PL,2018-02-11,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+17,18,39,PL,2018-02-11,Notropis,texanus,Mimic shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+144,103,75,PL,2018-02-11,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,PL,2018-02-11,Poecilia,formosa,Amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+10,NA,NA,EM,2018-03-02,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+15,NA,NA,EM,2018-03-02,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+2,0,0,MR,2018-03-05,Brevoortia,patronus,Menhaden,Clupeiformes,Clupeidae,B. patronus,Fish,Transient,Euryhaline,Euryhaline
+5,0,1,MR,2018-03-05,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,MR,2018-03-05,Fundulus,grandis,killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+0,3,0,MR,2018-03-05,Anchoa,mitchilli,Bay anchovy,Clupeiformes,Engraulidae,A. mitchilli,Fish,Transient,Amphidromous,Diadromous
+1,0,0,MR,2018-03-05,Anguilla,rostrata,American eel,Anguilliformes,Anguillidae,A. rostrata,Fish,Transient,Catadromous,Diadromous
+1,4,0,MR,2018-03-05,Cyprinodon,variegatus,Sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+6,5,1,MR,2018-03-05,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,MR,2018-03-05,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,MR,2018-03-05,Mugil,cephalus,Striped mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+5,5,4,MR,2018-03-05,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+19,1,1,MR,2018-03-05,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,PD,2018-03-05,Ameiurus,melas,Black bullhead catfish,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+4,2,1,PD,2018-03-05,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+4,1,1,PD,2018-03-05,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-03-05,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+14,7,0,PD,2018-03-05,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+5,1,0,PD,2018-03-05,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-03-05,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,1,1,PD,2018-03-05,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,1,0,PD,2018-03-05,Micropterus,salmoides,Largemouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,1,0,PD,2018-03-05,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,EM,2018-03-09,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,1,EM,2018-03-09,Procambarus,clarkii,Crawfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,1,0,EM,2018-03-09,Lepomis,megalotis,Bluegill hybrid,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,2,2,EM,2018-03-09,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2018-03-09,Dorosoma,cepedianum,Gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+1,0,1,EM,2018-03-09,Etheostoma,gracile,Slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+65,59,49,EM,2018-03-09,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,EM,2018-03-09,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,1,1,EM,2018-03-09,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+2,2,2,EM,2018-03-09,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+18,33,32,EM,2018-03-09,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2018-03-09,Noturus,gyrinus,Madtom catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+56,35,11,EM,2018-03-09,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,8,4,EM,2018-03-09,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2018-03-09,Pomoxis,nigromaculatus,Black crappie,Centrarchiformes,Centrarchidae,P. nigromaculatus,Fish,Resident,Freshwater,Freshwater
+2,3,0,WM,2018-03-09,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+17,5,10,WM,2018-03-09,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,1,0,WM,2018-03-09,Etheostoma,gracile,Uni. Darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+1,1,0,WM,2018-03-09,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+8,7,31,WM,2018-03-09,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,0,1,WM,2018-03-09,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-03-09,Menidia,beryllina,Brook silverside,Atheriniformes,Atherinopsidae,M. beryllina,Fish,Transient,Euryhaline,Euryhaline
+0,0,2,WM,2018-03-09,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+3,2,2,WM,2018-03-09,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+4,2,1,WM,2018-03-09,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,1,0,WM,2018-03-09,Lepomis,marginatus,Dollar sunfish,Centrarchiformes,Centrarchidae,L. marginatus,Fish,Resident,Freshwater,Freshwater
+14,5,8,WM,2018-03-09,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-03-09,Lepomis,microlophus,Red-eared sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+44,14,16,WM,2018-03-09,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,3,1,WM,2018-03-09,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+0,0,1,WM,2018-03-09,Pomoxis,annularis,White crappi,Centrarchiformes,Centrarchidae,P. annularis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-03-10,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+10,0,0,PL,2018-03-10,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-03-10,Mugil,cephalus,Mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+61,0,0,PL,2018-03-10,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-03-10,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-03-10,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+9,0,0,PL,2018-03-10,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-03-10,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+5,0,0,PL,2018-03-10,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+30,0,0,PL,2018-03-10,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,PL,2018-03-10,Poecilia,formosa,Amazon molly,Cyprinodontiformes,Poeciliidae,P. formosa,Fish,Resident,Freshwater,Freshwater
+3,0,0,PL,2018-03-10,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,PL,2018-03-10,Trinectes,maculatus,Hogchoker,Pleuronectiformes,Achiridae,T. maculatus,Fish,Transient,Amphidromous,Diadromous
+0,0,1,GC,2018-03-30,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+4,1,1,GC,2018-03-30,Procambarus,clarkii,Crawfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+2,1,0,GC,2018-03-30,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+79,24,18,GC,2018-03-30,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,2,2,GC,2018-03-30,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+2,2,1,GC,2018-03-30,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+10,6,5,GC,2018-03-30,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,2,3,GC,2018-03-30,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2018-03-30,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,1,GC,2018-03-30,Micropterus,salmoides,Largemouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,1,GC,2018-03-30,Notropis,texanus,Weed shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+15,18,11,GC,2018-03-30,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,0,2,PD,2018-03-30,Ameiurus,melas,Black bullhead catfish,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+3,1,2,PD,2018-03-30,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+2,2,2,PD,2018-03-30,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+6,4,2,PD,2018-03-30,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,PD,2018-03-30,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-03-30,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+0,0,2,PD,2018-03-30,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,1,0,PD,2018-03-30,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,0,1,PD,2018-03-30,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,0,2,PD,2018-03-30,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+12,7,15,EM,2018-03-31,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+35,9,47,EM,2018-03-31,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,1,EM,2018-03-31,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+13,5,2,EM,2018-03-31,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2018-03-31,Notropis,texanus,Mimic shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+1,0,1,EM,2018-03-31,Noturus,gyrinus,Madtom catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+10,4,16,EM,2018-03-31,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+13,9,18,EM,2018-03-31,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+20,2,1,WM,2018-03-31,Procambarus,clarkii,Crawfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-03-31,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,1,WM,2018-03-31,Cyprinella,venusta,Blacktail shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+4,1,0,WM,2018-03-31,Etheostoma,gracile,Slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+0,1,0,WM,2018-03-31,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+21,12,0,WM,2018-03-31,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,0,0,WM,2018-03-31,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-03-31,Notropis,texanus,Weed shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+73,5,7,WM,2018-03-31,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,WM,2018-03-31,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+3,1,0,PL,2018-04-01,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,1,2,PL,2018-04-01,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,1,PL,2018-04-01,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+NA,NA,NA,PL,2018-04-01,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-04-01,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+25,12,21,PL,2018-04-01,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+7,3,4,PL,2018-04-01,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+3,5,2,PL,2018-04-01,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+9,28,13,PL,2018-04-01,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,1,0,PL,2018-04-01,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+120,240,242,PL,2018-04-01,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+7,14,4,PL,2018-04-01,Mugil,cephalus,Striped Mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+4,2,1,PL,2018-04-01,Fundulus,chrysotus,Silverband shiner,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+NA,NA,NA,PL,2018-04-01,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+2,0,1,PL,2018-04-01,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,1,0,WM,2018-04-01,Procambarus,clarkii,Crawfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-04-01,Cyprinodon,variegatus,Sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+3,1,0,WM,2018-04-01,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,WM,2018-04-01,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,1,2,WM,2018-04-01,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+5,0,0,WM,2018-04-01,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,2,0,WM,2018-04-01,Mugil,cephalus,Striped mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+1,4,1,WM,2018-04-01,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,AR,2018-04-07,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+19,7,8,AR,2018-04-07,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+2,0,0,AR,2018-04-07,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2018-04-07,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+3,0,0,AR,2018-04-07,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,1,0,AR,2018-04-07,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+3,2,0,SF,2018-04-07,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+16,3,0,SF,2018-04-07,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+72,20,0,SF,2018-04-07,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+23,5,0,SF,2018-04-07,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+47,10,0,SF,2018-04-07,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+115,29,0,SF,2018-04-07,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,TR,2018-04-07,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,3,0,TR,2018-04-07,Astyanax,mexicanus,Mexican tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+54,171,159,TR,2018-04-07,Cyprinodon,variegatus,Sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+1,4,1,TR,2018-04-07,Fundulus,grandis,Bayou killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+1,13,14,TR,2018-04-07,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+33,80,54,TR,2018-04-07,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+2,0,0,EM,2018-05-04,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,0,0,EM,2018-05-04,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+8,4,1,EM,2018-05-04,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2018-05-04,Cyprinella,venusta,Blacktail shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+1,1,1,EM,2018-05-04,Dorosoma,cepedianum,Gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+18,28,11,EM,2018-05-04,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+4,0,0,EM,2018-05-04,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+2,0,0,EM,2018-05-04,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+9,6,2,EM,2018-05-04,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+19,27,11,EM,2018-05-04,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2018-05-04,Noturus,gyrinus,Madtom catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+45,29,23,EM,2018-05-04,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+5,9,0,EM,2018-05-04,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2018-05-04,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+13,4,1,GC,2018-05-04,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+27,19,6,GC,2018-05-04,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,1,1,GC,2018-05-04,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,1,0,GC,2018-05-04,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+2,0,2,GC,2018-05-04,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+4,2,1,GC,2018-05-04,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+5,1,14,GC,2018-05-04,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2018-05-04,Lepomis,miniatus,Redspotted sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+1,4,0,GC,2018-05-04,Notropis,texanus,Weed shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+4,2,0,GC,2018-05-04,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+6,1,2,WM,2018-05-04,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-05-04,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-05-04,Dorosoma,cepedianum,Gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+12,6,1,WM,2018-05-04,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,1,WM,2018-05-04,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-05-04,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-05-04,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+10,5,4,WM,2018-05-04,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+5,0,0,WM,2018-05-04,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+68,0,0,WM,2018-05-04,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,PD,2018-05-10,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+6,3,5,PD,2018-05-10,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+39,5,6,PD,2018-05-10,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-05-10,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-05-10,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+5,0,0,PD,2018-05-10,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+2,0,0,PL,2018-05-10,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+2,0,0,PL,2018-05-10,Cambarellus,ninae,Aransas dwarf crayfish,Decapoda,Cambaridae,C. ninae,Invertebrate,Resident,Freshwater,Freshwater
+24,3,4,PL,2018-05-10,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+52,14,10,PL,2018-05-10,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,0,0,PL,2018-05-10,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+2,0,0,PL,2018-05-10,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-05-10,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+20,3,1,PL,2018-05-10,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-05-10,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+70,18,31,PL,2018-05-10,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+11,9,1,PL,2018-05-10,Mugil,cephalus,Striped Mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+21,9,0,PL,2018-05-10,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,PL,2018-05-10,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+26,22,NA,AR,2018-05-12,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,2,NA,AR,2018-05-12,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,2,NA,AR,2018-05-12,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+24,32,NA,AR,2018-05-12,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+4,19,NA,AR,2018-05-12,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,2,NA,AR,2018-05-12,Micropterus,salmoides,Largemouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,NA,AR,2018-05-12,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,SF,2018-05-12,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+3,2,1,SF,2018-05-12,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+9,8,7,SF,2018-05-12,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,2,0,SF,2018-05-12,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,SF,2018-05-12,Oreochromis,aureus,Blue tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+1,2,0,SF,2018-05-12,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+11,17,9,SF,2018-05-12,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,3,SF,2018-06-01,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+2,0,0,SF,2018-06-01,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+31,20,5,SF,2018-06-01,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+24,14,15,SF,2018-06-01,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+3,1,1,SF,2018-06-01,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+168,49,44,SF,2018-06-01,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+66,NA,NA,TR,2018-06-01,Astyanax,mexicanus,Mexican tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+361,NA,NA,TR,2018-06-01,Cyprinodon,variegatus,Sheepshead minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+22,NA,NA,TR,2018-06-01,Fundulus,grandis,Gulf killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+318,NA,NA,TR,2018-06-01,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,2,1,EM,2018-06-04,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,1,0,EM,2018-06-04,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+0,5,2,EM,2018-06-04,Dorosoma,cepedianum,Gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+3,1,3,EM,2018-06-04,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,0,1,EM,2018-06-04,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2018-06-04,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,3,2,EM,2018-06-04,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+81,84,117,EM,2018-06-04,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,EM,2018-06-04,Pomoxis,annularis,White Crappi,Centrarchiformes,Centrarchidae,P. annularis,Fish,Resident,Freshwater,Freshwater
+1,0,NA,WM,2018-06-04,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+3,0,NA,WM,2018-06-04,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,NA,WM,2018-06-04,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+1,0,NA,WM,2018-06-04,Aphredoderus,sayanus,Pirate perch,Percopsiformes,Aphredoderidae,A. sayanus,Fish,Resident,Freshwater,Freshwater
+0,1,NA,WM,2018-06-04,Cyprinella,venusta,Blacktail shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+2,0,NA,WM,2018-06-04,Dorosoma,cepedianum,Gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+5,1,NA,WM,2018-06-04,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,0,NA,WM,2018-06-04,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+9,0,NA,WM,2018-06-04,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+6,0,NA,WM,2018-06-04,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,GC,2018-06-06,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,GC,2018-06-06,Gambusia,affinis,Fry,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+18,19,2,GC,2018-06-06,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2018-06-06,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+5,0,0,GC,2018-06-06,Lepomis,auritus,Redbreast sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2018-06-06,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+4,0,2,GC,2018-06-06,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,3,2,GC,2018-06-06,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,0,1,GC,2018-06-06,Lepomis,microlophus,Red-eared sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+2,0,0,GC,2018-06-06,Micropterus,salmoides,Large mouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+5,9,1,GC,2018-06-06,Noturus,gyrinus,Madtom catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+0,2,0,PL,2018-06-07,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,2,0,PL,2018-06-07,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,2,1,PL,2018-06-07,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+5,11,12,PL,2018-06-07,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+25,46,11,PL,2018-06-07,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,7,PL,2018-06-07,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+25,47,11,PL,2018-06-07,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,6,1,PL,2018-06-07,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,38,12,PL,2018-06-07,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,2,PL,2018-06-07,Micropterus,salmoides,Large mouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+9,11,20,PL,2018-06-07,Mugil,cephalus,Striped mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+11,NA,NA,PL,2018-06-07,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,1,PL,2018-06-07,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,PL,2018-06-07,Trinectes,maculatus,Hogchoker,Pleuronectiformes,Achiridae,T. maculatus,Fish,Transient,Amphidromous,Diadromous
+0,1,0,AR,2018-06-08,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,0,0,AR,2018-06-08,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,AR,2018-06-08,Ameiurus,melas,Black bullhead catfish,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2018-06-08,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+12,2,0,AR,2018-06-08,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,4,AR,2018-06-08,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2018-06-08,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,AR,2018-06-08,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+4,1,3,AR,2018-06-08,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+4,1,1,AR,2018-06-08,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,1,0,AR,2018-06-08,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,MR,2018-06-08,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,MR,2018-06-08,Cyprinodon,variegatus,Sheepshead Minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+0,1,0,MR,2018-06-08,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,MR,2018-06-08,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+2,0,0,MR,2018-06-08,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+10,0,0,MR,2018-06-08,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,1,1,MR,2018-06-08,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+0,0,1,PD,2018-06-08,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,0,0,PD,2018-06-08,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-06-08,Ameiurus,melas,Black Bullhead,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+1,1,1,PD,2018-06-08,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+1,2,0,PD,2018-06-08,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+21,15,5,PD,2018-06-08,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,PD,2018-06-08,Herichthys,cyanoguttatus,Rio grande cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+6,12,2,PD,2018-06-08,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+2,2,1,PD,2018-06-08,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,0,1,PD,2018-06-08,Lepomis,megalotis,Green Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-06-08,Lepomis,microlophus,Red-ear sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+1,1,1,PD,2018-06-08,Micropterus,salmoides,Largemouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-06-08,Micropterus,salmoides,Largemouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,1,0,PD,2018-06-08,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+3,0,0,PD,2018-06-08,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,NA,NA,AR,2018-07-02,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+8,NA,NA,AR,2018-07-02,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,NA,NA,AR,2018-07-02,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+3,NA,NA,AR,2018-07-02,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,NA,NA,AR,2018-07-02,Cyprinella,lutrensis,Weed shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,NA,NA,AR,2018-07-02,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,SF,2018-07-02,Lepomis,gulosus,Warmouth sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,2,0,SF,2018-07-02,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,1,SF,2018-07-02,Cyprinodon,variegatus,Sheepshead Minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+1,5,0,SF,2018-07-02,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,4,0,SF,2018-07-02,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,SF,2018-07-02,Ictiobus,bubalus,Smallmouth buffalo,Cypriniformes,Catostomidae,I. bubalus,Fish,Resident,Freshwater,Freshwater
+2,0,0,SF,2018-07-02,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+4,15,2,SF,2018-07-02,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+0,1,0,TR,2018-07-02,Oreochromis,aureus,Tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+9,1,4,TR,2018-07-02,Cyprinodon,variegatus,Sheepshead Minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,TR,2018-07-02,Fundulus,grandis,Gulf killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,TR,2018-07-02,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,TR,2018-07-02,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,0,0,TR,2018-07-02,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,1,0,TR,2018-07-02,Micropterus,salmoides,Large mouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+16,43,65,TR,2018-07-02,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,EM,2018-07-09,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2018-07-09,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2018-07-09,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+3,1,0,EM,2018-07-09,Lepomis,macrochirus,Longear,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2018-07-09,Notropis,texanus,Weed shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+29,9,6,EM,2018-07-09,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,EM,2018-07-09,Pimephales,vigilax,Bullhead minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+1,NA,NA,GC,2018-07-09,Lepomis,megalotis,Longear/Bluegill sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,NA,NA,GC,2018-07-09,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,NA,NA,GC,2018-07-09,Lepomis,macrochirus,Longear sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+3,NA,NA,GC,2018-07-09,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,1,GC,2018-07-28,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,0,2,GC,2018-07-28,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+11,9,11,GC,2018-07-28,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,0,1,GC,2018-07-28,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+3,3,1,GC,2018-07-28,Lepomis,humilis,Orangespotted sunfish,Centrarchiformes,Centrarchidae,L. humilis,Fish,Resident,Freshwater,Freshwater
+0,4,0,GC,2018-07-28,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+11,2,1,GC,2018-07-28,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,3,0,GC,2018-07-28,Lepomis,microlophus,Red-eared sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+0,0,1,GC,2018-07-28,Lepomis,miniatus,Redspotted sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+1,3,1,GC,2018-07-28,Micropterus,salmoides,Large mouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+6,1,2,GC,2018-07-28,Notropis,texanus,Weed shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+2,4,1,GC,2018-07-28,Noturus,gyrinus,Madtom catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+8,27,6,GC,2018-07-28,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,PL,2018-07-28,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+3,2,1,PL,2018-07-28,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+13,12,4,PL,2018-07-28,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-07-28,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-07-28,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+6,0,0,PL,2018-07-28,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+20,1,1,PL,2018-07-28,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+6,0,0,PL,2018-07-28,Noturus,gyrinus,Madtom catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2018-07-28,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+2,2,0,PL,2018-07-28,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+3,NA,NA,MR,2018-07-30,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+7,NA,NA,MR,2018-07-30,Anchoa,mitchilli,Bay anchovy,Clupeiformes,Engraulidae,A. mitchilli,Fish,Transient,Amphidromous,Diadromous
+17,NA,NA,MR,2018-07-30,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+156,NA,NA,MR,2018-07-30,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+6,NA,NA,MR,2018-07-30,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,NA,NA,AR,2018-08-08,Lepomis,gulosus,Warmouth sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,NA,NA,AR,2018-08-08,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+2,NA,NA,AR,2018-08-08,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,NA,NA,AR,2018-08-08,Micropterus,salmoides,Large mouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+2,1,0,PD,2018-08-08,Lepomis,gulosus,Warmouth,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-08-08,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+2,2,0,PD,2018-08-08,Lepomis,auritus,Juvi. Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+0,0,1,PD,2018-08-08,Cyprinus,carpio,Uni. Carp,Cyprinodontiformes,Cyprinidae,C. carpio,Fish,Resident,Freshwater,Freshwater
+2,0,1,PD,2018-08-08,Ameiurus,melas,Black bullhead catfish,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-08-08,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+4,2,1,PD,2018-08-08,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+3,3,4,PD,2018-08-08,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+4,13,3,PD,2018-08-08,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+4,0,2,PD,2018-08-08,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-08-08,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+10,1,3,PD,2018-08-08,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+0,1,1,PD,2018-08-08,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+5,1,4,PD,2018-08-08,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2018-08-08,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,2,5,PD,2018-08-08,Micropterus,salmoides,Large mouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+5,8,3,PD,2018-08-08,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+4,1,0,PD,2018-08-08,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,1,NA,PD,2018-08-31,Lepomis,gulosus,Warmouth sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,NA,PD,2018-08-31,Ameiurus,natalis,Yellow bullhead catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+3,1,NA,PD,2018-08-31,Fundulus,chrysotus,Golden topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+4,3,NA,PD,2018-08-31,Fundulus,notatus,Blackstripe topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+4,7,NA,PD,2018-08-31,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+6,6,NA,PD,2018-08-31,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+12,12,NA,PD,2018-08-31,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,3,NA,PD,2018-08-31,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+7,5,NA,PD,2018-08-31,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,1,NA,PD,2018-08-31,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,2,NA,PD,2018-08-31,Micropterus,salmoides,Large mouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,3,NA,PD,2018-08-31,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,2,NA,PD,2018-08-31,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+2,NA,NA,TR,2018-08-31,Cyprinodon,variegatus,Sheepshead Minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+2,NA,NA,TR,2018-08-31,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+24,NA,NA,TR,2018-08-31,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,NA,NA,TR,2018-08-31,Minuca,longisignalis,Fiddler crab,Decapoda,Ocypodidae,M. longisignalis,Invertebrate,Transient,Euryhaline,Euryhaline
+1,0,0,EM,2018-09-01,Lepomis,megalotis,Juvenile sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2018-09-01,Dorosoma,cepedianum,Gizzard shad,Clupeiformes,Clupeidae,D. cepedianum,Fish,Transient,Euryhaline,Euryhaline
+11,5,0,EM,2018-09-01,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2018-09-01,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+2,2,0,EM,2018-09-01,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2018-09-01,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2018-09-01,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+2,3,0,EM,2018-09-01,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+3,1,0,EM,2018-09-01,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+57,23,1,EM,2018-09-01,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,EM,2018-09-01,Pomoxis,annularis,White crappie,Centrarchiformes,Centrarchidae,P. annularis,Fish,Resident,Freshwater,Freshwater
+1,1,2,WM,2018-09-01,Lepomis,gulosus,Warmouth sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+3,1,1,WM,2018-09-01,Procambarus,clarkii,Crawfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-09-01,Ameiurus,melas,Black bullhead catfish,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+5,4,1,WM,2018-09-01,Aphredoderus,sayanus,Pirate perch,Percopsiformes,Aphredoderidae,A. sayanus,Fish,Resident,Freshwater,Freshwater
+0,0,1,WM,2018-09-01,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+6,0,4,WM,2018-09-01,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,WM,2018-09-01,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+0,0,2,WM,2018-09-01,Lepomis,auritus,Redbreasted Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-09-01,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+3,4,0,WM,2018-09-01,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+19,3,1,WM,2018-09-01,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-09-01,Micropterus,salmoides,Large mouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2018-09-01,Notropis,texanus,Weed shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+14,4,17,WM,2018-09-01,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,AR,2018-09-11,Lepomis,gulosus,Warmouth sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,0,1,AR,2018-09-11,Lepomis,gulosus,Yellow bullhead catfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+5,5,0,AR,2018-09-11,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+2,1,0,AR,2018-09-11,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,10,1,AR,2018-09-11,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+3,7,0,AR,2018-09-11,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+2,2,1,AR,2018-09-11,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+0,1,1,AR,2018-09-11,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+0,0,1,AR,2018-09-11,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+7,15,5,AR,2018-09-11,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+8,12,5,AR,2018-09-11,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,0,1,AR,2018-09-11,Micropterus,salmoides,Large mouth bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,0,SF,2018-09-18,Lepomis,gulosus,Warmouth sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,5,0,SF,2018-09-18,Lepomis,macrochirus,Juvenile sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,SF,2018-09-18,Astyanax,mexicanus,Mexican tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+0,1,0,SF,2018-09-18,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+3,12,9,SF,2018-09-18,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+5,11,0,SF,2018-09-18,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,SF,2018-09-18,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+6,1,0,PL,2018-09-25,Cyprinella,lutrensis,Red shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+8,3,0,PL,2018-09-25,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,PL,2018-09-25,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+2,0,0,PL,2018-09-25,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+3,0,1,PL,2018-09-25,Lepomis,macrochirus,Bluegill sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+6,3,0,PL,2018-09-25,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+19,1,0,PL,2018-09-25,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+1,3,0,PL,2018-09-25,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+2,0,0,PL,2018-09-25,Trinectes,maculatus,Hogchoker,Pleuronectiformes,Achiridae,T. maculatus,Fish,Transient,Amphidromous,Diadromous
+8,12,4,GC,2018-11-15,Lepomis,macrochirus,Bluegill,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+13,9,6,GC,2018-11-15,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+7,7,1,GC,2018-11-15,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+24,3,1,GC,2018-11-15,Lepomis,megalotis,Longear sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+4,3,3,GC,2018-11-15,Lepomis,miniatus,Redspotted sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+1,0,2,GC,2018-11-15,Ictalurus,punctatus,Spotted bass,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2018-11-15,Lepomis,gulosus,Warmouth sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2018-11-15,Etheostoma,gracile,Slough darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+0,0,1,GC,2018-11-15,Fundulus,chrysotus,Golden top minnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+48,41,30,GC,2018-11-15,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,EM,2019-03-09,Pomoxis,nigromaculatus,Black Crappie,Centrarchiformes,Centrarchidae,P. nigromaculatus,Fish,Resident,Freshwater,Freshwater
+10,8,3,EM,2019-03-09,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+4,3,1,EM,2019-03-09,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+8,1,1,EM,2019-03-09,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,1,0,EM,2019-03-09,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,2,0,EM,2019-03-09,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+NA,NA,NA,EM,2019-03-09,Cyprinella,lutrensis,Red Shiner****,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+0,3,1,EM,2019-03-09,Noturus,gyrinus,Tadpole Madtom Catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+NA,NA,NA,EM,2019-03-09,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+NA,NA,NA,EM,2019-03-09,Pomoxis,annularis,White Crappie,Centrarchiformes,Centrarchidae,P. annularis,Fish,Resident,Freshwater,Freshwater
+87,62,12,EM,2019-03-09,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,7,5,WM,2019-03-09,Cyprinella,venusta,Black Tail Shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+5,8,1,WM,2019-03-09,Pimephales,vigilax,Bullhead Minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2019-03-09,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+21,0,0,WM,2019-03-09,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,1,WM,2019-03-09,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,WM,2019-03-09,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2019-03-09,Lepomis,megalotis,Juvenile sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,0,0,WM,2019-03-09,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,4,0,WM,2019-03-09,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2019-03-09,Noturus,gyrinus,Tadpole Madtom Catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+0,3,0,WM,2019-03-09,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+0,0,1,WM,2019-03-09,Aphredoderus,sayanus,Pirate Perch,Percopsiformes,Aphredoderidae,A. sayanus,Fish,Resident,Freshwater,Freshwater
+29,46,4,WM,2019-03-09,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,2,0,MR,2019-03-10,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,MR,2019-03-10,Noturus,gyrinus,Tadpole Madtom Catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+12,0,0,MR,2019-03-10,Brevoortia,patronus,Gulf Menhaden,Clupeiformes,Clupeidae,B. patronus,Fish,Transient,Euryhaline,Euryhaline
+2,0,0,MR,2019-03-10,Menidia,beryllina,Brook Silverside,Atheriniformes,Atherinopsidae,M. beryllina,Fish,Transient,Euryhaline,Euryhaline
+15,18,15,MR,2019-03-10,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+5,4,4,MR,2019-03-10,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,2,0,MR,2019-03-10,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+0,0,1,MR,2019-03-10,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+58,40,37,MR,2019-03-10,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,PD,2019-03-10,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2019-03-10,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+2,0,0,PD,2019-03-10,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2019-03-10,Fundulus,grandis,Gulf Killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+1,2,2,PD,2019-03-10,Fundulus,notatus,Black Stripe Topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+4,6,2,PD,2019-03-10,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2019-03-10,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,5,2,PD,2019-03-10,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,AR,2019-03-11,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+7,3,1,AR,2019-03-11,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+9,2,3,AR,2019-03-11,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+9,3,8,AR,2019-03-11,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+7,5,4,AR,2019-03-11,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+6,6,3,AR,2019-03-11,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+3,0,0,AR,2019-03-11,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+4,5,0,AR,2019-03-11,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+4,0,0,AR,2019-03-11,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,1,AR,2019-03-11,Anguilla,rostrata,American Eel,Anguilliformes,Anguillidae,A. rostrata,Fish,Transient,Catadromous,Diadromous
+1,0,0,AR,2019-03-11,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+0,1,1,AR,2019-03-11,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+2,2,0,AR,2019-03-11,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+2,1,0,GC,2019-03-12,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+7,0,1,GC,2019-03-12,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+8,2,2,GC,2019-03-12,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2019-03-12,Fundulus,chrysotus,Golden top minnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+11,4,0,GC,2019-03-12,Cambarellus,ninae,Aransas Dwarf Crayfish,Decapoda,Cambaridae,C. ninae,Invertebrate,Resident,Freshwater,Freshwater
+1,2,2,GC,2019-03-12,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+3,2,0,GC,2019-03-12,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2019-03-12,Micropterus,salmoides,Large Mouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+NA,NA,NA,GC,2019-03-12,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+111,75,28,GC,2019-03-12,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,PL,2019-03-12,Anguilla,rostrata,American Eel,Anguilliformes,Anguillidae,A. rostrata,Fish,Transient,Catadromous,Diadromous
+3,3,3,PL,2019-03-12,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,0,1,PL,2019-03-12,Ameiurus,natalis,Yellow Bullhead Catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2019-03-12,Cambarellus,ninae,Aransas Dwarf Crayfish,Decapoda,Cambaridae,C. ninae,Invertebrate,Resident,Freshwater,Freshwater
+12,6,3,PL,2019-03-12,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+4,6,3,PL,2019-03-12,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+2,18,9,PL,2019-03-12,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,1,0,PL,2019-03-12,Micropterus,salmoides,Large Mouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,4,0,PL,2019-03-12,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,1,1,PL,2019-03-12,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+19,36,31,PL,2019-03-12,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+13,3,2,SF,2019-03-21,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+21,15,5,SF,2019-03-21,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+175,46,33,SF,2019-03-21,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+42,17,20,SF,2019-03-21,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+100,59,15,SF,2019-03-21,Astyanax,mexicanus,Mexican Tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+9,3,3,SF,2019-03-21,Pimephales,vigilax,Bullhead Minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+19,5,9,SF,2019-03-21,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+20,11,10,SF,2019-03-21,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+2,1,2,SF,2019-03-21,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,1,0,SF,2019-03-21,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,SF,2019-03-21,Oreochromis,aureus,Blue Tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+3,1,0,SF,2019-03-21,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,0,1,SF,2019-03-21,Dorosoma,petenense,Threadfin Shad,Clupeiformes,Clupeidae,D. petenense,Fish,Resident,Freshwater,Freshwater
+3,2,1,AR,2019-09-17,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+6,3,1,AR,2019-09-17,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2019-09-17,Micropterus,salmoides,Large Mouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2019-09-17,Anguilla,rostrata,American Eel,Anguilliformes,Anguillidae,A. rostrata,Fish,Transient,Catadromous,Diadromous
+1,2,4,AR,2019-09-17,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2019-09-17,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,1,0,AR,2019-09-17,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,3,1,AR,2019-09-17,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,0,1,AR,2019-09-17,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,AR,2019-09-17,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,16,4,SF,2019-09-24,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+4,0,5,SF,2019-09-24,Astyanax,mexicanus,Mexican Tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+12,4,3,SF,2019-09-24,Lepomis,macrochirus,Bluegill/Green hybrid***,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,SF,2019-09-24,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+19,21,13,SF,2019-09-24,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+52,61,44,SF,2019-09-24,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+11,0,1,SF,2019-09-24,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,SF,2019-09-24,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+3,1,1,MR,2019-10-01,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,MR,2019-10-01,Callinectes,sapidus,Blue Crab,Decapoda,Portunidae,C. sapidus,Invertebrate,Transient,Euryhaline,Euryhaline
+0,1,0,MR,2019-10-01,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,1,0,MR,2019-10-01,Macrobrachium,ohione,Marine shrimp,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,MR,2019-10-01,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+14,17,12,EM,2019-10-02,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+10,8,14,EM,2019-10-02,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+18,25,30,EM,2019-10-02,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,1,1,EM,2019-10-02,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+3,2,2,EM,2019-10-02,Noturus,gyrinus,Tadpole Madtom Catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+1,0,2,EM,2019-10-02,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,1,EM,2019-10-02,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,1,0,EM,2019-10-02,Micropterus,salmoides,Large Mouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2019-10-02,Etheostoma,gracile,Slough Darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+0,0,1,EM,2019-10-02,Cyprinella,venusta,Black Tail Shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+18,9,10,EM,2019-10-02,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+3,0,0,WM,2019-10-02,Aphredoderus,sayanus,Pirate Perch,Percopsiformes,Aphredoderidae,A. sayanus,Fish,Resident,Freshwater,Freshwater
+4,0,0,WM,2019-10-02,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+5,3,3,WM,2019-10-02,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2019-10-02,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,WM,2019-10-02,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2019-10-02,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2019-10-02,Lepomis,cyanellus,Warmouth/Green hybrid***,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,0,7,WM,2019-10-02,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,PL,2019-10-05,Lepisosteus,oculatus,Spotted gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,1,0,PL,2019-10-05,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,1,0,PL,2019-10-05,Mugil,cephalus,Striped Mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+24,18,9,PL,2019-10-05,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+6,4,1,PL,2019-10-05,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+5,2,1,PL,2019-10-05,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+3,1,0,PL,2019-10-05,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+8,4,2,PL,2019-10-05,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+10,0,3,PL,2019-10-05,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,2,0,PL,2019-10-05,Ameiurus,natalis,Yellow Bullhead Catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+1,2,0,PL,2019-10-05,Micropterus,salmoides,Large Mouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2019-10-05,Ameiurus,melas,Black bullhead catfish,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+4,2,0,PL,2019-10-05,Trinectes,maculatus,Hogchoker,Pleuronectiformes,Achiridae,T. maculatus,Fish,Transient,Amphidromous,Diadromous
+0,0,1,PL,2019-10-05,Ictalurus,punctatus,Channel catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+225,130,35,PL,2019-10-05,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+17,1,0,PL,2019-10-05,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+0,0,1,PL,2019-10-05,Callinectes,sapidus,Blue crab,Decapoda,Portunidae,C. sapidus,Invertebrate,Transient,Euryhaline,Euryhaline
+1,3,3,GC,2019-10-08,Micropterus,salmoides,Large Mouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+5,10,8,GC,2019-10-08,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+4,2,3,GC,2019-10-08,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+6,10,12,GC,2019-10-08,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+7,21,20,GC,2019-10-08,Lepomis,megalotis,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+7,15,22,GC,2019-10-08,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,1,1,GC,2019-10-08,Lepomis,microlophus,Redear Sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2019-10-08,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+3,1,0,GC,2019-10-08,Lepomis,humilis,Orange Spotted Sunfish,Centrarchiformes,Centrarchidae,L. humilis,Fish,Resident,Freshwater,Freshwater
+1,3,1,GC,2019-10-08,Fundulus,notatus,Black Stripe Topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2019-10-08,Etheostoma,gracile,Slough Darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+2,3,2,GC,2019-10-08,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2019-10-08,Ameiurus,natalis,Yellow Bullhead Catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+0,0,1,GC,2019-10-08,Noturus,gyrinus,Tadpole Madtom Catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+NA,NA,NA,GC,2019-10-08,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,PD,2019-10-09,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2019-10-09,Cyprinus,carpio,Common Carp,Cyprinodontiformes,Cyprinidae,C. carpio,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2019-10-09,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,0,0,PD,2019-10-09,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,0,1,PD,2019-10-09,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,1,1,PD,2019-10-09,Lepomis,auritus,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+2,6,7,PD,2019-10-09,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,1,PD,2019-10-09,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,2,0,PD,2019-10-09,Micropterus,salmoides,Large Mouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,3,1,PD,2019-10-09,Fundulus,chrysotus,Golden Top Minnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+0,1,0,PD,2019-10-09,Fundulus,notatus,Black Stripe Topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+0,1,3,PD,2019-10-09,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+0,0,3,PD,2019-10-09,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,0,1,PD,2019-10-09,Lepomis,marginatus,Dollar Sunfish,Centrarchiformes,Centrarchidae,L. marginatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,TR,2019-10-09,Astyanax,mexicanus,Mexican Tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+2,1,0,TR,2019-10-09,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,TR,2019-10-09,Micropterus,salmoides,Large Mouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,0,TR,2019-10-09,Cyprinodon,variegatus,Sheephead Minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+0,2,0,TR,2019-10-09,Gambusia,affinis,Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,TR,2019-10-09,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,0,1,TR,2019-10-09,Fundulus,grandis,Gulf Killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+156,176,84,SF,2020-01-13,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+53,67,23,SF,2020-01-13,Poecilia,latipinna,Amazon Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+3,9,1,SF,2020-01-13,Astyanax,mexicanus,Mexican Tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+27,12,8,SF,2020-01-13,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+3,1,4,SF,2020-01-13,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,1,0,SF,2020-01-13,Ameiurus,melas,Black bullhead catfish,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+0,5,2,SF,2020-01-13,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+5,2,3,SF,2020-01-13,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+38,69,60,TR,2020-01-13,Cyprinodon,variegatus,Sheephead Minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+7,9,7,TR,2020-01-13,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,TR,2020-01-13,Astyanax,mexicanus,Mexican Tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+13,39,16,TR,2020-01-13,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+4,1,1,TR,2020-01-13,Fundulus,grandis,Gulf Killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,TR,2020-01-13,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+2,1,1,TR,2020-01-13,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,0,0,TR,2020-01-13,Oreochromis,aureus,Blue Tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+NA,NA,NA,TR,2020-01-13,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,1,EM,2020-01-14,Ictiobus,bubalus,Smallmouth Buffalo,Cypriniformes,Catostomidae,I. bubalus,Fish,Resident,Freshwater,Freshwater
+4,2,1,EM,2020-01-14,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+23,14,6,EM,2020-01-14,Lepomis,megalotis,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+3,2,3,EM,2020-01-14,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+12,3,1,EM,2020-01-14,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2020-01-14,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+4,0,0,EM,2020-01-14,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+9,7,9,EM,2020-01-14,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,3,0,EM,2020-01-14,Noturus,gyrinus,Tadpole Madtom Catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+2,3,0,EM,2020-01-14,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+22,2,11,EM,2020-01-14,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+2,5,6,WM,2020-01-14,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+3,1,1,WM,2020-01-14,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+3,5,3,WM,2020-01-14,Lepomis,megalotis,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+9,11,8,WM,2020-01-14,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,3,2,WM,2020-01-14,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,4,0,WM,2020-01-14,Etheostoma,gracile,Slough Darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+1,2,0,WM,2020-01-14,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,4,2,WM,2020-01-14,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+17,25,53,WM,2020-01-14,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+5,0,5,GC,2020-01-15,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,3,4,GC,2020-01-15,Lepomis,megalotis,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,3,2,GC,2020-01-15,Lepomis,humilis,Orange Spotted Sunfish,Centrarchiformes,Centrarchidae,L. humilis,Fish,Resident,Freshwater,Freshwater
+0,0,1,GC,2020-01-15,Lepomis,microlophus,Redear Sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+0,5,6,GC,2020-01-15,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,4,2,GC,2020-01-15,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,1,1,GC,2020-01-15,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,0,1,GC,2020-01-15,Fundulus,notatus,Black Stripe Topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+0,1,6,GC,2020-01-15,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+30,16,0,PL,2020-01-15,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+30,20,12,PL,2020-01-15,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+46,27,11,PL,2020-01-15,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+6,8,8,PL,2020-01-15,Lepomis,megalotis,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,1,PL,2020-01-15,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,3,1,PL,2020-01-15,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+5,12,4,PL,2020-01-15,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+2,8,9,PL,2020-01-15,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,1,0,PL,2020-01-15,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,0,2,PL,2020-01-15,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+0,0,1,PL,2020-01-15,Callinectes,sapidus,Blue Crab,Decapoda,Portunidae,C. sapidus,Invertebrate,Transient,Euryhaline,Euryhaline
+0,0,1,PL,2020-01-15,Dormitator,maculatus,Fat Sleeper,Gobiiformes,Eleotridae,D. maculatus,Fish,Transient,Catadromous,Diadromous
+83,50,39,PL,2020-01-15,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+3,3,1,PL,2020-01-15,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+62,30,36,PL,2020-01-15,Palaemonetes,pugio,Grass shrimp,Decapoda,Palaemonidae,P. pugio,Invertebrate,Transient,Amphidromous,Diadromous
+1,NA,NA,AR,2020-01-16,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,NA,NA,AR,2020-01-16,Noturus,gyrinus,Tadpole Madtom Catfish,Siluriformes,Ictaluridae,N. gyrinus,Fish,Resident,Freshwater,Freshwater
+5,NA,NA,AR,2020-01-16,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+2,NA,NA,AR,2020-01-16,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2020-01-16,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+2,0,0,PD,2020-01-16,Cyprinus,carpio,Common Carp,Cyprinodontiformes,Cyprinidae,C. carpio,Fish,Resident,Freshwater,Freshwater
+8,0,0,PD,2020-01-16,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+8,2,2,PD,2020-01-16,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2020-01-16,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+6,0,0,PD,2020-01-16,Lepomis,auritus,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+8,7,4,PD,2020-01-16,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+2,2,0,PD,2020-01-16,Fundulus,notatus,Black Stripe Topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2020-01-16,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,2,0,PD,2020-01-16,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+8,8,2,PD,2020-01-16,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+0,3,2,PD,2020-01-16,Lepomis,microlophus,Redear Sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+0,0,2,PD,2020-01-16,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,AR,2020-01-17,Lepomis,macrochirus,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+5,2,2,AR,2020-01-17,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+3,1,1,AR,2020-01-17,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,1,1,AR,2020-01-17,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2020-01-17,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,2,AR,2020-01-17,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,0,4,AR,2020-01-17,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+2,0,0,MR,2020-01-17,Mugil,cephalus,Striped Mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+0,2,1,MR,2020-01-17,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,1,0,MR,2020-01-17,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,1,1,MR,2020-01-17,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2020-01-17,Callinectes,sapidus,Blue Crab,Decapoda,Portunidae,C. sapidus,Invertebrate,Transient,Euryhaline,Euryhaline
+0,0,1,MR,2020-01-17,Lepomis,megalotis,Long Ear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2020-01-17,Gambusia,affinis,Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2020-01-17,Lepomis,microlophus,Redear Sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2020-01-17,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2020-01-17,Macrobrachium,ohione,Macrobrachium,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,AR,2020-05-20,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+7,17,8,AR,2020-05-20,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+13,28,13,AR,2020-05-20,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+4,2,3,AR,2020-05-20,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+60,44,14,AR,2020-05-20,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2020-05-20,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2020-05-20,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2020-05-20,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+1,0,1,AR,2020-05-20,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,1,0,AR,2020-05-20,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,0,1,AR,2020-05-20,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,4,0,MR,2020-05-21,Mugil,cephalus,Striped Mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+1,1,0,MR,2020-05-21,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+3,1,1,MR,2020-05-21,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,0,2,MR,2020-05-21,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,1,0,MR,2020-05-21,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,1,0,MR,2020-05-21,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,0,0,MR,2020-05-21,Macrobrachium,ohione,Giant Freshwater Prawn,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,MR,2020-05-21,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+0,2,0,MR,2020-05-21,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,MR,2020-05-21,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,2,0,MR,2020-05-21,Poecilia,latipinna,Amazon Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,MR,2020-05-21,Dormitator,maculatus,Fat Sleeper,Gobiiformes,Eleotridae,D. maculatus,Fish,Transient,Catadromous,Diadromous
+1,0,0,MR,2020-05-21,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PD,2020-05-21,Cyprinus,carpio,Common Carp,Cyprinodontiformes,Cyprinidae,C. carpio,Fish,Resident,Freshwater,Freshwater
+7,6,4,PD,2020-05-21,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,1,1,PD,2020-05-21,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+2,3,0,PD,2020-05-21,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,2,1,PD,2020-05-21,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+8,5,2,PD,2020-05-21,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+4,2,2,PD,2020-05-21,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,1,0,PD,2020-05-21,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,1,PD,2020-05-21,Fundulus,chrysotus,Golden Topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+0,1,1,PD,2020-05-21,Fundulus,grandis,Gulf Killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+0,0,1,PD,2020-05-21,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+0,0,1,PD,2020-05-21,Fundulus,notatus,Blackstripe Topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+2,1,6,GC,2020-05-24,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+27,13,7,GC,2020-05-24,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+10,5,3,GC,2020-05-24,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,GC,2020-05-24,Notropis,texanus,Weed Shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+4,3,1,GC,2020-05-24,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,2,6,GC,2020-05-24,Lepomis,miniatus,Redspotted Sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2020-05-24,Fundulus,chrysotus,Golden Topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+1,1,5,GC,2020-05-24,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,0,1,GC,2020-05-24,Fundulus,grandis,Gulf Killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+1,0,1,PL,2020-05-24,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+7,5,0,PL,2020-05-24,Ameiurus,natalis,Yellow Bullhead Catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+20,8,6,PL,2020-05-24,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+31,4,5,PL,2020-05-24,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+2,0,5,PL,2020-05-24,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+8,3,4,PL,2020-05-24,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+13,11,15,PL,2020-05-24,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+23,35,21,PL,2020-05-24,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2020-05-24,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,1,3,PL,2020-05-24,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,4,1,PL,2020-05-24,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+2,0,0,PL,2020-05-24,Poecilia,latipinna,Amazon Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+0,0,1,PL,2020-05-24,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+4,2,1,SF,2020-05-27,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+26,20,14,SF,2020-05-27,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+4,2,1,SF,2020-05-27,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+8,2,4,SF,2020-05-27,Astyanax,mexicanus,Mexican Tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+24,9,3,SF,2020-05-27,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+13,21,23,SF,2020-05-27,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+3,12,2,SF,2020-05-27,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,SF,2020-05-27,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,1,1,SF,2020-05-27,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,4,2,SF,2020-05-27,Oreochromis,aureus,Blue Tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+3,1,1,TR,2020-05-27,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+3,1,5,TR,2020-05-27,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,0,TR,2020-05-27,Cyprinodon,variegatus,Sheepshead Minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+0,1,0,TR,2020-05-27,Astyanax,mexicanus,Mexican Tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+0,1,1,TR,2020-05-27,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,TR,2020-05-27,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,0,1,TR,2020-05-27,Oreochromis,aureus,Blue Tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+0,0,1,TR,2020-05-27,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,1,EM,2020-05-30,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+12,8,4,EM,2020-05-30,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+11,0,3,EM,2020-05-30,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+12,6,0,EM,2020-05-30,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+6,1,0,EM,2020-05-30,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,0,0,EM,2020-05-30,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,1,0,EM,2020-05-30,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,0,1,EM,2020-05-30,Cyprinella,venusta,Blacktail Shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+0,0,1,EM,2020-05-30,Lepomis,megalotis,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+6,2,5,WM,2020-05-30,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,2,WM,2020-05-30,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+5,3,5,WM,2020-05-30,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,1,1,WM,2020-05-30,Cyprinella,venusta,Blacktail Shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+0,1,0,WM,2020-05-30,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,3,1,WM,2020-05-30,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,2,0,WM,2020-05-30,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,1,0,WM,2020-05-30,Lepomis,megalotis,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,3,2,EM,2020-09-08,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+15,5,0,EM,2020-09-08,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+3,3,3,EM,2020-09-08,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+6,1,1,EM,2020-09-08,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2020-09-08,Pimephales,vigilax,Bullhead Minnow,Cypriniformes,Leuciscidae,P. vigilax,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2020-09-08,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,1,1,EM,2020-09-08,Lepomis,megalotis,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2020-09-08,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,1,2,EM,2020-09-08,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2020-09-08,Dorosoma,petenense,Threadfin Shad,Clupeiformes,Clupeidae,D. petenense,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2020-09-08,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,2,0,WM,2020-09-08,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,2,0,WM,2020-09-08,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2020-09-08,Aphredoderus,sayanus,Pirate Perch,Percopsiformes,Aphredoderidae,A. sayanus,Fish,Resident,Freshwater,Freshwater
+1,2,0,WM,2020-09-08,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,0,1,WM,2020-09-08,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,0,4,WM,2020-09-08,Lepomis,megalotis,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,0,1,WM,2020-09-08,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+39,5,10,GC,2020-09-09,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+5,1,3,GC,2020-09-09,Lepomis,microlophus,Redear Sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+8,2,3,GC,2020-09-09,Lepomis,miniatus,Redspotted Sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+2,3,2,GC,2020-09-09,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+15,8,14,GC,2020-09-09,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+28,7,7,GC,2020-09-09,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,3,0,GC,2020-09-09,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,3,0,GC,2020-09-09,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2020-09-09,Lepomis,megalotis,Hybrid Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2020-09-09,Cyprinella,venusta,Blacktail Shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+0,1,0,GC,2020-09-09,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,0,1,GC,2020-09-09,Notropis,texanus,Weed Shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+15,14,5,PD,2020-09-09,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+4,0,0,PD,2020-09-09,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+4,4,1,PD,2020-09-09,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+10,6,1,PD,2020-09-09,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,4,3,PD,2020-09-09,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+5,18,1,PD,2020-09-09,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+20,15,4,PD,2020-09-09,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,1,0,PD,2020-09-09,Fundulus,chrysotus,Golden Topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+4,2,1,PD,2020-09-09,Lepomis,auritus,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+4,2,3,PD,2020-09-09,Lepomis,auritus,Bluegill hybrid,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,2,1,PD,2020-09-09,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,1,0,PD,2020-09-09,Lepomis,microlophus,Redear Sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+0,2,1,PD,2020-09-09,Fundulus,notatus,Blackstripe Topminnow,Cyprinodontiformes,Fundulidae,F. notatus,Fish,Resident,Freshwater,Freshwater
+0,2,3,PD,2020-09-09,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,1,1,MR,2020-09-10,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,2,0,MR,2020-09-10,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,24,5,MR,2020-09-10,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,1,0,MR,2020-09-10,Lepomis,microlophus,Redear Sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+1,2,0,MR,2020-09-10,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,2,1,MR,2020-09-10,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+0,3,1,MR,2020-09-10,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2020-09-10,Gobiomorus,dormitor,Bigmouth Sleeper,Gobiiformes,Eleotridae,G. dormitor,Fish,Transient,Euryhaline,Euryhaline
+0,0,1,MR,2020-09-10,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+11,10,7,SF,2020-09-11,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+7,1,2,SF,2020-09-11,Astyanax,mexicanus,Mexican Tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+1,0,0,SF,2020-09-11,Oreochromis,aureus,Blue Tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+10,10,6,SF,2020-09-11,Poecilia,latipinna,Sailfin molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+19,9,9,SF,2020-09-11,Poecilia,latipinna,Amazon Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+6,8,8,SF,2020-09-11,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,SF,2020-09-11,Lepomis,cyanellus,Green sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+9,10,5,TR,2020-09-11,Cyprinodon,variegatus,Sheepshead Minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+6,4,1,TR,2020-09-11,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+11,3,12,TR,2020-09-11,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,1,8,TR,2020-09-11,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+8,10,14,TR,2020-09-11,Poecilia,latipinna,Amazon Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+1,0,1,TR,2020-09-11,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,TR,2020-09-11,Oreochromis,aureus,Blue Tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+2,9,4,TR,2020-09-11,Lucania,parva,Rainwater Killifish,Cyprinodontiformes,Fundulidae,L. parva,Fish,Resident,Freshwater,Freshwater
+0,0,3,TR,2020-09-11,Astyanax,mexicanus,Mexican Tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2020-09-15,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,1,0,PL,2020-09-15,Dormitator,maculatus,Fat Sleeper,Gobiiformes,Eleotridae,D. maculatus,Fish,Transient,Catadromous,Diadromous
+30,21,23,PL,2020-09-15,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+4,0,0,PL,2020-09-15,Callinectes,sapidus,Blue Crab,Decapoda,Portunidae,C. sapidus,Invertebrate,Transient,Euryhaline,Euryhaline
+1,0,1,PL,2020-09-15,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,1,PL,2020-09-15,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+3,1,0,PL,2020-09-15,Ameiurus,natalis,Yellow Bullhead Catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+3,2,3,PL,2020-09-15,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+8,8,5,PL,2020-09-15,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+3,3,2,PL,2020-09-15,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+1,0,0,PL,2020-09-15,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+2,0,0,PL,2020-09-15,Cyprinella,lutrensis,Unknown Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+0,3,3,PL,2020-09-15,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,1,0,PL,2020-09-15,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,0,1,PL,2020-09-15,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+0,0,1,PL,2020-09-15,Macrobrachium,ohione,Giant River Prawn,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+1,0,0,AR,2020-09-20,Gobiomorus,dormitor,Bigmouth Sleeper,Gobiiformes,Eleotridae,G. dormitor,Fish,Transient,Euryhaline,Euryhaline
+19,9,6,AR,2020-09-20,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+16,12,0,AR,2020-09-20,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+1,2,0,AR,2020-09-20,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+6,3,2,AR,2020-09-20,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+2,1,1,AR,2020-09-20,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2020-09-20,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+3,4,3,AR,2020-09-20,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+7,8,4,AR,2020-09-20,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,1,AR,2020-09-20,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,0,1,AR,2020-09-20,Macrobrachium,ohione,Giant River Prawn,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+2,0,0,AR,2020-09-20,Lepomis,macrochirus,Juvenile Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,AR,2020-09-20,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+2,1,0,GC,2020-11-02,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+5,6,2,GC,2020-11-02,Lepomis,microlophus,Redear Sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+5,7,4,GC,2020-11-02,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+4,4,5,GC,2020-11-02,Lepomis,miniatus,Redspotted Sunfish,Centrarchiformes,Centrarchidae,L. miniatus,Fish,Resident,Freshwater,Freshwater
+6,3,1,GC,2020-11-02,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+2,1,2,GC,2020-11-02,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+6,5,2,GC,2020-11-02,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+2,0,0,GC,2020-11-02,Fundulus,grandis,Gulf Killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+4,10,7,GC,2020-11-02,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,2,3,GC,2020-11-02,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+1,1,2,GC,2020-11-02,Fundulus,chrysotus,Golden Topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+0,2,1,GC,2020-11-02,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+72,35,24,PL,2020-11-02,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+184,72,49,PL,2020-11-02,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+37,24,16,PL,2020-11-02,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+2,0,0,PL,2020-11-02,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+32,30,14,PL,2020-11-02,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,0,1,PL,2020-11-02,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+8,5,3,PL,2020-11-02,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+2,1,0,PL,2020-11-02,Mugil,cephalus,Striped Mullet,Mugiliformes,Mugilidae,M. cephalus,Fish,Transient,Catadromous,Diadromous
+1,1,0,PL,2020-11-02,Dormitator,maculatus,Fat Sleeper,Gobiiformes,Eleotridae,D. maculatus,Fish,Transient,Catadromous,Diadromous
+4,1,0,PL,2020-11-02,Macrobrachium,ohione,Giant River Prawn,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+2,0,1,PL,2020-11-02,Ameiurus,natalis,Yellow Bullhead Catfish,Siluriformes,Ictaluridae,A. natalis,Fish,Resident,Freshwater,Freshwater
+4,2,2,PL,2020-11-02,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,1,0,PL,2020-11-02,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,0,1,PL,2020-11-02,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+36,20,16,AR,2020-11-03,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+12,5,2,AR,2020-11-03,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+5,0,1,AR,2020-11-03,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+26,18,14,AR,2020-11-03,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+14,11,5,AR,2020-11-03,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+54,28,8,AR,2020-11-03,Cyprinella,lutrensis,Red Shiner,Cypriniformes,Leuciscidae,C. lutrensis,Fish,Resident,Freshwater,Freshwater
+2,0,0,AR,2020-11-03,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+2,0,0,AR,2020-11-03,Lepomis,megalotis,Hybrid Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+3,1,0,AR,2020-11-03,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,AR,2020-11-03,Macrobrachium,ohione,Giant River Prawn,Decapoda,Palaemonidae,M. ohione,Invertebrate,Transient,Amphidromous,Diadromous
+0,1,0,AR,2020-11-03,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,1,0,AR,2020-11-03,Ameiurus,melas,Bullhead Catfish,Siluriformes,Ictaluridae,A. melas,Fish,Resident,Freshwater,Freshwater
+1,0,0,MR,2020-11-03,Lepomis,auritus,Redbreast Sunfish,Centrarchiformes,Centrarchidae,L. auritus,Fish,Resident,Freshwater,Freshwater
+1,0,0,MR,2020-11-03,Poecilia,latipinna,Amazon Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+3,1,1,MR,2020-11-03,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+22,23,4,MR,2020-11-03,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+3,7,3,MR,2020-11-03,Fundulus,chrysotus,Golden Topminnow,Cyprinodontiformes,Fundulidae,F. chrysotus,Fish,Resident,Freshwater,Freshwater
+10,10,9,MR,2020-11-03,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,0,0,MR,2020-11-03,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,0,0,MR,2020-11-03,Ictalurus,punctatus,Channel Catfish,Siluriformes,Ictaluridae,I. punctatus,Fish,Resident,Freshwater,Freshwater
+3,0,1,MR,2020-11-03,Lepomis,microlophus,Redear Sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+0,1,0,MR,2020-11-03,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+0,1,0,MR,2020-11-03,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+0,1,1,MR,2020-11-03,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+0,1,2,MR,2020-11-03,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2020-11-03,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+0,0,1,MR,2020-11-03,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+1,0,0,SF,2020-11-04,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+1,2,1,SF,2020-11-04,Oreochromis,aureus,Blue Tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+33,39,14,SF,2020-11-04,Herichthys,cyanoguttatus,Rio Grande Cichlid,Cichliformes,Cichlidae,H. cyanoguttatus,Fish,Resident,Freshwater,Freshwater
+44,20,17,SF,2020-11-04,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+63,35,35,SF,2020-11-04,Poecilia,latipinna,Amazon Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+13,6,13,SF,2020-11-04,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+10,4,1,SF,2020-11-04,Astyanax,mexicanus,Mexican Tetra,Characiformes,Characidae,A. mexicanus,Fish,Resident,Freshwater,Freshwater
+1,0,0,SF,2020-11-04,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+245,209,338,TR,2020-11-04,Cyprinodon,variegatus,Sheepshead Minnow,Cyprinodontiformes,Cyprinodontidae,C. variegatus,Fish,Transient,Euryhaline,Euryhaline
+16,0,0,TR,2020-11-04,Poecilia,latipinna,Sailfin Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+90,22,33,TR,2020-11-04,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+9,5,0,TR,2020-11-04,Fundulus,grandis,Gulf Killifish,Cyprinodontiformes,Fundulidae,F. grandis,Fish,Transient,Euryhaline,Euryhaline
+2,0,1,TR,2020-11-04,Oreochromis,aureus,Blue Tilapia,Cichliformes,Cichlidae,O. aureus,Fish,Resident,Freshwater,Freshwater
+57,49,58,TR,2020-11-04,Poecilia,latipinna,Molly,Cyprinodontiformes,Poeciliidae,P. latipinna,Fish,Transient,Euryhaline,Euryhaline
+34,10,13,EM,2020-11-05,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+0,2,0,EM,2020-11-05,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+38,14,16,EM,2020-11-05,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+4,2,1,EM,2020-11-05,Lepisosteus,oculatus,Spotted Gar,Lepisosteiformes,Lepisosteidae,L. oculatus,Fish,Resident,Freshwater,Freshwater
+1,0,0,EM,2020-11-05,Pomoxis,annularis,White Crappie,Centrarchiformes,Centrarchidae,P. annularis,Fish,Resident,Freshwater,Freshwater
+14,3,3,EM,2020-11-05,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+4,1,1,EM,2020-11-05,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+2,0,1,EM,2020-11-05,Cyprinella,venusta,Blacktail Shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+1,2,0,EM,2020-11-05,Notropis,texanus,Weed Shiner,Cypriniformes,Leuciscidae,N. texanus,Fish,Resident,Freshwater,Freshwater
+2,0,0,EM,2020-11-05,Etheostoma,gracile,Slough Darter,Perciformes,Pecidae,E. gracile,Fish,Resident,Freshwater,Freshwater
+0,1,0,EM,2020-11-05,Ictiobus,bubalus,Smallmouth Buffalo,Cypriniformes,Catostomidae,I. bubalus,Fish,Resident,Freshwater,Freshwater
+0,1,1,EM,2020-11-05,Cyprinus,carpio,Common Carp,Cyprinodontiformes,Cyprinidae,C. carpio,Fish,Resident,Freshwater,Freshwater
+6,2,3,WM,2020-11-05,Lepomis,gulosus,Warmouth Sunfish,Centrarchiformes,Centrarchidae,L. gulosus,Fish,Resident,Freshwater,Freshwater
+35,20,11,WM,2020-11-05,Lepomis,megalotis,Longear Sunfish,Centrarchiformes,Centrarchidae,L. megalotis,Fish,Resident,Freshwater,Freshwater
+1,0,0,WM,2020-11-05,Lepomis,microlophus,Redear Sunfish,Centrarchiformes,Centrarchidae,L. microlophus,Fish,Resident,Freshwater,Freshwater
+4,2,0,WM,2020-11-05,Lepomis,macrochirus,Bluegill Sunfish,Centrarchiformes,Centrarchidae,L. macrochirus,Fish,Resident,Freshwater,Freshwater
+7,6,5,WM,2020-11-05,Lepomis,cyanellus,Green Sunfish,Centrarchiformes,Centrarchidae,L. cyanellus,Fish,Resident,Freshwater,Freshwater
+10,7,3,WM,2020-11-05,Gambusia,affinis,Western Western Mosquitofish,Cyprinodontiformes,Poeciliidae,G. affinis,Fish,Resident,Freshwater,Freshwater
+3,0,1,WM,2020-11-05,Cyprinella,venusta,Blacktail Shiner,Cypriniformes,Leuciscidae,C. venusta,Fish,Resident,Freshwater,Freshwater
+3,0,0,WM,2020-11-05,Aphredoderus,sayanus,Pirate Perch,Percopsiformes,Aphredoderidae,A. sayanus,Fish,Resident,Freshwater,Freshwater
+3,0,2,WM,2020-11-05,Procambarus,clarkii,Crayfish,Decapoda,Cambaridae,P. clarkii,Invertebrate,Resident,Freshwater,Freshwater
+0,1,1,WM,2020-11-05,Micropterus,salmoides,Largemouth Bass,Centrarchiformes,Centrarchidae,M. salmoides,Fish,Resident,Freshwater,Freshwater

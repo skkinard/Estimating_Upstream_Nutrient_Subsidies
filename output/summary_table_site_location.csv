@@ -1,0 +1,18 @@
+Site Type,Site Name,Site Code,USGS STAID,Latitude,Longitude,Nearest Bay,Label
+Stream,San Fernando Creek,SF,8211900,27.773,-98.035,BB,San Fernando C.
+Stream,Tranquitas Creek,TR,8212300,27.517,-97.838,BB,Tranquitas C.
+Stream,Aransas River,AR,8189700,28.284,-97.62,CB,Aransas R.
+Stream,Perdido Creek,PD,8177300,28.75,-97.316,CB,Perdido C.
+Stream,Mission River,MR,8189500,28.292,-97.277,CB,Mission R.
+Stream,Garcitas Creek,GC,8164600,28.892,-96.815,LB,Garcitas C.
+Stream,Placedo Creek,PL,8164800,28.724,-96.769,LB,Placedo C.
+Stream,West Mustang Creek,WM,8164503,29.071,-96.467,LB,W. Mustang C.
+Stream,East Mustang Creek,EM,8164504,29.071,-96.417,LB,E. Mustang C.
+Estuary,Baffin Bay,BB,NA,27.356,-97.695,NA,Baffin B.
+Estuary,Nueces Bay,NB,NA,27.825,-97.47,NA,Nueces B.
+Estuary,Copano Bay,CB,NA,28.12,-97.022,NA,Copano B.
+Estuary,Hynes Bay,HB,NA,28.393,-96.838,NA,Hynes B.
+Estuary,Lavaca Bay,LB,NA,28.691,-96.661,NA,Lavaca B.
+Dam,Lower Nueces River,LN,8211500,27.89,-97.629,NB,Nueces Lower
+Dam,Upper Nueces River,UN,8211500,27.876,-97.626,NB,Nueces Upper
+Dam,Calallen Dam,CD,8211500,27.8836325,-97.6252731,NB,Calallen Dam
