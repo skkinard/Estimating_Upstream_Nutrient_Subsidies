@@ -5,9 +5,9 @@
 #------------------------------------------------------------------------------
 # Setup
 #------------------------------------------------------------------------------
-source('toolkit.R')
+source('03_public/toolkit.R')
 
-lterm <- read_csv('analysis/output/summary_table_lte_table_long.csv') %>% 
+lterm <- read_csv('03_public/output/summary_table_lte_table_long.csv') %>% 
   column_to_rownames('Variable') %>%
   t() %>%
   as.data.frame() %>%
@@ -111,8 +111,8 @@ plot_plot_lte_scatter_distance <- lterm %>%
 #------------------------------------------------------------------------------
 # Export tables
 #------------------------------------------------------------------------------
-write_csv(lterm, 'analysis/output/environment_long_term_post.csv')
-write_csv(table_lte_correlation, 'analysis/output/table_lte_correlation.csv')
+write_csv(lterm, '03_public/output/environment_long_term_post.csv')
+write_csv(table_lte_correlation, '03_public/output/table_lte_correlation.csv')
 
 # #------------------------------------------------------------------------------
 # # Export figures
@@ -130,7 +130,7 @@ my_figures <- list(
 names(my_figures) <- my_figure_names
 
 for (i in 1:length(my_figures)) {
-  my_place <- paste('analysis/visualization/06_', names(my_figures[i]), ".png", sep='')
+  my_place <- paste('03_public/visualization/06_', names(my_figures[i]), ".png", sep='')
   my_object <- my_figures[[i]]
   ggsave(my_place,
          plot = my_object,

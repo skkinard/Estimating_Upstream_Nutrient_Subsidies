@@ -4,9 +4,9 @@
 #----------------------------------------------------------------------------
 # Setup
 #----------------------------------------------------------------------------
-source('toolkit.R') # load packages and helper-function
+source('03_public/toolkit.R') # load packages and helper-function
 
-d <- read_csv('analysis/output/CS_mix_out.csv')
+d <- read_csv('03_public/output/CS_mix_out.csv')
 
 #----------------------------------------------------------------------------
 # Plots

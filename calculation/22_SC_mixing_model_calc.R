@@ -4,16 +4,16 @@
 #----------------------------------------------------------------------------
 # Setup
 #----------------------------------------------------------------------------
-source('toolkit.R') # load packages and helper-functions
+source('03_public/toolkit.R') # load packages and helper-functions
 library(simmr)
 
-d <- read_csv('analysis/output/isotope_CNS_2020_01_clean.csv')
+d <- read_csv('03_public/output/isotope_CNS_2020_01_clean.csv')
 
 d <- d %>% 
   filter(! species %in% bad_sources) %>%
   filter(species !='Periphyton')
 
-source("analysis/calculation/20_SC_mixing_model_function.R")
+source("03_public/calculation/20_SC_mixing_model_function.R")
 #----------------------------------------------------------------------------
 # CS mixing model: Guilds
 #----------------------------------------------------------------------------
@@ -104,6 +104,6 @@ mmix_all <- full_join(mmix_order, mmix_transient) %>%
   mutate(Estuarine = 100*Estuarine) %>%
   pivot_wider(names_from = statistic, values_from = Estuarine)
 
-write_csv(mmix_all, 'analysis/output/CS_mix_out.csv')
+write_csv(mmix_all, '03_public/output/CS_mix_out.csv')
 #----------------------------------------------------------------------------
 # End CS_mixing_model_calc

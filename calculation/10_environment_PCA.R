@@ -6,12 +6,12 @@
 #------------------------------------------------------------------------------
 # setup
 #------------------------------------------------------------------------------
-source('toolkit.R')
+source('03_public/toolkit.R')
 library(factoextra) # extract prcomp info
 
-d_l <- read_csv("analysis/output/environment_long_term_post.csv") %>%
+d_l <- read_csv("03_public/output/environment_long_term_post.csv") %>%
   select(-dam_distance_km)
-d_s <- read_csv("analysis/output/environment_short_term_post.csv")
+d_s <- read_csv("03_public/output/environment_short_term_post.csv")
 
 # fill missing environmental predictors with linear interpolation
 d_s <- d_s %>%
@@ -169,7 +169,7 @@ names(combo_plots) <- c('lte_pca_comboplot',
                         'ste_pca_all_comboplot')
 
 for (i in 1:length(combo_plots)) {
-  my_place <- paste('analysis/visualization/10_', names(combo_plots[i]), ".png", sep='')
+  my_place <- paste('03_public/visualization/10_', names(combo_plots[i]), ".png", sep='')
   my_object <- combo_plots[[i]]
   ggsave(my_place,
          plot = my_object,
@@ -193,7 +193,7 @@ names(correlation_tables) <- c('lte_pca_correlation',
                         'ste_pca_all_correlation')
 
 for (i in 1:length(correlation_tables)) {
-  my_place <- paste('analysis/output/10_', names(correlation_tables[i]), ".csv", sep='')
+  my_place <- paste('03_public/output/10_', names(correlation_tables[i]), ".csv", sep='')
   my_object <- correlation_tables[[i]]
   write_csv(my_object, my_place) }
 

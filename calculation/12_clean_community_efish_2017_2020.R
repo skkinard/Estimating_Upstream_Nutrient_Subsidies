@@ -5,15 +5,15 @@
 #------------------------------------------------------------------------------
 # Setup
 #------------------------------------------------------------------------------
-source('toolkit.R') # load packages and helper-functions
+source('03_public/toolkit.R') # load packages and helper-functions
 
-fish_species <- read_csv("data/community/fish_species_with_transient.csv")
+fish_species <- read_csv("03_local_files/data/community/fish_species_with_transient.csv")
 
-fish_traits <- read_csv('data/community/functional_trait_binary.csv')
+fish_traits <- read_csv('03_local_files/data/community/functional_trait_binary.csv')
 
-d_1719 <- read_csv('data/community/EFish_abundance_2017-2019.csv')
-d_20 <- read_csv('data/community/EFish_abundance_2020.csv')
-d_pass_RT <- read_csv('data/community/fish_pass_RAPID_TERRG.csv')
+d_1719 <- read_csv('03_local_files/data/community/EFish_abundance_2017-2019.csv')
+d_20 <- read_csv('03_local_files/data/community/EFish_abundance_2020.csv')
+d_pass_RT <- read_csv('03_local_files/data/community/fish_pass_RAPID_TERRG.csv')
 
 my_vars <- c('site_code', 'collection_date', 'collection_period', 
              'common_name', 'genus', 'species',
@@ -314,7 +314,7 @@ dc2 <- dc %>% left_join(fish_species)
 #------------------------------------------------------------------------------
 # Export
 #------------------------------------------------------------------------------
-write_csv(dc2, 'analysis/output/community_efish_2017_2020.csv')
+write_csv(dc2, '03_public/output/community_efish_2017_2020.csv')
 
 #------------------------------------------------------------------------------
 # end clean_community_efish_2017_2020

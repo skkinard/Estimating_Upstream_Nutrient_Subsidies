@@ -6,11 +6,11 @@
 #------------------------------------------------------------------------------
 # setup
 #------------------------------------------------------------------------------
-source('toolkit.R')
+source('03_public/toolkit.R')
 
-d <- read_csv('data/isotope_raw/TERRG_CNS_combined.csv') 
+d <- read_csv('03_local_files/data/isotope_raw/TERRG_CNS_combined.csv') 
 
-d_species <- read_csv('data/community/fish_species_with_transient.csv') %>%
+d_species <- read_csv('03_local_files/data/community/fish_species_with_transient.csv') %>%
   mutate(lowest_taxon=str_replace_all(lowest_taxon, " ", ""))
 
 
@@ -59,7 +59,7 @@ d <- d %>% mutate(
 # Export
 #------------------------------------------------------------------------------
 write_csv(d %>% filter(! is.na(sulfur)), 
-          'analysis/output/isotope_CNS_2020_01_clean.csv')
+          '03_public/output/isotope_CNS_2020_01_clean.csv')
 
-write_csv(d, 'analysis/output/isotope_CN_2020_01_05_09_clean.csv')
+write_csv(d, '03_public/output/isotope_CN_2020_01_05_09_clean.csv')
 

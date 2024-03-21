@@ -4,9 +4,9 @@
 #----------------------------------------------------------------------------
 # Setup
 #----------------------------------------------------------------------------
-source('analysis/calculation/14_transient_occurance.R')
-source('analysis/calculation/24_CS_mix_vis_region.R')
-source('analysis/calculation/24_CS_mix_vis_universal.R')
+source('03_public/calculation/14_transient_occurance.R')
+source('03_public/calculation/24_CS_mix_vis_region.R')
+source('03_public/calculation/24_CS_mix_vis_universal.R')
 
 #----------------------------------------------------------------------------
 #### Sample Numbers (SN)

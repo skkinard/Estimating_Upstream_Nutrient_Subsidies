@@ -6,7 +6,7 @@
 #------------------------------------------------------------------------------
 # Setup
 #------------------------------------------------------------------------------
-source('toolkit.R') # load packages and helper-functions
+source('03_public/toolkit.R') # load packages and helper-functions
 
 my_scripts <- list.files("analysis/calculation")
 my_scripts <- my_scripts[str_detect(my_scripts,"environment", negate=F)]

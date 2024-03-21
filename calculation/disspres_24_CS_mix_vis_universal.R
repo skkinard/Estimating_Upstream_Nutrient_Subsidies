@@ -4,19 +4,19 @@
 #----------------------------------------------------------------------------
 # Setup
 #----------------------------------------------------------------------------
-source('toolkit.R') # load packages and helper-function
+source('03_public/toolkit.R') # load packages and helper-function
 
-d <- read_csv('analysis/output/CS_mix_out_universal.csv') %>%
+d <- read_csv('03_public/output/CS_mix_out_universal.csv') %>%
   rename(site_code = site) %>%
   add_sitevars() %>%
   add_is_dam() %>%
   add_rain() 
 
-d_spe <- read_csv('analysis/output/isotope_CNS_2020_01_clean.csv') %>%
+d_spe <- read_csv('03_public/output/isotope_CNS_2020_01_clean.csv') %>%
   select(order, family, species, guild, transient_type) %>%
   unique()
 
-d_transient_prob <- read_csv('analysis/output/d_transient_prob.csv')
+d_transient_prob <- read_csv('03_public/output/d_transient_prob.csv')
 
 #----------------------------------------------------------------------------
 # Bay Distance
@@ -201,7 +201,7 @@ table_UN_prediction <- d %>%
   add_predictions(model=best_fit, var='pred') %>%
   mutate(diff = prcnt_est - pred)
 
-write_csv(table_UN_prediction, 'analysis/output/table_UN_prediction.csv')
+write_csv(table_UN_prediction, '03_public/output/table_UN_prediction.csv')
 
 #----------------------------------------------------------------------------
 # End 24_CS_mix_vis

@@ -4,14 +4,14 @@
 #------------------------------------------------------------------------------
 # Setup
 #------------------------------------------------------------------------------
-source('toolkit.R')
+source('03_public/toolkit.R')
 
-ds <- read_csv("data/environment/environment_shortterm.csv") %>%
+ds <- read_csv("03_local_files/data/environment/environment_shortterm.csv") %>%
   filter(collection_period > ymd('2019-12-31') &
            collection_period < ymd('2020-12-31')) %>%
   select(-c('nitrate', 'phosphate', 'ammonia', 'doc'))
 
-dn <- read_csv('data/environment/nutrient_TERRG.csv') %>%
+dn <- read_csv('03_local_files/data/environment/nutrient_TERRG.csv') %>%
   rename(nitrate=no3n, phosphate=ortho_p, ammonia=nh4_n) %>%
   create_combo_period() %>%
   select(-site_period, -collection_date)
@@ -326,75 +326,75 @@ plot_ste_sitescaled_timeseries_algae <- d_ste %>%
 # Export
 #------------------------------------------------------------------------------
 write_csv(d_ste, 
-          'analysis/output/environment_short_term_post.csv')
+          '03_public/output/environment_short_term_post.csv')
 write_csv(table_ste_correlation,
-          'analysis/output/environment_short_term_correlation.csv')
+          '03_public/output/environment_short_term_correlation.csv')
 
 
-ggsave(filename = 'analysis/visualization/08_plot_ste_correlation.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_correlation.png',
        plot_ste_correlation,
        width=9, height=9, units="in")
 
 # density figures
-ggsave(filename = 'analysis/visualization/08_plot_ste_densiogram_flow.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_densiogram_flow.png',
        plot_ste_densiogram_flow,
        width=9, height=9, units="in")
-ggsave(filename = 'analysis/visualization/08_plot_ste_densiogram_waterquality.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_densiogram_waterquality.png',
        plot_ste_densiogram_waterquality,
        width=9, height=9, units="in")
-ggsave(filename = 'analysis/visualization/08_plot_ste_densiogram_geomorph.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_densiogram_geomorph.png',
        plot_ste_densiogram_geomorph,
        width=9, height=6, units="in")
-ggsave(filename = 'analysis/visualization/08_plot_ste_densiogram_algae.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_densiogram_algae.png',
        plot_ste_densiogram_algae,
        width=9, height=3, units="in")
 
 # violin plots
-ggsave(filename = 'analysis/visualization/08_plot_ste_violin_flow.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_violin_flow.png',
        plot_ste_violin_flow,
        width=9, height=9, units="in")
-ggsave(filename = 'analysis/visualization/08_plot_ste_violin_water_quality.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_violin_water_quality.png',
        plot_ste_violin_water_quality,
        width=9, height=9, units="in")
-ggsave(filename = 'analysis/visualization/08_plot_ste_violin_geomorph.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_violin_geomorph.png',
        plot_ste_violin_geomorph,
        width=9, height=6, units="in")
-ggsave(filename = 'analysis/visualization/08_plot_ste_violin_algae.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_violin_algae.png',
        plot_ste_violin_algae,
        width=9, height=3, units="in")
 
 # timeseries plots
-ggsave(filename = 'analysis/visualization/08_plot_ste_timeseries_flow.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_timeseries_flow.png',
        plot_ste_timeseries_flow,
        width=15, height=12, units="in")
-ggsave(filename = 'analysis/visualization/08_plot_ste_timeseries_water_quality.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_timeseries_water_quality.png',
        plot_ste_timeseries_water_quality,
        width=9, height=9, units="in")
-ggsave(filename = 'analysis/visualization/08_plot_ste_timeseries_geomorph.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_timeseries_geomorph.png',
        plot_ste_timeseries_geomorph,
        width=9, height=6, units="in")
-ggsave(filename = 'analysis/visualization/08_plot_ste_timeseries_algae.png',
+ggsave(filename = '03_public/visualization/08_plot_ste_timeseries_algae.png',
        plot_ste_timeseries_algae,
        width=9, height=3, units="in")
 
 # sitescaled_timeseries plots
 ggsave(
-  filename = 'analysis/visualization/08_plot_ste_sitescaled_timeseries_flow.png',
+  filename = '03_public/visualization/08_plot_ste_sitescaled_timeseries_flow.png',
   plot_ste_sitescaled_timeseries_flow,
   width=9, height=9, units="in")
 ggsave(
   filename =
-    'analysis/visualization/08_plot_ste_sitescaled_timeseries_water_quality.png',
+    '03_public/visualization/08_plot_ste_sitescaled_timeseries_water_quality.png',
   plot_ste_sitescaled_timeseries_water_quality,
   width=9, height=9, units="in")
 ggsave(
   filename =
-    'analysis/visualization/08_plot_ste_sitescaled_timeseries_geomorph.png',
+    '03_public/visualization/08_plot_ste_sitescaled_timeseries_geomorph.png',
   plot_ste_sitescaled_timeseries_geomorph,
   width=9, height=6, units="in")
 ggsave(
   filename =
-    'analysis/visualization/08_plot_ste_sitescaled_timeseries_algae.png',
+    '03_public/visualization/08_plot_ste_sitescaled_timeseries_algae.png',
   plot_ste_sitescaled_timeseries_algae,
   width=9, height=3, units="in")
 

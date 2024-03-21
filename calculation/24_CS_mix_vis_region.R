@@ -4,18 +4,18 @@
 #----------------------------------------------------------------------------
 # Setup
 #----------------------------------------------------------------------------
-source('toolkit.R') # load packages and helper-function
+source('03_public/toolkit.R') # load packages and helper-function
 
-d <- read_csv('analysis/output/CS_mix_out_region.csv')
+d <- read_csv('03_public/output/CS_mix_out_region.csv')
 
-d_iso_raw <- read_csv('analysis/output/isotope_CNS_2020_01_clean.csv')
+d_iso_raw <- read_csv('03_public/output/isotope_CNS_2020_01_clean.csv')
 
-table_UN_prediction <- read_csv('analysis/output/table_UN_prediction.csv')
+table_UN_prediction <- read_csv('03_public/output/table_UN_prediction.csv')
 
 d_iso <- d_iso_raw %>% filter(! species %in% bad_sources) %>%
   filter(species !='Periphyton')
 
-site_vars <- read_csv('data/isotope_raw/MDN_clean_final.csv') %>%
+site_vars <- read_csv('03_local_files/data/isotope_raw/MDN_clean_final.csv') %>%
   r_friendly_colnames() %>%
   rename(site_code=site) %>%
   select(site_code, site_type, pptavg_site, latitude, longitude, nearest_bay, 
@@ -28,7 +28,7 @@ site_vars <- read_csv('data/isotope_raw/MDN_clean_final.csv') %>%
   mutate(xvalue = ifelse(xvalue==-999, NA,xvalue)) %>%
   pivot_wider(names_from=xname, values_from=xvalue) %>%
   arrange(desc(site_type), longitude) %>%
-  left_join(read_csv("data/environment/MDN_site_lat_lon.csv") %>%
+  left_join(read_csv("03_local_files/data/environment/MDN_site_lat_lon.csv") %>%
               r_friendly_colnames() %>%
               select(site_name, site_code, staid)) %>%
   select(site_code, site_name, staid, latitude, longitude, everything())

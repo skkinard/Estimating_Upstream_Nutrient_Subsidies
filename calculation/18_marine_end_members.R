@@ -6,9 +6,9 @@
 #----------------------------------------------------------------------------
 # Setup
 #----------------------------------------------------------------------------
-source('toolkit.R') # load packages and helper-functions
+source('03_public/toolkit.R') # load packages and helper-functions
 
-d <- read_csv('analysis/output/isotope_CNS_2020_01_clean.csv')
+d <- read_csv('03_public/output/isotope_CNS_2020_01_clean.csv')
 
 d <- d %>% filter(! species %in% bad_sources)
 #----------------------------------------------------------------------------

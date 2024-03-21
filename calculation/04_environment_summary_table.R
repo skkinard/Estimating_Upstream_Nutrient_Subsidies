@@ -6,22 +6,22 @@
 #------------------------------------------------------------------------------
 # setup
 #------------------------------------------------------------------------------
-source('toolkit.R')
+source('03_public/toolkit.R')
 
-dl <- read_csv("data/environment/environment_longterm.csv")
+dl <- read_csv("03_local_files/data/environment/environment_longterm.csv")
 
-ddist <- read_csv('data/environment/site_distances.csv')
+ddist <- read_csv('03_local_files/data/environment/site_distances.csv')
 
-dw <- read_csv("data/environment/MDN_site_lat_lon.csv") %>%
+dw <- read_csv("03_local_files/data/environment/MDN_site_lat_lon.csv") %>%
   r_friendly_colnames() %>%
   rename(lat=site_lat, lon=site_lon)
 
-ds <- read_csv("data/environment/environment_shortterm.csv") %>%
+ds <- read_csv("03_local_files/data/environment/environment_shortterm.csv") %>%
   filter(collection_period > ymd('2019-12-31') &
            collection_period < ymd('2020-12-31')) %>%
   select(-c('nitrate', 'phosphate', 'ammonia', 'doc'))
 
-dn <- read_csv('data/environment/nutrient_TERRG.csv') %>%
+dn <- read_csv('03_local_files/data/environment/nutrient_TERRG.csv') %>%
   rename(nitrate=no3n, phosphate=ortho_p, ammonia=nh4_n) %>%
   create_combo_period() %>%
   select(-site_period, -collection_date)
@@ -139,13 +139,13 @@ names(lte_summary_tables) <- c('lte_table_long',
                                'lte_distances')
 
 for (i in 1:length(lte_summary_tables)) {
-  my_place <- paste('analysis/output/summary_table_',
+  my_place <- paste('03_public/output/summary_table_',
                     names(lte_summary_tables[i]), 
                     ".csv", sep='')
   my_object <- lte_summary_tables[[i]]
   write_csv(my_object, my_place) }
 
-write_csv(dw, 'analysis/output/summary_table_site_location.csv')
+write_csv(dw, '03_public/output/summary_table_site_location.csv')
 
 #------------------------------------------------------------------------------
 # Export ste Tables
@@ -163,7 +163,7 @@ names(ste_qtr_summary_tables) <- c('ste_qtr_long',
                                'ste_qtr_algae')
 
 for (i in 1:length(ste_qtr_summary_tables)) {
-  my_place <- paste('analysis/output/summary_table_', 
+  my_place <- paste('03_public/output/summary_table_', 
                     names(ste_qtr_summary_tables[i]), 
                     ".csv", sep='')
   my_object <- ste_qtr_summary_tables[[i]]

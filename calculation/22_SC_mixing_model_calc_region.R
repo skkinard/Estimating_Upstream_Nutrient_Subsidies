@@ -4,10 +4,10 @@
 #----------------------------------------------------------------------------
 # Setup
 #----------------------------------------------------------------------------
-source('toolkit.R') # load packages and helper-functions
+source('03_public/toolkit.R') # load packages and helper-functions
 library(simmr)
 
-d <- read_csv('analysis/output/isotope_CNS_2020_01_clean.csv')
+d <- read_csv('03_public/output/isotope_CNS_2020_01_clean.csv')
 
 d <- d %>% 
   filter(! species %in% bad_sources) %>%
@@ -16,8 +16,8 @@ d <- d %>%
   mutate(distcat = ifelse(baydist_km<25, '<25 km', '>25 km')) %>%
   add_is_dam()
 
-source("analysis/calculation/20_SC_mixing_model_function_region.R")
-source("analysis/calculation/20_SC_mixing_model_function_calallen.R")
+source("03_public/calculation/20_SC_mixing_model_function_region.R")
+source("03_public/calculation/20_SC_mixing_model_function_calallen.R")
 
 #----------------------------------------------------------------------------
 # CS mixing model: site_code
@@ -115,6 +115,6 @@ mmix_all <- full_join(mmix_site, mmix_distcat) %>%
   mutate(Estuarine = 100*Estuarine) %>%
   pivot_wider(names_from = statistic, values_from = Estuarine)
 
-write_csv(mmix_all, 'analysis/output/CS_mix_out_region.csv')
+write_csv(mmix_all, '03_public/output/CS_mix_out_region.csv')
 #----------------------------------------------------------------------------
 # End SC_mixing_model_calc_universal

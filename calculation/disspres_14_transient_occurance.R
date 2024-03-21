@@ -5,12 +5,12 @@
 #------------------------------------------------------------------------------
 # Setup
 #------------------------------------------------------------------------------
-source('toolkit.R') # load packages and helper-functions
+source('03_public/toolkit.R') # load packages and helper-functions
 library(patchwork)
 library(ggpubr)
 library(ggpmisc)
 
-d <- read_csv('analysis/output/community_efish_2017_2020.csv')
+d <- read_csv('03_public/output/community_efish_2017_2020.csv')
 
 d <- d %>%
   rowwise() %>%
@@ -115,12 +115,12 @@ plot_transient_fraction <- d_fraction %>%
 #------------------------------------------------------------------------------
 # Export
 #------------------------------------------------------------------------------
-# write_csv(d_transient_prob, 'analysis/output/d_transient_prob.csv')
+# write_csv(d_transient_prob, '03_public/output/d_transient_prob.csv')
 # 
-# ggsave('analysis/visualization/14_transient_occurance_probability.png',
+# ggsave('03_public/visualization/14_transient_occurance_probability.png',
 #        plot=plot_transient_prob, width=9, height=12, units='in')
 # 
-# ggsave('analysis/visualization/14_transient_occurance_fraction.png',
+# ggsave('03_public/visualization/14_transient_occurance_fraction.png',
 #        plot=plot_transient_fraction, width=9, height=12, units='in')
 
 #------------------------------------------------------------------------------
