@@ -130,10 +130,10 @@ d_source_stats <- d_sources %>%
   rename(isotope=x_name) %>%
   group_by(site_type, isotope) %>%
   filter(!is.na(x_val)) %>%
-  dplyr::summarize(x_mu = mean(x_val, na.rm=T),
-                   x_sd = sd(x_val, na.rm=T)) %>%
+  dplyr::summarize(mu = mean(x_val, na.rm=T),
+                   sd = sd(x_val, na.rm=T)) %>%
   ungroup() %>%
-  pivot_wider(names_from=isotope, values_from = x_mu:x_sd)
+  pivot_wider(names_from=isotope, values_from = mu:sd)
 
 colnames(d_source_stats) <- str_replace_all(colnames(d_source_stats), 'x_', '')
 

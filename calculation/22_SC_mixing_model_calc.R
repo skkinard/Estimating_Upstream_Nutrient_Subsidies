@@ -30,7 +30,7 @@ mmix_guild <- tibble(
 msites <- d %>% add_sitevars() %>% filter(site_type != 'Estuary') %>%
   pull(site_code) %>% unique()
 
-test <- run_simmr(my_data=d, my_location='TR', my_group='order')
+#  test <- run_simmr(my_data=d, my_location='TR', my_group='order')
 
 # loop mixing models across sites and aggregate statistics and quantile info
 for(i in msites) {

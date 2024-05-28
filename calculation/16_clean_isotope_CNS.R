@@ -13,7 +13,6 @@ d <- read_csv('03_local_files/data/isotope_raw/TERRG_CNS_combined.csv')
 d_species <- read_csv('03_local_files/data/community/fish_species_with_transient.csv') %>%
   mutate(lowest_taxon=str_replace_all(lowest_taxon, " ", ""))
 
-
 #------------------------------------------------------------------------------
 # Formatting
 #------------------------------------------------------------------------------
@@ -62,4 +61,3 @@ write_csv(d %>% filter(! is.na(sulfur)),
           '03_public/output/isotope_CNS_2020_01_clean.csv')
 
 write_csv(d, '03_public/output/isotope_CN_2020_01_05_09_clean.csv')
-
