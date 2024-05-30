@@ -21,6 +21,7 @@ library(interactions)
 library(tidymodels)
 library(modelr)
 library(conflicted)
+library(here)
 conflict_prefer_all('dplyr', quiet=T)
 
 #------------------------------------------------------------------------------
@@ -52,9 +53,11 @@ my_dam_colors <- my_sites_colors[15:16]
 location <- c('lat', 'lon')
 climate <- c('annualtemp', 'annualrain')
 landuse <- c('developedland', 'forestland', 'cropland', 'otherland')
-lt_flow <- colnames(read_csv('03_local_files/data/environment/environment_longterm.csv') %>%
+lt_flow <- colnames(read_csv(here('03_local_files', 'data', 'environment', 
+                                  'environment_longterm.csv')) %>%
                       dplyr::select(contains('q_')))
-st_flow <- colnames(read_csv("03_local_files/data/environment/site_flow_2week_stats.csv") %>%
+st_flow <- colnames(read_csv(here('03_local_files', 'data', 'environment',
+                                  'site_flow_2week_stats.csv')) %>%
                       dplyr::select(contains('q2wk')))
 flow <- c(lt_flow, st_flow)
 water_quality <- c('ammonia', 'conductivity', 'd_oxygen',
@@ -102,7 +105,7 @@ create_site_type <- function(x) {
     site_code %in% my_dams ~ "Dam")) }
 
 add_rain <- function(x) { 
-  read_csv('03_local_files/data/environment/environment_longterm.csv') %>%
+  read_csv(here('03_local_files', 'data', 'environment', 'environment_longterm.csv')) %>%
     dplyr::select(site_code, annualrain) %>%
     full_join(tibble(
       site_code = c('UN', 'LN'),
@@ -110,7 +113,7 @@ add_rain <- function(x) {
     right_join(x) }
 
 add_sitevars <- function(df) {
-  read_csv('03_local_files/data/isotope_raw/MDN_clean_final.csv') %>%
+  read_csv(here('03_local_files', 'data', 'isotope_raw', 'MDN_clean_final.csv')) %>%
     r_friendly_colnames() %>%
     select(site, site_type, pptavg_site, nearest_bay, baydist_km, hires_lentic_dens,
            npdes_maj_dens, raw_dis_nearest_maj_npdes, raw_dis_nearest_dam,
