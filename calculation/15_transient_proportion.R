@@ -41,45 +41,106 @@ tb_stats <- transient_type_biomass %>%
   ungroup()
 
 #------------------------------------------------------------------------------
-# visualize
+# Community Biomass Proportion Vs Rainfall: Setup Functions
 #------------------------------------------------------------------------------
-# site averages
-p_biomass_v_rain_site <- tb_stats %>%
-  group_by(site_code, transient_type) %>%
-  summarize(mu_percent_euryhaline = 
-              mean(transient_type_biomass_percent, na.rm=T)) %>%
-  add_rain() %>%
-  filter(transient_type %in% c('Euryhaline', 'Amphidromous')) %>%
-  ggplot(aes(x=annualrain, y = mu_percent_euryhaline)) +
-  facet_wrap(~transient_type, ncol=2) +
-  geom_smooth(method='lm', se=F, lwd=.6, lty=2, show.legend=F, color='red3') +
-  geom_point(size=4, color='black') +
-  stat_poly_eq(label.x=.5, label.y=.95,
-               color='black', use_label(c("adj.R2","p"))) +
-  scale_fill_manual(values=my_colors) +
-  theme_bw(base_size=14) +
-  ylim(c(0,50)) +
-  labs(x='Rainfall (cm/yr)',
-       y='% Biomass')
 
-# all sample events
-p_biomass_v_rain_event <- tb_stats %>%
-  group_by(site_code, collection_period, transient_type) %>%
-  summarize(mu_percent_euryhaline = 
+# table function: Biomass versus Rainfall
+table_lm_stats <- function(x) {
+  
+  lm(formula = mu_percent_biomass ~ annualrain, 
+     data = x %>% add_rain()) %>%
+    summary()  %>%
+    broom::tidy()
+}
+
+# Figure Function: Biomass versus Rainfall
+visualize_biomass_vs_rain <- function(x) {
+  x %>%
+    ungroup() %>%
+    ggplot(aes(x=annualrain, y = mu_percent_biomass)) +
+    stat_poly_eq(label.x=.5, label.y=.95, formula=y~x,
+                 color='black', use_label(c("adj.R2","p")), size=4) +
+    geom_point(size=4, color='blue', fill='skyblue', shape=21, alpha=.5) +
+    geom_point(size=4, color='blue', fill=NA, shape=21) +
+    labs(x='Rainfall (cm/yr)', y='% of Community Biomass') +
+    theme_bw(base_size=14) +
+    geom_smooth(data = . %>% filter(p.value < 0.1), 
+                method = "lm", se = FALSE, 
+                color = "blue", lwd=.5, lty=2) +
+    geom_smooth(data = . %>% filter(p.value < 0.05), 
+                method = "lm", se = FALSE, 
+                color = "blue", lwd=.5, lty=1)
+} 
+
+#------------------------------------------------------------------------------
+# Community Biomass Proportion Vs Rainfall: Site Average: All survey data
+#------------------------------------------------------------------------------
+d_site_mu <- tb_stats %>%
+  group_by(site_code, transient_type) %>%
+  summarize(mu_percent_biomass = 
+              mean(transient_type_biomass_percent, na.rm=T)) %>%
+  add_rain() 
+
+t_site_mu <- d_site_mu %>%
+  group_by(transient_type) %>%
+  nest() %>%
+  mutate(lm = map(data, table_lm_stats)) %>%
+  unnest(lm) %>%
+  filter(term == 'annualrain') %>%
+  select(-term, -data) 
+
+p_site_mu <- d_site_mu %>%
+  left_join(t_site_mu) %>%
+  visualize_biomass_vs_rain() +
+  facet_wrap(~transient_type)
+
+#------------------------------------------------------------------------------
+# Community Biomass Proportion Vs Rainfall: (by Year)
+#------------------------------------------------------------------------------
+d_by_year <- tb_stats %>%
+  mutate(year = year(collection_period)) %>%
+  group_by(year, site_code, transient_type) %>%
+  summarize(mu_percent_biomass = 
+              mean(transient_type_biomass_percent, na.rm=T)) %>%
+  add_rain() 
+
+t_by_year <- d_by_year %>%
+  group_by(year, transient_type) %>%
+  nest() %>%
+  mutate(lm = map(data, table_lm_stats)) %>%
+  unnest(lm) %>%
+  filter(term == 'annualrain') %>%
+  select(-term, -data) 
+
+p_by_year <- d_by_year %>%
+  left_join(t_by_year) %>%
+  visualize_biomass_vs_rain() +
+  facet_grid(year~transient_type)
+
+#------------------------------------------------------------------------------
+# Community Biomass Proportion Vs Rainfall: (by Quarter)
+#------------------------------------------------------------------------------
+d_by_quarter <- tb_stats %>%
+  mutate(quarter = quarter(collection_period)) %>%
+  group_by(quarter, site_code, transient_type) %>%
+  summarize(mu_percent_biomass = 
               mean(transient_type_biomass_percent, na.rm=T)) %>%
   add_rain() %>%
-  filter(transient_type %in% c('Euryhaline', 'Amphidromous')) %>%
-  ggplot(aes(x=annualrain, y = mu_percent_euryhaline)) +
-  facet_wrap(~transient_type, ncol=2) +
-  geom_smooth(method='lm', se=F, lwd=.6, lty=2, show.legend=F, color='red3') +
-  geom_point(size=4, fill='black', alpha=.2) +
-  stat_poly_eq(label.x=.5, label.y=.95,
-               color='black', use_label(c("adj.R2","p"))) +
-  scale_fill_manual(values=my_colors) +
-  theme_bw(base_size=14) +
-  ylim(c(0,50)) +
-  labs(x='Rainfall (cm/yr)',
-       y='% Biomass')
+  ungroup()
+
+t_by_quarter <- d_by_quarter %>%
+  group_by(quarter, transient_type) %>%
+  nest() %>%
+  mutate(lm = map(data, table_lm_stats)) %>%
+  unnest(lm) %>%
+  filter(term == 'annualrain') %>%
+  select(-term, -data) %>%
+  ungroup()
+
+p_by_quarter <- d_by_quarter %>%
+  left_join(t_by_quarter) %>%
+  visualize_biomass_vs_rain() +
+  facet_grid(quarter~transient_type)
 
 #------------------------------------------------------------------------------
 # Export
