@@ -54,6 +54,68 @@ d <- d %>% mutate(
   is_outlier = ifelse(sulfur < -2 & site_code == 'NB', 'yes', 'no')) %>%
   filter(is_outlier != 'yes') %>%
   select(-is_outlier)
+
+bad <- d %>%
+  filter(is.na(guild)) 
+
+bad <- bad %>%
+  mutate(lowest_taxon = case_when(
+    lowest_taxon %in% c("Melanoides", "C.sapidus") ~ lowest_taxon,
+    ! str_detect(lowest_taxon, 'id') ~ lowest_taxon,
+    str_detect(lowest_taxon, 'id') ~ paste(lowest_taxon, 'ae', sep=''),
+    T ~ NA)) %>%
+  mutate(id = row_number())
+
+#----------------------------------------------------------------------------
+# Fix missing taxonomic information for mispelled invertebrates
+#----------------------------------------------------------------------------
+library(bio.infer)
+
+add_tax <- bad %>%
+  select(id, lowest_taxon) %>%
+  as.data.frame() %>%
+  get.taxonomic() %>%
+  mutate(order = str_to_title(ORDER), 
+         family = str_to_title(FAMILY)) %>%
+  select(order, family, lowest_taxon) %>%
+  as_tibble()
+
+fixed <- add_tax %>% 
+  mutate(
+    family = case_when(
+      lowest_taxon == 'Belastomatidae' ~ 'Belastomatidae',
+      lowest_taxon == 'Cyrenidae' ~ 'Corbiculidae',
+      lowest_taxon == 'Dysticidae' ~ 'Dytiscidae',
+      lowest_taxon == 'Hirvdinidae' ~ 'Hirudinidae',
+      lowest_taxon == 'Rharrisii' ~ 'Panopeidae',
+      lowest_taxon == 'Simaliidae=' ~ 'Simuliidae',
+      lowest_taxon == 'Tanyponidae' ~ 'Chironomidae',
+      lowest_taxon == 'Velliidae' ~ 'Veliidae',
+      lowest_taxon == 'C.sapidus' ~ 'Portunidae', 
+      T ~ family),
+    order = case_when(
+      lowest_taxon == 'Belastomatidae' ~ 'Hemiptera',
+      lowest_taxon == 'Cyrenidae' ~ 'Veneroida',
+      lowest_taxon == 'Dysticidae' ~ 'Coleoptera',
+      lowest_taxon == 'Hirvdinidae' ~ 'Hirudinea',
+      lowest_taxon == 'Rharrisii' ~ 'Decapoda',
+      lowest_taxon == 'Simaliidae=' ~ 'Diptera',
+      lowest_taxon == 'Tanyponidae' ~ 'Diptera',
+      lowest_taxon == 'Velliidae' ~ 'Hemiptera',
+      lowest_taxon == 'C.sapidus' ~ 'Decapoda', 
+      T ~ order ),
+    transient_type = ifelse(lowest_taxon == 'Rharrisii', 'Euryhaline', 
+                            'Freshwater'),
+    guild = 'Invertebrate') %>% unique()
+
+bad_fixed <- bad %>%
+  select(-c(family, order, guild, transient_type)) %>%
+  left_join(fixed)
+
+d <-d %>% 
+  filter(!is.na(guild)) %>%
+  full_join(bad_fixed)
+
 #------------------------------------------------------------------------------
 # Export
 #------------------------------------------------------------------------------
