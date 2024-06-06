@@ -138,7 +138,7 @@ p_source_diff
 # Regression Table
 # -----------------------------------------------------------------------------
 
-# table function: Biomass versus Rainfall
+# table function
 table_lm_stats <- function(predictor, response) {
   d_temp <- d_source_diff
   colnames(d_temp) <- str_replace_all(colnames(d_temp), predictor, 'predictor')

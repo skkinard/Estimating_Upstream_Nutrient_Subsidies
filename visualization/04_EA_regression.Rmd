@@ -1,0 +1,730 @@
+---
+title: "Biomass-Weighted Community Estuarine Assimilation Estimates"
+author: "Sean Kinard"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: 
+    toc: yes
+    number_sections: yes
+header-includes:
+  - \usepackage{helvet}
+  - \renewcommand{\familydefault}{\sfdefault}
+editor_options: 
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+
+opts_chunk$set(message=F, warning=F, echo=T,  
+               fig.fullwidth=TRUE, fig.dim = c(5, 5), fig.align="center")
+
+# Set the working directory for all code chunks
+setwd("/home/kinard/Documents/Research/Dissertation/03_Diadromy")
+
+#------------------------------------------------------------------------------
+# Setup
+#------------------------------------------------------------------------------
+
+# load core project packages and custom-made helper-functions
+source(here::here('03_public', 'toolkit.R'))
+
+# load some script-specific packages
+library(patchwork)
+library(ggpubr)
+library(ggpmisc)
+library(here)
+library(gt)
+library(gtExtras)
+
+# load survey data containing biomass and density for taxa for each sample event
+db <- read_csv(here('03_public', 'output', 
+                    'fish_and_invert_biomass_with_taxonomic_and_transient_info.csv'))
+
+species_key <- read_csv(here('03_local_files', 'data', 'community',
+                             'fish_species_with_transient.csv'))
+
+# load Bayesian mixing model outputs from stable isotope data
+# load Estuarine Assimilation Estimates for: order, transient_type,  species   
+iso <- read_csv(here('03_public', 'output', 'CS_mix_out.csv'))
+
+# Match isotope data column names to merge survey
+iso_order <- iso %>% filter(dataset == 'order') %>%
+  rename(order = m_group, EA_order_mu = mean, EA_order_sd = sd, 
+         site_code = site) %>%
+  select(site_code, order, EA_order_mu, EA_order_sd) %>%
+  add_rain()
+
+# Extract taxonomic information for merging
+iso_species <- iso %>% filter(dataset == 'species') %>%
+  rename(species = m_group, EA_species_mu = mean, EA_species_sd= sd, 
+         site_code = site) %>%
+  select(site_code, species, EA_species_mu, EA_species_sd) %>%
+  left_join(species_key) %>%
+  filter(!(site_code == 'PL' & species == 'maculatus' & order == 'Gobiiformes')) %>%
+  add_rain()
+
+# extract EA for transient type: fresh, euryhaline, amphidromous, catadromous
+iso_transient <- iso %>% filter(dataset == 'transient_type') %>%
+  rename(transient_type = m_group, EA_transient_mu = mean, EA_transient_sd=sd, 
+         site_code = site) %>%
+  rename(transient = transient_type) %>%
+  select(site_code, transient, EA_transient_mu, EA_transient_sd) %>%
+  add_rain()
+
+# merge: survey, EA by order, taxonomic info, EA by transient type
+dc <- db %>%
+  left_join(iso_order) %>%
+  left_join(iso_species) %>%
+  left_join(iso_transient) %>%
+  arrange(desc(biomass_mu))
+```
+
+\newpage
+
+# Report Summary
+
+## Background:
+
+This research project aims to quantify the contributions of
+estuarine-derived nutrients to coastal streams across a natural
+precipitation gradient in South-Central Texas. It investigates estuarine
+assimilation in both inconspicuous migrants and freshwater taxa while
+examining its relationships with climate, geography, and anthropogenic
+factors.
+
+## Project Overview:
+
+In this script, I merge two biological datasets---estuarine assimilation
+(EA) and biomass---to calculate a species-biomass-weighted estimate for
+the overall community estuarine assimilation across nine streams.
+Subsequently, I examine the relationships between EA and annual rainfall
+using regression analysis at various scales of comparison.
+
+## Key Findings:
+
+These results confirm the increased assimilation of estuarine-derived
+nutrients in regions with arid climates. Furthermore, they demonstrate
+that this relationship holds true for both freshwater and euryhaline
+species. Notably, the findings reveal a counterintuitive pattern:
+freshwater taxa exhibit greater consumption of estuarine materials in
+arid environments, while euryhaline species show reduced assimilation in
+humid environments. It's important to note that these results do not
+imply the mechanisms of consumption. For instance, freshwater fish in
+arid environments may either consume euryhaline wanderers or make
+periodic trips to nearby estuaries to directly consume estuarine
+materials before returning to their freshwater habitat.
+
+## Relevance:
+
+Our research sheds light on the intricate dynamics of estuarine
+assimilation in coastal stream ecosystems, spanning a natural
+precipitation gradient. By quantifying the contributions of
+estuarine-derived nutrients and their relationships with climatic
+factors, our findings challenge conventional assumptions. We reveal a
+nuanced pattern where freshwater taxa exhibit unexpected reliance on
+estuarine materials in arid environments, while euryhaline species
+display reduced assimilation in humid regions. These insights not only
+deepen our understanding of ecosystem dynamics but also have practical
+implications for managing and conserving coastal ecosystems,
+highlighting the importance of considering species-specific responses to
+environmental variability.
+
+\newpage
+
+# Estuarine Assimilation Versus Site Characteristics (Annual Rainfall, Bay Distance, and Elevation)
+
+## Setup
+This code chunk contains a set of functions designed to analyze the
+relationship between Estuarine Assimilation (EA) and site variables
+(annual rainfall, distance to bay, and elevation) across various
+taxonomic groups. The functions facilitate data preparation, linear
+regression analysis, and visualization of the EA versus Rainfall
+relationship. Specifically, the functions compute linear regression
+statistics, generate base plots, and perform analysis for each taxonomic
+group of interest. Overall, this code chunk streamlines the process of
+exploring and understanding the impact of rainfall and geographic
+features on estuarine assimilation within different ecological
+communities.
+
+```{r lm functions}
+#------------------------------------------------------------------------------
+# Setup: EA Versus Rainfall (Within Taxonomic Groups)
+#------------------------------------------------------------------------------
+# table function
+table_lm_stats <- function(my_data, predictor, response) {
+  d_temp <- my_data
+  colnames(d_temp) <- str_replace_all(colnames(d_temp), predictor, 'predictor')
+  colnames(d_temp) <- str_replace_all(colnames(d_temp), response, 'response')
+  
+  lm(formula = response ~ predictor, 
+     data = d_temp) %>%
+    summary()  %>%
+    broom::tidy() %>%
+    filter(term == 'predictor') %>%
+    mutate(predictor = str_replace_all(term, 'predictor', predictor),
+           response = response) %>%
+    select(-term) %>%
+    mutate(
+      signif = case_when(
+        p.value >= 0.01 & p.value < 0.05 ~ "*",
+        p.value < 0.01 ~ "**",
+        T ~ ""  )) %>%
+    select(contains('response'), contains('predictor'), everything())
+}
+
+# base plot: EA versus Rainfall
+plot_ea_lm_explore <- function(xdata, xpredictor, xresponse) {
+  p_temp <- xdata
+  colnames(p_temp) <- str_replace_all(colnames(p_temp), xpredictor, 'PRE')
+  colnames(p_temp) <- str_replace_all(colnames(p_temp), xresponse, 'RES')
+  
+  p_temp %>%
+    ggplot(aes(x=PRE, y=RES)) +
+    facet_wrap(~XX) +
+    stat_poly_eq(label.x=.5, label.y=.95, formula=y~x,
+                 color='black', use_label(c("adj.R2","p")), size=4) +
+    geom_point(size=3, color='blue', fill='skyblue', shape=21, alpha=.5) +
+    geom_point(size=3, color='blue', fill=NA, shape=21) +
+    labs(x=str_to_title(xpredictor), 
+         y=str_to_title(xpredictor)) +
+    theme_bw(base_size=12) +
+    geom_smooth(data = . %>% filter(p.value < 0.1 & p.value >= 0.05), 
+                method = "lm", se = FALSE, 
+                color = "blue", lwd=.5, lty=2)  +
+    geom_smooth(data = . %>% filter(p.value < 0.05), 
+                method = "lm", se = FALSE, 
+                color = "blue", lwd=.5, lty=1)
+}
+
+# Generate table and plot for x_group of comparison
+ea_lm_explore <-function(x_data, x_group, n_sites=1) {
+  temp_data <- x_data %>% add_rain() %>% add_sitevars()
+  colnames(temp_data) <- str_replace_all(colnames(temp_data), x_group, 'XX')
+  
+  # list widespread groups
+  widespread <- temp_data %>%
+    group_by(XX) %>%
+    summarize(n_samples = length(EA_XX_mu)) %>%
+    filter(n_samples>n_sites) %>%
+    pull(XX)
+  
+  # prepare predictor response cross
+  my_predictor <- c('annualrain','baydist_km','elev_site_m')
+  my_response <- c('EA_XX_mu')
+  lm_cross <- crossing(my_predictor, my_response)
+  
+  # empty regression table
+  t_unfit <- temp_data %>%
+    filter(XX %in% widespread) %>%
+    group_by(XX) %>%
+    nest() %>%
+    mutate(lm_cross = list(lm_cross)) %>%
+    unnest(lm_cross)
+  
+  # Table: Regression Statistics
+  t_fit <- t_unfit %>%
+    mutate(lm = pmap(list(data, my_predictor, my_response), table_lm_stats)) %>%
+    unnest(lm) %>%
+    ungroup() %>%
+    select(-contains('my'))
+  
+  colnames(t_fit) <- str_replace_all(colnames(t_fit), x_group, 'XX')
+  
+  # visualize 
+  p_EA_lm_explore <- t_fit %>%
+    unnest(data) %>%
+    group_by(response, predictor) %>%
+    nest() %>%
+    mutate(p_ea_lm = pmap(list(data, predictor, response), plot_ea_lm_explore))
+    
+  colnames(t_fit) <- str_replace_all(colnames(t_fit), 'XX', x_group)
+  
+  output <- list(figure = p_EA_lm_explore,
+                 table = t_fit)
+  
+  return(output)
+}
+
+format_table <- function(x) {
+  x %>%
+      select(-c(data, response)) %>%
+  ungroup() %>%
+  gt(groupname_col = 'predictor') %>% 
+  fmt_number(columns = where(is.numeric), decimals = 3)
+}
+```
+
+\newpage
+
+## Site Characteristic Regression Pairs
+
+```{r, message = F, results= 'hide', fig.dim=c(5,5)}
+my_vars <- c('annualrain', 'baydist_km', 'elev_site_m') 
+
+d_site_vars <- tibble(site_code = my_sites) %>%
+  add_rain() %>%
+  add_sitevars() %>%
+  filter(site_type != 'Estuary') %>%
+  select(any_of(my_vars)) 
+
+library(GGally)
+p_site_vars <- d_site_vars %>%
+  rename('Annual Rain (cm)' = annualrain,
+         'Bay Distance (km)' = baydist_km,
+         'Elevation (m)' = elev_site_m) %>%
+  ggpairs() +
+  theme_bw(base_size=12)
+
+t_site_vars <- crossing(y = my_vars, x = my_vars) %>%
+  filter(y!=x) %>%
+  mutate(data = list(d_site_vars)) %>%
+  mutate(lm = pmap(list(data, x, y), table_lm_stats)) %>%
+  unnest(lm) %>%
+  select(-c(x, y, data)) 
+```
+
+\newpage
+
+### Figure: Site Characteristic Regression Pairs
+
+The lines in the plot represent fitted regression lines illustrating the
+relationship between pairs of variables. Correlation coefficients
+(Corr:) are displayed to denote the strength and direction of the linear
+relationship between variables, with '\*' symbols indicating
+significance levels.
+
+```{r, echo=F, fig.dim=c(5,5)}
+p_site_vars
+```
+
+### Table: Site Characteristic Regression Pairs
+
+Linear regression statistics for pairings between site characteristic
+variables (rainfall, distance, elevation).
+
+```{r, echo=F}
+t_site_vars %>%
+  ungroup() %>%
+  gt() %>% 
+  fmt_number(columns = where(is.numeric), decimals = 3)
+```
+
+#### Interpretation: Site Characteristics Regression Pairs
+
+In the pairs plots of environmental predictors, no significant
+relationship is observed between rainfall and other site
+characteristics, namely distance-to-bay and elevation. As anticipated, a
+positive correlation is evident between elevation and distance-to-bay.
+
+\newpage
+
+## Widespread Taxonomic Order
+
+```{r , fig.dim=c(7,3)}
+#------------------------------------------------------------------------------
+# EA Versus Site Characteristics: Within Widespread Orders
+#------------------------------------------------------------------------------
+widespread_orders <- ea_lm_explore(x_data = iso_order, 
+                                   x_group= 'order', 
+                                   n_sites = 8)
+```
+
+### Figure: EA Versus Rainfall Within Widespread Taxonomic Orders
+
+Linear regression of average estuarine assimilation (EA) within
+widespread taxonomic orders versus annual rainfall. EA is estimated for
+each order using Bayesian mixing models with d13C and d34S stable
+isotope data in pre-requisite analyses.
+
+```{r, message = F, results= 'hide', fig.dim=c(7,3)}
+p_EA_v_rain_order <- widespread_orders$figure %>%  filter(predictor == 'annualrain')
+p_EA_v_rain_order$p_ea_lm[[1]] +
+  labs(y = 'EA (%)',
+       x = 'Annual Rain (cm)')
+```
+
+#### Interpretation: EA Versus Rainfall Within Widespread Taxonomic Orders
+
+The analysis indicates that Centrarchiformes, such as sunfish and bass,
+experience reduced estuarine assimilation (EA) with increasing annual
+rainfall, suggesting that higher rainfall negatively impacts their
+assimilation of estuarine nutrients or resources. This relationship
+points to potential environmental or ecological factors influenced by
+rainfall that uniquely affect Centrarchiformes.
+
+Conversely, for other widespread taxonomic orders like
+Cyprinodontiformes (including killifish, livebearers, pupfish, and
+topminnows) and Decapoda (including shrimp, crayfish, and crabs), there
+is no statistically significant linear relationship with annual
+rainfall. This implies that variations in annual rainfall do not
+systematically affect the EA of these taxa, and their estuarine
+assimilation is likely influenced by other factors rather than rainfall.
+
+\newpage
+
+### Figure: EA Versus Distance-To-Estuary Within Widespread Taxonomic Orders
+
+Linear regression of average estuarine assimilation (EA) within
+widespread taxonomic orders versus the distance from the site to its
+downstream estuary. EA is estimated for each order using Bayesian mixing
+models with d13C and d34S stable isotope data in pre-requisite analyses.
+
+```{r, message = F, results= 'hide', fig.dim=c(7,3)}
+p_EA_v_bdis_order <- widespread_orders$figure %>%  filter(predictor == 'baydist_km')
+p_EA_v_bdis_order$p_ea_lm[[1]] +
+  labs(y = 'EA (%)',
+       x = 'Distance To Estuary (km)')
+```
+
+#### Interpretation: EA Versus Distance-To-Estuary Within Widespread Taxonomic Orders
+
+The analysis reveals that Centrarchiformes show a negative correlation
+between estuarine assimilation (EA) and proximity to the bay, similar to
+the pattern observed with annual rainfall, although this relationship is
+marginally non-significant (p = 0.051). This suggests that as the
+distance to the bay increases, EA for Centrarchiformes tends to
+decrease, mirroring the effect of decreasing annual rainfall on EA.
+
+In contrast, other common taxonomic orders such as Cyprinodontiformes
+(including killifish, livebearers, pupfish, and topminnows) and Decapoda
+(including shrimp, crayfish, and crabs) do not show any statistically
+significant linear relationships with annual rainfall. This indicates
+that, for these taxa, annual rainfall does not have a consistent or
+predictable impact on their EA, and their assimilation patterns are not
+influenced by variations in rainfall.
+
+\newpage
+
+### Figure: EA Versus Elevation Within Widespread Taxonomic Orders
+
+Linear regression of average estuarine assimilation (EA) within
+widespread taxonomic orders versus site elevation above sea level. EA is
+estimated for each order using Bayesian mixing models with d13C and d34S
+stable isotope data in pre-requisite analyses.
+
+```{r, message = F, results= 'hide', fig.dim=c(7,3)}
+p_EA_v_elev_order <- widespread_orders$figure %>%  filter(predictor == 'elev_site_m')
+p_EA_v_elev_order$p_ea_lm[[1]] +
+  labs(y = 'EA (%)',
+       x = 'Elevation (m)')
+```
+
+#### Interpretation: EA Versus Elevation Within Widespread Taxonomic Orders
+
+Decapoda exhibit a tendency where higher elevations correspond to lower
+levels of estuarine assimilation (EA). This suggests that as elevation
+increases, there is a decrease in the amount of estuarine assimilation
+among Decapoda species. On the other hand, both Centrarchiformes and
+Cyprinidontiformes demonstrate random patterns in their relationship
+between EA and elevation. This indicates that for these taxa, there is
+no discernible trend or consistent association between EA and elevation
+across different elevation levels.
+
+\newpage
+
+### Table: Regression Statistics for EA Vs. Site Characteristics (Within Widespread Orders)
+
+```{r }
+widespread_orders$table %>% format_table()
+```
+
+### Conclusions: EA vs Site Characteristics within Taxonomic Orders
+The analysis reveals distinct patterns of estuarine assimilation (EA)
+across various site characteristics within different taxonomic orders.
+Centrarchiformes (sunfish and bass) demonstrate a negative relationship
+between EA and both annual rainfall and proximity to the bay, suggesting
+that these environmental factors negatively impact their nutrient
+assimilation. Conversely, Cyprinodontiformes (killifish, livebearers,
+pupfish, and topminnows) and Decapoda (shrimp, crayfish, and crabs) do
+not exhibit significant linear relationships between EA and either
+rainfall or distance to the bay, implying that their EA is influenced by
+other factors. Additionally, Decapoda show a negative correlation
+between EA and elevation, indicating decreased EA at higher elevations,
+while Centrarchiformes and Cyprinodontiformes display no consistent
+patterns with elevation, further highlighting the varied ecological
+responses among these taxonomic groups.
+
+\newpage
+
+## Widespread Taxonomic Species
+
+```{r , fig.dim=c(7,3)}
+#------------------------------------------------------------------------------
+# EA Versus Site Characteristics: Within Widespread species
+#------------------------------------------------------------------------------
+widespread_species <- ea_lm_explore(x_data = iso_species, 
+                                   x_group= 'species', 
+                                   n_sites = 6)
+```
+
+### Figure: EA Versus Rainfall Within Widespread Taxonomic Species
+
+Linear regression of average estuarine assimilation (EA) within
+widespread taxonomic species versus annual rainfall. EA is estimated for
+each species using Bayesian mixing models with d13C and d34S stable
+isotope data in pre-requisite analyses.
+
+```{r, message = F, results= 'hide', fig.dim=c(7,3)}
+p_EA_v_rain_species <- widespread_species$figure %>%  filter(predictor == 'annualrain')
+p_EA_v_rain_species$p_ea_lm[[1]] +
+  labs(y = 'EA (%)',
+       x = 'Annual Rain (cm)')
+```
+
+#### Interpretation: EA Versus Rainfall Within Widespread Taxonomic Species
+
+Examining estuarine assimilation (EA) versus annual rainfall within
+widespread taxonomic species (species collected from at least 6 out of 9
+streams), which include *Procambarus clarkii*, *Lepomis macrochirus*,
+and *Palaemonetes pugio*, reveals that only *Palaemonetes* exhibits a
+statistically significant linear relationship with annual rainfall.
+Specifically, *Palaemonetes* EA is negatively related to annual
+rainfall, suggesting that higher rainfall reduces their estuarine
+assimilation. It appears that missing data for *Lepomis macrochirus* may
+be affecting its statistical significance; filling in these gaps could
+potentially enhance the observed relationship, aligning with the
+negative EA-rainfall trend noted in its taxonomic order
+(Centrarchiformes). This indicates that accurate and complete data are
+crucial for understanding the environmental factors influencing EA in
+these species.
+
+\newpage
+
+### Figure: EA Versus Distance-To-Estuary Within Widespread Taxonomic Species
+
+Linear regression of average estuarine assimilation (EA) within
+widespread taxonomic species versus the distance from the site to its
+downstream estuary. EA is estimated for each species using Bayesian
+mixing models with d13C and d34S stable isotope data in pre-requisite
+analyses.
+
+```{r, message = F, results= 'hide', fig.dim=c(7,3)}
+p_EA_v_bdis_species <- widespread_species$figure %>%  filter(predictor == 'baydist_km')
+p_EA_v_bdis_species$p_ea_lm[[1]] +
+  labs(y = 'EA (%)',
+       x = 'Distance To Estuary (km)')
+```
+
+#### Interpretation: EA Versus Distance-To-Estuary Within Widespread Taxonomic Species
+
+No statistically significant relationships were detected within
+widespread species between estuarine assimilation and distance to
+estuary.
+
+\newpage
+
+### Figure: EA Versus Elevation Within Widespread Taxonomic Species
+
+Linear regression of average estuarine assimilation (EA) within
+widespread taxonomic species versus site elevation above sea level. EA
+is estimated for each species using Bayesian mixing models with d13C and
+d34S stable isotope data in pre-requisite analyses.
+
+```{r, message = F, results= 'hide', fig.dim=c(7,3)}
+p_EA_v_elev_species <- widespread_species$figure %>%  filter(predictor == 'elev_site_m')
+p_EA_v_elev_species$p_ea_lm[[1]] +
+  labs(y = 'EA (%)',
+       x = 'Elevation (m)')
+```
+
+#### Interpretation: EA Versus Elevation Within Widespread Taxonomic Species
+
+No statistically significant relationships were detected within
+widespread species between estuarine assimilation and elevation.
+
+\newpage
+
+### Table: Regression Statistics for EA Vs. Site Characteristics (Within Widespread Species)
+
+```{r }
+widespread_species$table %>% format_table()
+```
+
+### Conclusions: EA vs Site Characteristics within Taxonomic Species
+Examining estuarine assimilation (EA) versus annual rainfall within
+widespread species (*Procambarus clarkii*, *Lepomis macrochirus*, and
+*Palaemonetes pugio*) reveals that only *Palaemonetes* shows a
+statistically significant negative relationship, suggesting higher
+rainfall reduces their EA. Missing data for *Lepomis macrochirus* might
+affect its statistical significance; filling these gaps could enhance
+the observed relationship, aligning with the negative EA-rainfall trend
+in Centrarchiformes. Accurate data are crucial for understanding EA in
+these species. No significant relationships were found between EA and
+distance to the estuary or elevation within these widespread species,
+indicating that these factors do not systematically influence their
+estuarine assimilation. This suggests that other environmental or
+biological factors may be more critical in determining EA for these
+taxa.
+
+\newpage
+
+## Transient Type
+
+```{r}
+#------------------------------------------------------------------------------
+# EA Versus Site Characteristics: Within Widespread transient
+#------------------------------------------------------------------------------
+widespread_transient <- ea_lm_explore(x_data = iso_transient, 
+                                   x_group= 'transient', 
+                                   n_sites = 5)
+```
+
+### Figure: EA Versus Rainfall Within Widespread Transient Types
+Linear regression of average estuarine assimilation (EA) within
+Transient Type versus annual rainfall. EA is estimated for
+each transient using Bayesian mixing models with d13C and d34S stable
+isotope data in pre-requisite analyses.
+
+```{r, message = F, results= 'hide', fig.dim=c(6,3)}
+p_EA_v_rain_transient <- widespread_transient$figure %>%  filter(predictor == 'annualrain')
+p_EA_v_rain_transient$p_ea_lm[[1]] +
+  labs(y = 'EA (%)',
+       x = 'Annual Rain (cm)')
+```
+
+#### Interpretation: EA Versus Rainfall Within Widespread Transient Types
+Among the transient types, isotope samples from freshwater and amphidromous species were widely distributed across the region: freshwater (n=9) and amphidromous (n=8), along with euryhaline (n=4) and catadromous (n=2). Linear regression analysis, with a p-value threshold of 0.1, demonstrates a significant negative correlation between estuarine assimilation (EA) and annual rainfall for both amphidromous and freshwater species. This indicates that higher rainfall levels are linked to reduced EA in these types, emphasizing the impact of precipitation patterns on estuarine dynamics. These findings also imply potential ecological consequences for these species in response to alterations in rainfall regimes.
+
+\newpage
+
+### Figure: EA Versus Distance-To-Estuary Within Widespread Transient Types
+Linear regression of average estuarine assimilation (EA) within
+Transient Type versus the distance from the site to its
+downstream estuary. EA is estimated for each transient using Bayesian
+mixing models with d13C and d34S stable isotope data in pre-requisite
+analyses.
+
+```{r, message = F, results= 'hide', fig.dim=c(6,3)}
+p_EA_v_bdis_transient <- widespread_transient$figure %>%  filter(predictor == 'baydist_km')
+p_EA_v_bdis_transient$p_ea_lm[[1]] +
+  labs(y = 'EA (%)',
+       x = 'Distance To Estuary (km)')
+```
+
+#### Interpretation: EA Versus Distance-To-Estuary Within Widespread Transient Types
+Patterns of estuarine assimilation (EA) in relation to the distance to the nearest estuary mirror those observed with annual rainfall. Linear regression analysis, with a p-value threshold of 0.1, reveals that both amphidromous and freshwater groups display a significant negative correlation between EA and the distance to the nearest estuary. This suggests that as the distance to the estuary increases, EA tends to decrease for these species, potentially indicating a reduced availability of estuarine resources or increased energetic costs associated with accessing estuarine habitats. Understanding these relationships is crucial for assessing the ecological dynamics of these species in coastal environments.
+
+\newpage
+
+### Figure: EA Versus Elevation Within Transient Type
+Linear regression of average estuarine assimilation (EA) within
+Transient Type versus site elevation above sea level. EA
+is estimated for each transient using Bayesian mixing models with d13C and
+d34S stable isotope data in pre-requisite analyses.
+
+```{r, message = F, results= 'hide', fig.dim=c(6,3)}
+p_EA_v_elev_transient <- widespread_transient$figure %>%  filter(predictor == 'elev_site_m')
+p_EA_v_elev_transient$p_ea_lm[[1]] +
+  labs(y = 'EA (%)',
+       x = 'Elevation (m)')
+```
+
+#### Interpretation: EA Versus Elevation Within Widespread Transient Types
+There are no statistically significant linear relationships between EA and elevation within freshwater or amphidromous transient groups.
+
+\newpage
+
+### Table: Regression Statistics for EA Vs. Site Characteristics (Within Widespread Transient Types)
+
+```{r }
+widespread_transient$table %>% format_table()
+```
+
+### Conclusions: EA vs Site Characteristics within Taxonomic transient
+Our findings reveal significant negative correlations between EA and annual rainfall for both amphidromous and freshwater species, indicating that higher rainfall levels are associated with reduced EA. The negative correlation between EA and distance to the nearest estuary suggests that accessibility to estuarine habitats influences EA, with greater distances potentially leading to decreased EA due to reduced resource availability or increased energetic costs. However, the absence of statistically significant linear relationships between EA and elevation within freshwater or amphidromous transient groups suggests that elevation may not significantly influence EA in these species. Overall, understanding these complex relationships is essential for informing conservation and management strategies aimed at protecting estuarine ecosystems and the species that rely on them.
+
+\newpage
+
+## Section Summary: EA vs Site Predictors (Within Order, Species, Transient Groups)
+The examination of estuarine assimilation (EA) across various taxonomic orders unveils nuanced responses shaped by site-specific characteristics. Within Centrarchiformes, a negative correlation emerges between EA and both annual rainfall and proximity to the bay, indicating adverse impacts on nutrient assimilation likely due to heightened runoff and reduced salinity near the bay mouth. Conversely, Cyprinodontiformes and Decapoda do not manifest significant linear relationships with rainfall or bay proximity, suggesting multifaceted influences on their EA, possibly related to species-specific habitat preferences or physiological adaptations.
+
+Furthermore, Decapoda demonstrate a notable negative correlation between EA and elevation, implying diminished EA at higher elevations, potentially linked to reduced access to nutrient-rich estuarine waters. In contrast, Centrarchiformes and Cyprinodontiformes exhibit less clear trends with elevation, reflecting the complexity of ecological responses within these taxa.
+
+When exploring EA versus annual rainfall within widespread species like *Procambarus clarkii* (red swamp crayfish), *Lepomis macrochirus* (bluegill sunfish), and *Palaemonetes pugio* (daggerblade grass shrimp), only *P. pugio* exhibits a statistically significant negative relationship with rainfall, suggesting a dampening effect on EA likely attributable to increased freshwater input. The lack of significant relationships between EA and distance to the estuary or elevation underscores the intricate interplay of multiple environmental factors shaping EA dynamics in these species.
+
+In transient taxonomic groups, such as amphidromous and freshwater species, significant negative correlations between EA and annual rainfall highlight the vulnerability of these species to changes in precipitation patterns. The observed negative correlation between EA and distance to the nearest estuary underscores the importance of habitat accessibility in influencing EA dynamics, with increased distances potentially imposing energetic costs or limiting access to crucial resources. However, the absence of statistically significant linear relationships between EA and elevation within these transient groups suggests a more nuanced relationship with terrain features, warranting further investigation.
+
+\newpage
+
+# Section: Resident and Biomass-Adjusted Community Estuarine Assimilation
+
+## Setup
+
+```{r}
+#------------------------------------------------------------------------------
+# resident EA versus % biomass transient
+#------------------------------------------------------------------------------
+
+# table function: EA versus Rainfall
+table_lm_stats2 <- function(x) {
+  table_lm_stats(my_data=x, predictor= 'biomass_percent', response = 'EA_fresh') }
+
+plot_ea_v_tb_2 <-function(X) {
+  plot_ea_lm_explore(xdata = X, 
+                     xpredictor= 'biomass_percent', 
+                     xresponse= 'EA_fresh') }
+
+# data prep:
+d_ea_v_tb <- dc %>%
+  filter(collection_period %in% c('2019-Q4', '2020-Q1')) %>%
+  group_by(site_code, collection_period, transient_type) %>%
+  summarize(biomass_percent = sum(biomass_percent, na.rm=T)) %>%
+  ungroup() %>%
+  mutate(present = ifelse(near(biomass_percent, 0), 0, 1)) %>%
+  group_by(transient_type, collection_period) %>%
+  mutate(n_sites = sum(present)) %>%
+  ungroup() %>%
+  select(-present) %>%
+  add_rain() %>%
+  left_join(iso_transient %>%
+              filter(transient == 'Freshwater') %>%
+              rename(EA_fresh = EA_transient_mu) %>%
+              select(site_code, EA_fresh) )
+
+# Table: Regression Statistics
+t_EA_vs_tb <- d_ea_v_tb %>%
+  group_by(transient_type) %>%
+  nest() %>%
+  mutate(lm = map(data, table_lm_stats2)) %>%
+  unnest(lm) %>%
+  select(-data)
+
+# figure: Resident EA Versus % Transient Biomass
+p_ea_v_tb <- d_ea_v_tb %>%
+  left_join(t_EA_vs_tb) %>%
+  filter(transient_type != 'Freshwater') %>%
+  plot_ea_v_tb_2() +
+  facet_wrap(~transient_type) +
+  labs(y='Freshwater EA (%)', x = 'Transient Biomass (%)')
+```
+
+\newpage
+
+## Figure: Resident EA Versus Transient Biomass
+Linear regression of average estuarine assimilation (EA) within widespread taxonomic species versus annual rainfall. EA is estimated for each order using bayesian mixing models with d13C and d34S stable isotope data in pre-requisite analyses.
+
+
+```{r, fig.dim = c(9,4)}
+p_ea_v_tb
+```
+
+## Table: Resident EA Versus Transient Biomass
+```{r}
+t_EA_vs_tb %>%
+  ungroup() %>%
+  gt() %>%
+  fmt_number(columns = where(is.numeric), decimals = 3)
+```
+
+### Interpretation:
+The analysis reveals a significant negative correlation between estuarine assimilation (EA) and rainfall for both Amphidromous and Freshwater organisms. This suggests that these organisms tend to consume more estuarine-derived materials in regions with lower rainfall, possibly due to increased concentration of nutrients and salinity during dry periods. In contrast, transient and catadromous organisms show no linear relationship with annual rainfall, indicating a consistent consumption of estuarine-derived materials irrespective of rainfall patterns.
+
+\newpage
+
+## Interpretation:
+In conclusion, the study on Biomass-Weighted Community Estuarine Assimilation Estimates provides valuable insights into the dynamics of estuarine assimilation in coastal stream ecosystems. By examining estuarine assimilation across a precipitation gradient in South-Central Texas, the research highlights the influence of climatic factors on nutrient consumption by freshwater and euryhaline species.
+
+The findings reveal distinct patterns: freshwater taxa show increased assimilation of estuarine materials in arid environments, while euryhaline species exhibit reduced assimilation in humid regions. These observations challenge traditional assumptions and underscore the importance of considering species-specific responses to environmental variability in ecosystem management.
