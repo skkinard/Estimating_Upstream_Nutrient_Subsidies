@@ -1,0 +1,52 @@
+---
+output:
+  pdf_document: 
+    toc: yes
+    number_sections: yes
+header-includes:
+  - \usepackage{helvet}
+  - \renewcommand{\familydefault}{\sfdefault}
+editor_options: 
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+# Overview: Modeling Estuarine Assimilation
+- Author: Sean Kinard
+- `r Sys.Date()`
+
+## Background
+Our investigation encompassed ten coastal rivers and five estuaries, with a focus on elucidating the connectivity between streams and estuaries, particularly in the face of aridity and artificial barriers. The presence of transient taxa (6 amphidromous species, 4 catadromous species, and 10 euryhaline species) underscored the interconnectedness of food webs across the coastal prairie landscape.
+
+Previous reports indicate that euryhaline species are more prevalent in arid streams, showing a negative correlation with annual rainfall, while amphidromous species are more abundant in wetter years, such as 2020. These findings suggest increased assimilation of estuarine-derived nutrients in arid climates for both freshwater and euryhaline species. Interestingly, freshwater taxa consume more estuarine materials in arid environments, whereas euryhaline species assimilate less in humid conditions. It's crucial to note that these results do not elucidate the mechanisms of consumption. For example, freshwater fish in arid environments might either consume euryhaline wanderers or periodically visit nearby estuaries to feed on estuarine materials before returning to freshwater habitats.
+
+## Approach
+Through stable isotope analysis of 407 samples, we aimed to decipher estuarine assimilation in freshwater and transient species, shedding light on diet composition and source contributions. In this report, we examine linear relationships between estuarine assimilation with transient prevalence, annual rainfall, elevation, dam presence, and distance to the estuary.
+
+Analytical scripts are available at: https://github.com/skkinard/Estimating_Upstream_Nutrient_Subsidies
+
+## Key Features
+
+
+## Relevance
+
+
+\newpage
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(message=F, warning=F, echo=F,  
+               fig.fullwidth=TRUE, fig.dim = c(5, 5), fig.align="center")
+
+opts_knit$set(root.dir = "/home/kinard/Documents/Research/Dissertation/03_Diadromy")
+
+library(gt)
+library(gtExtras)
+```
+
+```{r}
+
+```
+
+\newpage

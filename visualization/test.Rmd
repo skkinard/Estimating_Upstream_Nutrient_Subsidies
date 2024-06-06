@@ -1,0 +1,29 @@
+---
+title: "Biomass-Weighted Community Estuarine Assimilation Estimates"
+author: "Sean Kinard"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: 
+    toc: yes
+    number_sections: yes
+header-includes:
+  - \usepackage{helvet}
+  - \renewcommand{\familydefault}{\sfdefault}
+editor_options: 
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+```{r}
+library(knitr)
+library(kableExtra)
+library(gt)
+library(gtExtras)
+
+# Set the working directory for all code chunks
+setwd("/home/kinard/Documents/Research/Dissertation/03_Diadromy")
+getwd()
+```
+
+

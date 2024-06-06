@@ -1,0 +1,242 @@
+---
+output:
+  word_document:
+    reference_docx: "EC_template.docx"
+---
+
+# Overview: Study Region and Samples Collected
+- Author: Sean Kinard
+- `r Sys.Date()`
+
+## Background
+Our investigation encompassed ten coastal rivers and five estuaries, with a focus on elucidating the connectivity between streams and estuaries, particularly in the face of aridity and artificial barriers. The presence of transient taxa (6 amphidromous species, 4 catadromous species, and 10 euryhaline species) underscored the interconnectedness of food webs across the coastal prairie landscape.
+
+## Approach
+Through stable isotope analysis of 407 samples, we aimed to decipher estuarine assimilation in freshwater and transient species, shedding light on diet composition and source contributions. Relationships between estuarine assimilation, transient prevalence, annual rainfall, elevation, dam presence, and distance to the estuary were rigorously examined. Additionally, the impact of the Calallen Dam on marine nutrient transport in the Nueces River was assessed.
+
+Analytical scripts are available at: https://github.com/skkinard/Estimating_Upstream_Nutrient_Subsidies
+
+## Key Features
+This report conducts exploratory data analysis on $\delta$^13^C and $\delta$^34^S for monitored streams and the dam study. Notably, the analysis treats monitored streams separately from the dam study due to variations in sampling methods—fish and invertebrate sampling at the Nueces River employed different techniques (seining and kicknets), and there is a lack of long-term monitoring survey data available for the Nueces River.
+
+The report features scaperplots, illustrating animal mixtures and sources in a 2-dimensional isotopic space. Additionally, it presents summary statistics for stable isotope values, offering valuable insights for fellow researchers.
+
+## Relevance
+In ecological stable isotope studies, it is imperative to include scatterplots in 2-dimensional isotopic space and report summary statistics for all analyzed values. These visual representations offer insights into the distribution and relationships between isotopic values, aiding in the identification of patterns, trends, and potential outliers within the data. By examining scatterplots, researchers can discern clusters or patterns indicative of different ecological groups or sources of isotopic variation, facilitating the interpretation of trophic relationships, habitat use, and migration patterns within ecosystems. Additionally, summary statistics provide a quantitative summary of the central tendency and variability of isotopic values, allowing researchers to assess data quality, compare between sites or species, and communicate findings effectively to the scientific community and stakeholders. Overall, these analytical tools are essential for understanding ecological processes, ensuring data reliability, and facilitating knowledge dissemination in ecological stable isotope research.
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(message=F, warning=F, echo=F,  
+               fig.fullwidth=TRUE, fig.dim = c(5, 5), fig.align="center")
+
+opts_knit$set(root.dir = "/home/kinard/Documents/Research/Dissertation/03_Diadromy")
+
+library(gt)
+library(gtExtras)
+```
+
+```{r}
+
+```
+
+\newpage
+
+### Satterplot $\delta$^34^S versus $\delta$^13^C: Streams
+$\delta$^34^S versus $\delta$^13^C values for fish and invertebrates, shaped and colored according to their transient type. Labels mark mean source signatures from streams and estuaries with cross-hairs extending to the 95% confidence interval.
+
+```{r, fig.dim = c(8, 8)}
+source(here::here('03_public', 'calculation', '24_CS_mix_vis_region.R'))
+
+plot_scatter_transient
+```
+
+\newpage
+
+### Satterplot $\delta$^34^S versus $\delta$^13^C: Calallen Dam
+Fish and invertebrate $\delta$^34^S and $\delta$^13^C signatures above (red) and below (blue) Calallen Dam on the Nueces River (0-1 m elevation and 20 km from the nearest Estuary). Labelled cross-hairs mark source signatures and 95% confidence intervals from streams and estuaries.
+
+```{R, fig.dim=c(8,8)}
+plot_scatter_dam
+```
+
+\newpage
+
+### Table: Source δ^13^C and δ^34^S Summary Statistics (Regional summary)
+Bootstrapped mean and 95% confidence intervals for primary producer δ^13^C and δ^34^S signatures from streams and estuaries.
+
+```{r}
+table_source_boot %>%
+  mutate(isotope = ifelse(isotope == 'carbon', 'Carbon-13', 'Sulfur-34')) %>%
+  gt() %>%
+  cols_align(align ='center') %>% 
+  fmt_number(decimals=1) %>%
+  cols_label(
+    isotope = "Isotope",
+    mu = "Mean (\U03B4)",
+    lower = "2.5% (\U03B4)",
+    upper = "97.5% (\U03B4)",
+    .fn = md)
+```
+
+\newpage
+
+### Table: Source δ^13^C Summary Statistics (by site and type)
+Primary producer **$\delta$^13^C** summary statistics grouped according to site and sample type. Sites are arranged by type (bays followed by streams) in ascending order of annual rainfall. Cell contents contain "mean, standard deviation (n)". Cell contents contain "mean, standard deviation (#-of-samples)".
+
+```{r}
+table_iso_sources %>%
+  add_rain() %>%
+  mutate(annualrain=round(annualrain,0)) %>%
+  fix_site_order() %>%
+  arrange(site_type, annualrain, lowest_taxon) %>%
+  select(site_code, lowest_taxon, C13) %>%
+  pivot_wider(names_from=lowest_taxon, values_from = C13) %>%
+  gt() %>%
+  cols_align(align ='left') %>% 
+  cols_label(site_code = 'Site') %>%
+  fmt_missing(columns = everything(), missing_text = "")
+```
+
+\newpage
+
+### Table: Source δ^34^S Summary Statistics (by site and type)
+Primary producer **$\delta$^34^S** summary statistics grouped according to site and sample type. Sites are arranged by type (bays followed by streams) in ascending order of annual rainfall. Cell contents contain "mean, standard deviation (n)". Cell contents contain "mean, standard deviation (#-of-samples)".
+
+```{r}
+table_iso_sources %>%
+  add_rain() %>%
+  mutate(annualrain=round(annualrain,0)) %>%
+  fix_site_order() %>%
+  arrange(site_type, annualrain, lowest_taxon) %>%
+  select(site_code, lowest_taxon, S34) %>%
+  pivot_wider(names_from=lowest_taxon, values_from = S34) %>%
+  gt() %>%
+  cols_align(align ='left') %>% 
+  cols_label(site_code = 'Site') %>%
+  fmt_missing(columns = everything(), missing_text = "")
+```
+
+\newpage
+
+### Table: Fish δ^13^C Summary Statistics (by site and family)
+Stream fish ** $\delta$^13^C** summary statistics grouped by taxonomic family. Columns are labeld with the 2-letter site code with corresponding annual rainfall (rounded to the nearest centimeter). Cell contents contain "mean, standard deviation (#-of-samples)".
+
+```{r}
+table_iso_stream %>%
+  filter(guild=='Fish') %>%
+  select(-guild, -site_type) %>%
+  add_rain() %>%
+  mutate(annualrain=round(annualrain,0)) %>%
+  arrange(family, annualrain) %>%
+  mutate(site_rain = paste(site_code, '-', round(annualrain, 0), sep='')) %>%
+  select(site_rain, family, C13) %>%
+  pivot_wider(names_from=site_rain, values_from = C13) %>%
+  gt() %>%
+  cols_align(align ='center') %>% 
+  cols_label(family = "Family") %>%
+  fmt_missing(columns = everything(), missing_text = "")
+```
+
+\newpage
+
+### Table: Fish δ^34^S Summary Statistics (by site and family)
+Stream fish **$\delta$^34^S** summary statistics grouped by taxonomic family. Columns are labeld with the 2-letter site code with corresponding annual rainfall (rounded to the nearest centimeter). Cell contents contain "mean, standard deviation (#-of-samples)".
+
+```{r}
+table_iso_stream %>%
+  filter(guild=='Fish') %>%
+  select(-guild, -site_type) %>%
+  add_rain() %>%
+  mutate(annualrain=round(annualrain,0)) %>%
+  arrange(family, annualrain) %>%
+  mutate(site_rain = paste(site_code, '-', round(annualrain, 0), sep='')) %>%
+  select(site_rain, family, C13) %>%
+  pivot_wider(names_from=site_rain, values_from = C13) %>%
+  gt() %>%
+  cols_align(align ='center') %>% 
+  cols_label(family = "Family") %>%
+  fmt_missing(columns = everything(), missing_text = "")
+```
+
+\newpage
+
+### Table: Invertebrate δ^13^C Summary Statistics (by site and family)
+Stream invertebrate **$\delta$^13^** summary statistics grouped by taxonomic family. Columns are labeld with the 2-letter site code with corresponding annual rainfall (rounded to the nearest centimeter). Cell contents contain "mean, standard deviation (#-of-samples)".
+
+```{r}
+table_iso_stream %>%
+  filter(guild=='Invertebrate') %>%
+  select(-guild, -site_type) %>%
+  add_rain() %>%
+  mutate(annualrain=round(annualrain,0)) %>%
+  arrange(family, annualrain) %>%
+  mutate(site_rain = paste(site_code, '-', round(annualrain, 0), sep='')) %>%
+  select(site_rain, family, C13) %>%
+  pivot_wider(names_from=site_rain, values_from = C13) %>%
+  select(family, `SF-57`, `AR-69`, `MR-73`, `MR-73`, `PD-79`, `PL-82`, `GC-84`, `WM-94`, `EM-95`, `CB-NA`) %>%
+  gt() %>%
+  cols_align(align ='center') %>% 
+  cols_label(family = "Family") %>%
+  fmt_missing(columns = everything(), missing_text = "")
+```
+
+\newpage
+
+### Table: Invertebrate δ^34^S Summary Statistics (by site and family)
+Stream invertebrate **δ^34^S** summary statistics grouped by taxonomic family. Columns are labeld with the 2-letter site code with corresponding annual rainfall (rounded to the nearest centimeter). Cell contents contain "mean, standard deviation (#-of-samples)". 
+
+```{r}
+table_iso_stream %>%
+  filter(guild=='Invertebrate') %>%
+  select(-guild, -site_type) %>%
+  add_rain() %>%
+  mutate(annualrain=round(annualrain,0)) %>%
+  arrange(family, annualrain) %>%
+  mutate(site_rain = paste(site_code, '-', round(annualrain, 0), sep='')) %>%
+  select(site_rain, family, S34) %>%
+  pivot_wider(names_from=site_rain, values_from = S34) %>%
+  select(family, `SF-57`, `AR-69`, `MR-73`, `MR-73`, `PD-79`, `PL-82`, `GC-84`, `WM-94`, `EM-95`, `CB-NA`) %>%
+  gt() %>%
+  cols_align(align ='center') %>% 
+  cols_label(family = "Family") %>%
+  fmt_missing(columns = everything(), missing_text = "")
+```
+
+\newpage
+
+### Table: Fish and Invertebrate δ^13^C Summary Statistics (Above and Below Calallen Dam)
+Fish and invertebrates caught above and below Calallen Dam **$\delta$^13^C** summary statistics. Cell contents contain "mean, standard deviation (#-of-samples)".
+
+```{r}
+table_iso_dam %>%
+  mutate(site_code = ifelse(site_code == 'UN', 'Above Dam', 'Below Dam')) %>%
+  arrange(site_type, family, site_code) %>%
+  fix_site_order() %>%
+  select(site_code, guild, family, C13) %>%
+  pivot_wider(names_from=site_code, values_from = C13) %>%
+  group_by(guild) %>%
+  gt() %>%
+  cols_align(align ='left') %>% 
+  cols_label(family = 'Family') %>%
+  fmt_missing(columns = everything(), missing_text = "")
+```
+
+\newpage
+
+### Table: Fish and Invertebrate δ^34^S Summary Statistics (Above and Below Calallen Dam)
+Fish and invertebrates caught above and below Calallen Dam **$\delta$^34^S** summary statistics. Cell contents contain "mean, standard deviation (#-of-samples)".
+
+```{r}
+table_iso_dam %>%
+  mutate(site_code = ifelse(site_code == 'UN', 'Above Dam', 'Below Dam')) %>%
+  arrange(site_type, family, site_code) %>%
+  fix_site_order() %>%
+  select(site_code, guild, family, C13) %>%
+  pivot_wider(names_from=site_code, values_from = C13) %>%
+  group_by(guild) %>%
+  gt() %>%
+  cols_align(align ='left') %>% 
+  cols_label(family = 'Family') %>%
+  fmt_missing(columns = everything(), missing_text = "")
+```
+

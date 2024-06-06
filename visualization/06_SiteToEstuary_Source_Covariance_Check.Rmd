@@ -1,0 +1,191 @@
+---
+output:
+  pdf_document:
+header-includes:
+  - \usepackage{helvet}
+  - \renewcommand{\familydefault}{\sfdefault}
+editor_options: 
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+# Source-Site Covariance Check
+- Author: Sean Kinard
+- `r Sys.Date()`
+
+## Objective
+This study aims to investigate the covariance between sites and estuaries by examining primary producer stable isotope values, specifically $\delta$^13^C and $\delta$^34^S. We hypothesize that these source values do not covary with site-specific predictors such as annual rainfall, distance to bays, presence of dams, and elevation.
+
+## Background
+Stable isotope analysis is a powerful tool used in ecological studies to trace nutrient sources and understand food web dynamics. In this context, $\delta$^13^C and $\delta$^34^S values are particularly informative as they provide insights into the carbon and sulfur cycles, respectively. These isotopic signatures can help differentiate between terrestrial and aquatic primary producers and reveal the influence of estuarine inputs on freshwater ecosystems.
+
+## Hypotheses
+Our primary hypothesis posits that the isotopic values of primary producers (both aquatic and terrestrial) at various sites are independent of local environmental predictors such as rainfall, proximity to estuaries, and topographical features like elevation.
+
+Secondary hypotheses include:
+1. Salt-Water Intrusion Hypothesis: Salt-water intrusion might cause primary producers in freshwater and terrestrial environments to exhibit isotopic signatures similar to those of estuarine primary producers. This would suggest that estuarine influences extend further inland, potentially altering the nutrient dynamics and food web structures of these ecosystems.
+1. Site Predictors Hypothesis: Variations in site-specific predictors (e.g., rainfall, distance to bays, presence of dams, and elevation) do not significantly correlate with the $\delta$^13^C and $\delta$^34^S values of primary producers. This would indicate that local environmental conditions have a minimal effect on the isotopic signatures of these producers.
+
+## Importance
+Understanding the relationship between primary producer isotopic values and site-specific factors is crucial for several reasons:
+
+- Nutrient Dynamics: It helps elucidate how nutrient inputs from estuaries influence freshwater and terrestrial ecosystems.
+- Food Web Structure: It provides insights into the basal resources that support different food webs and how these might shift with changing environmental conditions.
+- Management and Conservation: It informs management strategies aimed at preserving the integrity of aquatic and terrestrial ecosystems, especially in the face of increasing salt-water intrusion and other anthropogenic impacts.
+
+## Methodology
+
+This study involves collecting and analyzing primary producer samples from various sites and estuaries. Stable isotope analysis will be conducted to determine $\delta$^13^C and $\delta$^34^S values. These values will then be statistically analyzed to assess their covariance with site-specific predictors using linear regression models and other appropriate statistical techniques.
+
+By examining these relationships, we aim to improve our understanding of how estuarine influences and local environmental factors shape the isotopic signatures of primary producers across different ecosystems.
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(message=F, warning=F, echo=T,  
+               fig.fullwidth=TRUE, fig.dim = c(5, 5), fig.align="center")
+
+opts_knit$set(root.dir = "/home/kinard/Documents/Research/Dissertation/03_Diadromy")
+
+library(gt)
+library(gtExtras)
+```
+
+\newpage
+
+# Data preparation
+```{r}
+# -----------------------------------------------------------------------------
+# Setup
+# -----------------------------------------------------------------------------
+library(here)
+source(here('03_public', 'toolkit.R')) # load packages and helper-function
+# Load Isotope Data
+d_iso_raw <- read_csv(here::here('03_public', 'output', 'isotope_CNS_2020_01_clean.csv'))
+
+d_sources <- d_iso_raw %>%
+  filter(guild %in% c('Aquatic_Producer', 'Terrestrial_Producer'))
+
+# Estuary Source Summary Statistics
+t_bay <- d_sources %>%
+  add_sitevars() %>%
+  filter(site_code %in% my_bays) %>%
+  group_by(site_code) %>%
+  summarize(bay_carbon_mu = mean(carbon, na.rm=T),
+            bay_carbon_sd = sd(carbon, na.rm=T),
+            bay_sulfur_mu = mean(sulfur, na.rm=T),
+            bay_sulfur_sd = sd(sulfur, na.rm=T),
+            bay_samples_n = length(site_code)) %>%
+  rename(nearest_bay = site_code) %>%
+  ungroup()
+
+# Stream Source Summary Statistics
+t_stream <- d_sources %>%
+  add_sitevars() %>%
+  filter(site_code %in% my_streams) %>%
+  group_by(site_code, nearest_bay) %>%
+  summarize(site_carbon_mu = mean(carbon, na.rm=T),
+            site_carbon_sd = sd(carbon, na.rm=T),
+            site_sulfur_mu = mean(sulfur, na.rm=T),
+            site_sulfur_sd = sd(sulfur, na.rm=T),
+            site_samples_n = length(site_code))%>%
+  ungroup()
+```
+
+# Calculations
+
+```{r}
+# Calculate difference between site and nearest bay source values (C and S)
+d_source_diff <- left_join(t_stream, t_bay) %>%
+    mutate(diff_carbon = site_carbon_mu - bay_carbon_mu,
+           diff_sulfur = site_sulfur_mu - bay_sulfur_mu) %>%
+  add_sitevars() %>%
+  add_rain() %>%
+  select(site_code, contains('diff'), everything())
+```
+
+\newpage
+
+# Figure: Site-Estuary Differences Versus Site Predictors
+
+```{r}
+# -----------------------------------------------------------------------------
+# visualization: site-estuary diff versus site predictors
+# -----------------------------------------------------------------------------
+p_source_diff <- d_source_diff %>%
+  pivot_longer(cols=contains('diff'), names_to = 'xname', values_to = 'xvalue') %>%
+  mutate(xname = str_replace_all(xname, 'diff_', '')%>%str_to_title) %>%
+  pivot_longer(cols=c(annualrain, baydist_km), names_to = 'pred_name', 
+               values_to = 'pred_value') %>%
+  mutate(pred_name = ifelse(pred_name == 'annualrain', 
+                            'Annual Rainfall (cm)', 'Distance To Bay (km)')) %>%
+  ggplot(aes(x=pred_value, y=xvalue)) +
+  facet_grid(pred_name~xname) +
+  geom_point(size=2, color='blue', fill='skyblue', shape=21, alpha=.5) +
+  geom_point(size=2, color='blue', fill=NA, shape=21) +
+  labs(x=element_blank(), y= 'Site - Estuary Source Difference (permille)') +
+  theme_bw(base_size=12)
+
+p_source_diff
+```
+
+\newpage
+
+# Table: Regression Statistics For Site-Estuary Differences Versus Site Predictors
+
+```{r}
+# -----------------------------------------------------------------------------
+# Regression Table
+# -----------------------------------------------------------------------------
+
+# table function: Biomass versus Rainfall
+table_lm_stats <- function(predictor, response) {
+  d_temp <- d_source_diff
+  colnames(d_temp) <- str_replace_all(colnames(d_temp), predictor, 'predictor')
+  colnames(d_temp) <- str_replace_all(colnames(d_temp), response, 'response')
+  
+  lm(formula = response ~ predictor, 
+     data = d_temp) %>%
+    summary()  %>%
+    broom::tidy() %>%
+    filter(term == 'predictor') %>%
+    mutate(predictor = str_replace_all(term, 'predictor', predictor),
+           response = response) %>%
+    select(-term) %>%
+    mutate(
+      signif = case_when(
+        p.value >= 0.01 & p.value < 0.05 ~ "*",
+        p.value < 0.01 ~ "**",
+        T ~ ""  )) %>%
+    select(contains('response'), contains('predictor'), everything())
+}
+
+# Test table function
+# table_lm_stats(predictor='annualrain', response='diff_carbon')
+
+# Setup regressions
+my_predictors <- c('annualrain', 'baydist_km', 'elev_site_m')
+my_responses <- c('diff_carbon', 'diff_sulfur')
+
+t_source_diff <- crossing(my_predictors, my_responses) %>%
+  mutate(lm = map2(my_predictors, my_responses, table_lm_stats)) %>%
+  unnest(lm) %>%
+  select(-contains('my'))
+```
+
+```{r}
+t_source_diff %>% gt()
+```
+\newpage
+
+## Summary of Findings
+- Isotopic Analysis: The analysis involved computing the mean stable isotope values for primary producers at various sites and their corresponding estuaries. These values were then used to determine the differences between each site and its estuary.
+- Visual Data Exploration: Visual exploration of the data was conducted to identify patterns or trends in the isotopic differences relative to site-specific predictors like rainfall and distance to bays. The visual inspection indicated that the patterns of isotopic differences appeared random.
+- Statistical Analysis: Univariate regression analyses were performed to statistically assess the relationship between isotopic differences and site-specific predictors. The results of these regressions confirmed the initial visual observations, indicating a lack of significant covariance between the isotopic values and the environmental predictors.
+
+## Implications
+- Nutrient Dynamics: The apparent randomness in isotopic differences implies that estuarine nutrient inputs do not have a straightforward or predictable impact on the isotopic signatures of primary producers in adjacent freshwater and terrestrial ecosystems.
+- Food Web Structure: The lack of covariance suggests that local environmental factors may not significantly alter the basal resources of food webs, at least in terms of carbon and sulfur stable isotope values.
+
+## Conclusions
+The findings suggest that the stable isotope signatures of primary producers at the studied sites are not significantly influenced by local environmental factors such as rainfall and proximity to estuaries. This supports the hypothesis that primary producer isotopic values are largely independent of these site-specific predictors.

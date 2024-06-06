@@ -1,0 +1,243 @@
+---
+title: "Overview: Study Region and Samples Collected"
+author: "Sean Kinard"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: 
+    toc: yes
+    number_sections: yes
+header-includes:
+  - \usepackage{helvet}
+  - \renewcommand{\familydefault}{\sfdefault}
+editor_options: 
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(message=F, warning=F, echo=T,  
+               fig.fullwidth=TRUE, fig.dim = c(5, 5), fig.align="center")
+
+opts_knit$set(root.dir = "/home/kinard/Documents/Research/Dissertation/03_Diadromy")
+
+library(gt)
+library(gtExtras)
+```
+
+\newpage
+
+# Report Summary
+## Background
+This study investigated the Texas Coastal Plain's Gulf Coastline, renowned for its sharp precipitation gradient. It focused on ten coastal rivers and five estuaries, with nine rivers under a multi-year monitoring program. The presence of transient taxa (euryhaline, amphidromous, and catadromous) hinted at interconnected food-webs along the coastal prairie.
+
+## Approach
+The study aimed to quantify estuarine assimilation in freshwater and inconspicuous transients to understand aridity and man-made barrier effects on stream-estuary connectivity in subtropical coastal ecosystems. In January 2020, samples of detritus, primary producers, fish, and invertebrates were collected for stable isotope analysis. Analysis of 407 samples for $\delta$^13^C, for $\delta$^15^N, and for $\delta$^34^S content aimed to understand diet composition and source contributions. Transient prevalence was estimated from monitoring surveys. Relationships between estuarine assimilation, transient prevalence, annual rainfall, elevation, dam presence, and distance to the estuary were tested. The impact of the Calallen Dam on marine nutrient movement in the Nueces River was assessed.
+
+Analytical scripts are available at: https://github.com/skkinard/Estimating_Upstream_Nutrient_Subsidies
+
+## Key Features
+This report encapsulates detailed site characteristics, sample overviews, and stable isotope statistics to provide a snapshot of the study region and provide technical details for this ecological research endeavor.
+
+## Relevance
+Our study underscores the critical role of freshwater in maintaining estuarine-stream connectivity and its significance for transient marine species in the Texas Coastal Plain. By elucidating these intricate ecological relationships, our findings hold implications for conservation efforts and resource management strategies in coastal ecosystems.
+
+\newpage
+
+
+# Study Region
+## Figure: Map
+Stable Isotope collection sites (labeled in white), where primary producers, fish, invertebrates, and environmental data were collected in January 2020. An overlay indicates the average annual precipitation (white-tan-green) from USGS PRISM data (1981-2010). Point features crossing streams of interest include dams (red), culverts (green), and bridges (blue). Cities and urban areas (labeled in grey) were included for geographic reference. This map was made with the National Hydrography Dataset and Natural Earth.
+
+![](../../03_public/visualization/site_map_with_inset.png)
+
+\newpage
+
+### Study Region Description
+
+The study was conducted in ecoregion 34, the Gulf Coasts and Prairies region of central and southern Texas. Study sites included ten coastal rivers co-located with USGS gauging stations and the five downstream receiving estuaries. Nine of these rivers were part of a multi-year (2016–2020) electrofishing and macroinvertebrate monitoring program. The tenth river, the Nueces, featured two study sites: one directly below and the other directly above the Calallen Salt Dam, a 1.5-meter high rock-fill dam that serves as a barrier to saltwater intrusion from Nueces Bay.
+
+Distributed along a southwest to northeast gradient, the average annual rainfall increases from 67 to 113 cm/year. All sites are <50 meters above sea level and have similar underlying geology. The sampled rivers drain into one of five estuaries: Baffin Bay, Nueces Bay, Copano Bay, Hynes Bay, and Lavaca Bay, ranging from 16 to 93 river kilometers upstream of the receiving bays.
+
+Three of the nine remaining river sites, aside from the Nueces River, were located upstream of dams. Specifically, Perdido Creek was situated above the Coleto Dam, while the West and East Mustang Creek locations were upstream of the Palmetto Bend Dam, which forms Lake Texana. One to three road crossing bridges were present between most sample sites and their nearest estuary, but no culverts were observed.
+
+Environmental data for the sampling locations was obtained from the USGS Gauges II database and USGS National Map Streamer.
+
+### Map Generation Methods:
+
+To create a detailed site map for a study area in Texas, we utilized several spatial data processing and visualization techniques. Data preparation involved loading essential libraries (tidyverse, sf, ggspatial, etc.) for data manipulation and spatial analysis. We defined key functions: map_limits() to filter data within specified geographic boundaries, and extract_my_stream_crossings() to filter and combine stream crossing data by stream names.
+
+Various geographic shapefiles were loaded and processed, including state boundaries (ne_states), rivers, lakes, flowlines, precipitation data, oceans, and urban areas. We sourced these from datasets like Natural Earth and the National Hydrography Dataset. Point features were extracted and formatted, including cities, sample sites, dams, and stream crossings. These features were limited to the study area and prepared for visualization. 
+
+Using ggplot2, we layered geographic features such as precipitation, state boundaries, urban areas, lakes, rivers, and flowlines, alongside point features like cities, sample sites, and dams. We customized the map's appearance with appropriate color scales, shapes, sizes, and labels.
+
+An inset map was created to provide a broader geographic context of the study area within Texas. Finally, we exported the main site map and the inset map as PNG files. The site map includes detailed labels and legends for ease of interpretation, and features such as dams, culverts, bridges, cities, and urban areas are clearly delineated. The script to generate this map is called calculation/02_site_map.R.
+
+\newpage
+
+## Table: Site Characteristics
+
+
+```{r, echo=F}
+source(here::here('03_public', 'toolkit.R'))
+
+site_vars <- read_csv('03_local_files/data/isotope_raw/MDN_clean_final.csv') %>%
+  r_friendly_colnames() %>%
+  rename(site_code=site) %>%
+  select(site_code, site_type, pptavg_site, latitude, longitude, nearest_bay, 
+         baydist_km, elev_site_m) %>%
+  mutate(site_type = str_replace_all(site_type, 'Fresh', 'Stream')) %>%
+  unique() %>%
+  pivot_longer(cols=-any_of(c('site_code', 'site_type', 'nearest_bay', 
+                              'pptavg_site', 'latitude', 'longitude')),
+               names_to='xname', values_to='xvalue') %>%
+  mutate(xvalue = ifelse(xvalue==-999, NA,xvalue)) %>%
+  pivot_wider(names_from=xname, values_from=xvalue) %>%
+  arrange(desc(site_type), longitude) %>%
+  left_join(read_csv("03_local_files/data/environment/MDN_site_lat_lon.csv") %>%
+              r_friendly_colnames() %>%
+              select(site_name, site_code, staid)) %>%
+  select(site_code, site_name, staid, latitude, longitude, everything())
+
+d_table1 <- site_vars %>% 
+  add_is_dam() %>%
+  add_rain() %>%
+  arrange(annualrain)
+
+d_table1 %>%
+  mutate(site_type = ifelse(site_type == 'Stream', is_dam, site_type)) %>%
+  select(-is_dam, -pptavg_site) %>%
+  select(site_code, site_name, staid, latitude, longitude, annualrain, everything()) %>%
+  gt(groupname_col = 'site_type') %>%
+  cols_align(align ='center') %>% 
+  fmt_number(decimals=1) %>%
+  fmt_number(columns=c(latitude, longitude), decimals=3) %>%
+  fmt_number(columns=c(staid, elev_site_m), use_seps = F, decimals=0) %>%
+  fmt_missing(missing_text = '') %>%
+  cols_label(
+    site_code = "Code",
+    site_name = "Site Name",
+    staid = "USGS ID",
+    latitude = "Lat",
+    longitude = "Lon",
+    annualrain = "Rain, cm/yr",
+    nearest_bay = "Nearest Bay",
+    baydist_km = "Bay Dist, km",
+    elev_site_m = "Elevation, m") %>%
+  tab_options(
+    table.font.size = px(10),  # Set font size to 10 pixels
+    table.width = pct(100)  # Set table width to 100%
+  )
+
+```
+
+## Summary: Study Region
+We collected samples from 16 locations, including 9 streams, 5 estuaries, and points above and below a dam. Distances to bays for streams ranged from 14.8km to 96km, averaging 46.5 km. Site elevations varied between 5m and 50m, averaging 19.4m.
+
+The 9 streams represent a precipitation gradient of 54.2-95 cm/yr (1.8mm/km), with 3 sites facing man-made barriers but no culverts detected. They discharge into five bays. Samples above and below the Calallen Dam on the Nueces River were also taken, providing insight into modest (1.5m) man-made barrier effects on upstream estuarine nutrient transport.
+
+\newpage
+
+
+# Community Samples
+## Table: Transient Species Encountered 2017-2020
+Taxonomic information of species encountered in stream monitoring surveys from 2017-2020 and during stable isotope sampling during January of 2020. Species are grouped by life-history categories (Amphidromous, Catadromous, and Euryhaline).
+
+```{r, echo=F}
+table_species <- read_csv(here::here('03_local_files',
+                                     'data',
+                                     'community',
+                                     'fish_species_with_transient.csv'))
+
+table_species %>%
+  filter(species != 'beryllina') %>%
+  filter(transient_type %in% c('Anadromous', 'Catadromous', 'Euryhaline', 'Amphidromous')) %>%
+  filter(! is.na(genus)) %>%
+  mutate(species = paste(genus, species, sep=' ')) %>%
+  select(guild, transient_type, species, order) %>%
+  unique() %>%
+  arrange(guild, transient_type, order) %>%
+  gt(groupname_col = 'transient_type') %>%
+  cols_align(align ='left') %>% 
+  cols_label(
+    guild  = "Guild",
+    species = "Genus Species",
+    order = "Order")
+
+
+```
+
+\newpage
+
+## Table: Samples Collected: Guilds
+
+```{r, echo=F, include = F}
+d <- read_csv('03_public/output/isotope_CNS_2020_01_clean.csv')
+
+t_samples_0 <- d %>%
+  group_by(guild) %>%
+  summarize(n_samples = length(lowest_taxon)) %>%
+  ungroup() %>%
+  pivot_wider(names_from = guild, values_from = n_samples)
+
+t_samples_00 <- d %>%
+  filter(!is.na(transient_type)) %>%
+  group_by(transient_type) %>%
+  summarize(n_samples = length(lowest_taxon)) %>%
+  ungroup() %>%
+  pivot_wider(names_from = transient_type, values_from = n_samples)
+
+t_samples_1 <- d %>%
+  group_by(site_code, guild) %>%
+  summarize(n_samples = length(lowest_taxon)) %>%
+  ungroup() %>%
+  pivot_wider(names_from = guild, values_from = n_samples) %>%
+  add_rain() %>%
+  mutate(annualrain=round(annualrain,1)) %>%
+  arrange(annualrain) %>%
+  select(site_code, annualrain, contains('Producer'), everything()) %>%
+  rename(Site = site_code,
+         'Rain (cm/yr)' = annualrain,
+         'Aq. Source' = Aquatic_Producer,
+         'Te. Source' = Terrestrial_Producer)
+
+t_samples_2 <- d %>%
+  filter(guild %in% c('Fish', 'Invertebrate')) %>%
+  group_by(site_code, transient_type) %>%
+  summarize(n_samples = length(lowest_taxon))%>%
+  ungroup()%>%
+  pivot_wider(names_from = transient_type, values_from = n_samples) %>%
+  add_rain() %>%
+  mutate(annualrain=round(annualrain,1)) %>%
+  arrange(annualrain) %>%
+  select(site_code, annualrain, contains('Producer'), everything())%>%
+  rename(Site = site_code,
+         'Rain cm/yr' = annualrain)
+```
+
+Number of processed stable isotope samples for $\sigma$^13^C and $\sigma$^34^S at each stream site, including drainage bays (BB, CB, HB, LB, NB), and above/below the Calallen Dam (UN, LN). Sites are arranged in order of increasing annual rainfall (cm). Samples were aggregated within guild categories: aquatic source, terrestrial source, fish, and invertebrate.
+
+```{r, echo=F}
+t_samples_1 %>% gt() %>%
+  fmt_missing(columns = everything(), missing_text = "")
+```
+
+\newpage
+
+## Table: Samples Collected: Transient Types
+Number of processed stable isotope samples for $\sigma$^13^C and $\sigma$^34^S at each stream site, including drainage bays (BB, CB, HB, LB, NB), and above/below the Calallen Dam (UN, LN). Sites are arranged in order of increasing annual rainfall (cm). Samples were aggregated within transient types: freshwater, euryhaline, amphidromous, and catadromous.
+
+```{r, echo=F}
+t_samples_2 %>% gt()%>%
+  fmt_missing(columns = everything(), missing_text = "")
+```
+
+## Interpretation: Samples Collected
+A total of 407 stable isotope samples were analyzed for $\sigma$^13^C and $\sigma$^34^S, comprising 129 samples from aquatic producers, 34 from terrestrial producers, 172 from fish, and 72 from invertebrates. Among the animal samples, 195 represented freshwater species, 28 were euryhaline, and 2 were catadromous. Notably, samples were not collected to mirror natural abundances. Consequently, any community averages derived from stable isotope data will necessitate adjustments based on population estimates obtained from long-term monitoring survey data.
+
+
+
+
+
+

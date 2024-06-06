@@ -1,0 +1,349 @@
+---
+title: "Transient Biomass Proportion of Communities Versus Rainfall"
+author: "Sean Kinard"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: 
+    toc: yes
+    number_sections: yes
+header-includes:
+  - \usepackage{helvet}
+  - \renewcommand{\familydefault}{\sfdefault}
+editor_options: 
+  chunk_output_type: console
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+
+opts_chunk$set(message=F, warning=F, echo=T,  
+               fig.fullwidth=TRUE, fig.dim = c(5, 5), fig.align="center")
+
+# Set the working directory for all code chunks
+setwd("/home/kinard/Documents/Research/Dissertation/03_Diadromy")
+
+#------------------------------------------------------------------------------
+# Setup
+#------------------------------------------------------------------------------
+
+# load core project packages and custom-made helper-functions
+source(here::here('03_public', 'toolkit.R'))
+
+# load some script-specific packages
+library(patchwork)
+library(ggpubr)
+library(ggpmisc)
+library(here)
+library(gt)
+library(gtExtras)
+
+# load survey data containing biomass and density for taxa for each sample event
+db <- read_csv(here('03_public', 'output', 
+                    'fish_and_invert_biomass_with_taxonomic_and_transient_info.csv'))
+
+species_key <- read_csv(here('03_local_files', 'data', 'community',
+                             'fish_species_with_transient.csv'))
+
+# load Bayesian mixing model outputs from stable isotope data
+# load Estuarine Assimilation Estimates for: order, transient_type,  species   
+iso <- read_csv(here('03_public', 'output', 'CS_mix_out.csv'))
+
+# Match isotope data column names to merge survey
+iso_order <- iso %>% filter(dataset == 'order') %>%
+  rename(order = m_group, EA_order_mu = mean, EA_order_sd = sd, 
+         site_code = site) %>%
+  select(site_code, order, EA_order_mu, EA_order_sd) %>%
+  add_rain()
+
+# Extract taxonomic information for merging
+iso_species <- iso %>% filter(dataset == 'species') %>%
+  rename(species = m_group, EA_species_mu = mean, EA_species_sd= sd, 
+         site_code = site) %>%
+  select(site_code, species, EA_species_mu, EA_species_sd) %>%
+  left_join(species_key) %>%
+  filter(!(site_code == 'PL' & species == 'maculatus' & order == 'Gobiiformes')) %>%
+  add_rain()
+
+# extract EA for transient type: fresh, euryhaline, amphidromous, catadromous
+iso_transient <- iso %>% filter(dataset == 'transient_type') %>%
+  rename(transient_type = m_group, EA_transient_mu = mean, EA_transient_sd=sd, 
+         site_code = site) %>%
+  rename(transient = transient_type) %>%
+  select(site_code, transient, EA_transient_mu, EA_transient_sd) %>%
+  add_rain()
+
+# merge: survey, EA by order, taxonomic info, EA by transient type
+dc <- db %>%
+  left_join(iso_order) %>%
+  left_join(iso_species) %>%
+  left_join(iso_transient) %>%
+  arrange(desc(biomass_mu))
+```
+
+\newpage
+
+# Report Summary
+
+## Background:
+This research project aims to quantify the contributions of estuarine-derived nutrients to coastal streams across a natural precipitation gradient in South-Central Texas. It investigates estuarine assimilation in both inconspicuous migrants and freshwater taxa while examining its relationships with climate, geography, and anthropogenic factors.
+
+## Project Overview:
+Survey data containing biomass and density for taxa are read from CSV files, along with stable isotope data and Estuarine Assimilation Estimates (EA). The script merges these datasets based on taxonomic and transient information, preparing them for further analysis. Biomass proportions of each transient type at each monitor survey event are then calculated, and visualizations are generated to illustrate the relationship between community biomass proportion and annual rainfall. Regression statistics are computed to quantify this relationship, with significance markers indicating the level of significance.
+
+## Key Findings:
+The key findings of the analysis indicate significant relationships between community biomass proportion and annual rainfall, with nuanced patterns observed across different transient types, years, and quarters. Notably, euryhaline species show a negative correlation with annual rainfall, suggesting their significant presence in more arid streams, while amphidromous species display a positive relationship with rainfall, particularly in 2020. Catadromous and freshwater fish do not exhibit clear linear relationships with rainfall. Additionally, the analysis reveals varying trends in biomass proportions across different years and quarters, emphasizing the complex dynamics of estuarine assimilation in coastal stream ecosystems.
+
+## Relevance: 
+The relevance of these key findings lies in their implications for understanding the ecological dynamics of coastal stream ecosystems in response to climatic variability. The negative correlation between euryhaline species and annual rainfall suggests that these species may serve as indicators of aridity within these ecosystems. Conversely, the positive relationship between amphidromous species and rainfall highlights the potential for increased freshwater input to support their populations, potentially influencing community structure and ecosystem function. These findings underscore the importance of considering both climatic and ecological factors in managing and conserving coastal stream ecosystems, particularly in the context of changing precipitation patterns due to climate change. Additionally, the nuanced patterns observed across different transient types, years, and quarters emphasize the need for comprehensive, multi-scale approaches to ecosystem management and conservation that account for the complex interactions between climate, hydrology, and biotic communities.
+
+\newpage
+
+# Calculate Proportions of Each Transient Type At Each Monitor Survey Event
+
+```{r}
+#------------------------------------------------------------------------------
+# Setup
+#------------------------------------------------------------------------------
+source(here::here('03_public', 'toolkit.R')) # load packages and helper-functions
+library(patchwork)
+library(ggpubr)
+library(ggpmisc)
+library(here)
+
+# load data
+dc <- read_csv(here::here('03_public', 'output', 
+                               '15_combined_biomass_density.csv'))
+
+#------------------------------------------------------------------------------
+# transient proportion
+#------------------------------------------------------------------------------
+# total biomass
+total_biomass <- dc %>%
+  group_by(site_code, collection_period) %>%
+  mutate(total_biomass = sum(biomass, na.rm=T)) %>%
+  ungroup() %>%
+  select(total_biomass, biomass, everything()) %>%
+  arrange(desc(biomass))
+
+# transient_type_biomass
+transient_type_biomass <- total_biomass %>%
+  group_by(site_code, collection_period, transient_type) %>%
+  mutate(transient_type_biomass = sum(biomass, na.rm=T)) %>%
+  ungroup() %>%
+  select(transient_type_biomass, everything())
+  
+# transient_type_biomass_percent
+tb_stats <- transient_type_biomass %>%
+  mutate(transient_type_biomass_percent = 
+           transient_type_biomass/total_biomass*100) %>%
+  select(transient_type_biomass_percent, everything()) %>%
+  ungroup()
+```
+
+\newpage
+
+# Visualize: Community Biomass Proportion Versus Annual Rainfall
+
+
+### Setup tabular and plot functions
+```{r}
+#------------------------------------------------------------------------------
+# Community Biomass Proportion Vs Rainfall: Setup Functions
+#------------------------------------------------------------------------------
+
+# data prep
+d_prep <- function(x) {
+  x %>%
+    summarize(
+      mu_percent_biomass = mean(transient_type_biomass_percent, na.rm=T)) %>%
+  add_rain() %>%
+    ungroup()
+}
+
+
+# table function: Biomass versus Rainfall
+table_lm_stats <- function(x) {
+  
+  lm(formula = mu_percent_biomass ~ annualrain, 
+     data = x %>% add_rain()) %>%
+    summary()  %>%
+    broom::tidy() %>%
+    mutate(
+      signif = case_when(
+        p.value >= 0.01 & p.value < 0.05 ~ "*",
+        p.value < 0.01 ~ "**",
+        T ~ ""  )) 
+}
+
+make_table <- function(y) {
+  y %>%
+    nest() %>%
+    mutate(lm = map(data, table_lm_stats)) %>%
+    unnest(lm) %>%
+    filter(term == 'annualrain') %>%
+    select(-term, -data) %>%
+    ungroup() %>%
+    arrange(p.value) 
+}
+
+# Figure Function: Biomass versus Rainfall
+visualize_biomass_vs_rain <- function(x) {
+  x %>%
+    ungroup() %>%
+    ggplot(aes(x=annualrain, y = mu_percent_biomass)) +
+    geom_point(size=2, color='blue', fill='skyblue', shape=21, alpha=.5) +
+    geom_point(size=2, color='blue', fill=NA, shape=21) +
+    labs(x='Rainfall (cm/yr)', y='% of Community Biomass') +
+    theme_bw(base_size=12) +
+    geom_smooth(data = . %>% filter(p.value < 0.1), 
+                method = "lm", se = FALSE, 
+                color = "blue", lwd=.5, lty=2) +
+    geom_smooth(data = . %>% filter(p.value < 0.05), 
+                method = "lm", se = FALSE, 
+                color = "blue", lwd=.5, lty=1)
+} 
+```
+
+\newpage
+
+## Community Biomass Proportion Vs Rainfall: Site Average: All survey data
+
+```{r}
+#------------------------------------------------------------------------------
+# Community Biomass Proportion Vs Rainfall: Site Average: All survey data
+#------------------------------------------------------------------------------
+d_site_mu <- tb_stats %>%
+  group_by(site_code, transient_type) %>%
+  d_prep()
+
+t_site_mu <- d_site_mu %>%
+  group_by(transient_type) %>%
+  make_table()
+
+p_site_mu <- d_site_mu %>%
+  left_join(t_site_mu) %>%
+  visualize_biomass_vs_rain() +
+  facet_wrap(~transient_type)
+```
+
+\newpage
+
+### Figure: Community Biomass Proportion Vs Rainfall: Site Average
+Scatterplot illustrating regression statistics for the proportion of community biomass versus annual rainfall. Biomass values are expressed as a percentage of ash-free dry mass per square meter averaged across sites from surveys conducted between 2017 and 2020. Solid lines represent statistically significant regressions with a p-value threshold of 0.05, while dotted lines represent regressions with a threshold of 0.1.
+
+```{r}
+p_site_mu
+```
+
+#### Interpretation:
+The proportion of euryhaline biomass within communities shows a negative correlation with annual rainfall (p=0.046), suggesting that euryhaline species constitute a significant portion of community biomass in more arid streams, reaching up to a site average of over 25% of the total community biomass. Conversely, amphidromous biomass proportion within communities exhibits a positive relationship with annual rainfall, albeit at a higher alpha threshold (0.096). However, no linear relationships were observed between the biomass proportions of catadromous and freshwater fish within communities and annual rainfall. These findings suggest that as annual rainfall increases, euryhaline biomass proportions decrease, while amphidromous biomass proportions increase simultaneously.
+
+\newpage
+
+### Table: Community Biomass Proportion Vs Rainfall: Site Average
+Regression statistics for the proportion of community biomass versus annual rainfall. Biomass values are expressed as a percentage of ash-free dry mass per square meter averaged across sites from surveys conducted between 2017 and 2020. Metrics include slope estimate, standard error, F-statistic, p-value, and significance markers for alpha thresholds (*<0.05 and **<0.01).
+```{r}
+t_site_mu %>%
+  gt() %>% 
+  fmt_number(columns = c(std.error, statistic, p.value), decimals = 3)
+```
+
+\newpage
+
+## Community Biomass Proportion Vs Rainfall: (by Year)
+
+```{r}
+#------------------------------------------------------------------------------
+# Community Biomass Proportion Vs Rainfall: (by Year)
+#------------------------------------------------------------------------------
+d_by_year <- tb_stats %>%
+  mutate(year = year(collection_period)) %>%
+  group_by(year, site_code, transient_type) %>%
+  d_prep()
+
+t_by_year <- d_by_year %>%
+  group_by(year, transient_type) %>%
+  make_table()
+
+p_by_year <- d_by_year %>%
+  left_join(t_by_year) %>%
+  visualize_biomass_vs_rain() +
+  facet_grid(year~transient_type)
+```
+
+\newpage
+
+### Figure: Community Biomass Proportion Vs Rainfall: (by Year)
+Scatterplot illustrating regression statistics for the proportion of community biomass versus annual rainfall. Biomass values are expressed as a percentage of ash-free dry mass per square meter averaged across sites within year. Solid lines represent statistically significant regressions with a p-value threshold of 0.05, while dotted lines represent regressions with a threshold of 0.1.
+
+```{r}
+p_by_year
+```
+
+#### Interpretation: Community Biomass Proportion Vs Rainfall: (by Year)
+When examining biomass proportions across different years, nuanced patterns emerge within the study region. In 2017 and 2018, amphidromous species constituted significant proportions of community biomass at sites located in the middle of the rainfall gradient. However, they were notably absent in 2019, only to display a robust pattern of increasing biomass proportion with annual rainfall in 2020. Catadromous species were infrequently encountered and did not appear to constitute large proportions of community biomass in any year or at any sites. Euryhaline taxa exhibited a similar trend, showing a decrease in biomass proportion with annual rainfall in 2019 and 2020, and to some extent in 2018 (albeit with a p-value below 0.1). Freshwater fish maintained consistent biomass proportions across the rainfall gradient in 2017 and 2018. In 2018, freshwater biomass contributions mirrored trends observed in euryhaline fish, indicating an increase with annual rainfall. However, in 2020, freshwater biomass proportions within communities followed a pattern parallel to that of euryhaline species, suggesting a decrease with annual rainfall. Notably, this decrease coincided with a strong positive relationship between amphidromous biomass proportion and annual rainfall in the same year.
+
+
+\newpage
+
+### Table: Community Biomass Proportion Vs Rainfall: (by Year)
+Regression statistics for the proportion of community biomass versus annual rainfall. Biomass values are expressed as a percentage of ash-free dry mass per square meter averaged across sites within year. Metrics include slope estimate, standard error, F-statistic, p-value, and significance markers for alpha thresholds (*<0.05 and **<0.01).
+```{r}
+t_by_year %>% 
+  gt() %>% 
+  fmt_number(columns = c(std.error, statistic, p.value), decimals = 3)
+```
+
+
+
+\newpage
+
+## Community Biomass Proportion Vs Rainfall: (by Quarter)
+
+```{r}
+#------------------------------------------------------------------------------
+# Community Biomass Proportion Vs Rainfall: (by Quarter)
+#------------------------------------------------------------------------------
+d_by_quarter <- tb_stats %>%
+  mutate(quarter = quarter(collection_period)) %>%
+  group_by(quarter, site_code, transient_type) %>%
+  d_prep()
+
+t_by_quarter <- d_by_quarter %>%
+  group_by(quarter, transient_type) %>%
+  make_table()
+
+p_by_quarter <- d_by_quarter %>%
+  left_join(t_by_quarter) %>%
+  visualize_biomass_vs_rain() +
+  facet_grid(quarter~transient_type)
+```
+
+\newpage
+
+### Figure: Community Biomass Proportion Vs Rainfall: (by Quarter)
+Scatterplot illustrating regression statistics for the proportion of community biomass versus annual rainfall. Biomass values are expressed as a percentage of ash-free dry mass per square meter averaged across sites within quarter. Solid lines represent statistically significant regressions with a p-value threshold of 0.05, while dotted lines represent regressions with a threshold of 0.1.
+
+```{r, fig.dim=c(6,6)}
+p_by_quarter
+```
+
+#### Interpretation:
+In quarter 3, amphidromous biomass proportions exhibit a positive relationship with annual rainfall. Conversely, euryhaline biomass contributions are negatively related to annual rainfall across all four quarters. On the other hand, catadromous and freshwater biomass contributions do not show any linear relationship with annual rainfall in any of the quarters.
+
+\newpage
+
+### Table: Community Biomass Proportion Vs Rainfall: (by Quarter)
+Regression statistics for the proportion of community biomass versus annual rainfall. Biomass values are expressed as a percentage of ash-free dry mass per square meter averaged across sites within quarter. Metrics include slope estimate, standard error, F-statistic, p-value, and significance markers for alpha thresholds (*<0.05 and **<0.01).
+```{r}
+t_by_quarter %>% 
+  gt() %>% 
+  fmt_number(columns = c(std.error, statistic, p.value), decimals = 3)
+```
+
+\newpage
+
+# Conclusions
+We examined the relationship between annual rainfall and community biomass proportions across transient fish types in coastal streams. Our analysis utilized regression modeling to assess these relationships, considering data spanning multiple years and quarterly periods. Key findings revealed distinct responses among transient fish types to rainfall variability, with euryhaline species negatively correlated and amphidromous species positively correlated. These results underscore the importance of understanding how climatic factors influence community dynamics in coastal ecosystems.
