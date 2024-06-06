@@ -1,4 +1,4 @@
-# Create a function that runs simmr using carbon and sulfur for a given location, and grouping variable.
+# Create a function that runs simmr using carbon and sulfur for a given location, and grouping variable. Souce End members are: average site aquatic and terrestrial samples versus averaged nearest bay source samples.
 
 run_simmr <- function(my_data, my_location, my_group) {
   

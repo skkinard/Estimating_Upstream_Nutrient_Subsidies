@@ -43,7 +43,7 @@ plot_bay_dist <- d_baydist  %>%
   scale_fill_manual('', values=c('red', 'yellow',  'cyan')) +
   scale_color_manual('', values=c('red', 'yellow', 'cyan')) +
   labs(fill=element_blank()) +
-  dark_theme_grey(base_size=20) +
+  theme_bw(base_size=12) +
     theme(legend.position = c(0.75, 0.7)) +
     theme(legend.background = element_rect(colour = 'grey50', fill = 'grey5', 
                                            linetype='solid')) +
@@ -64,7 +64,7 @@ plot_bay_dist2 <- d_baydist  %>%
   scale_shape_manual('', values=21:24) +
   scale_fill_manual('', values=c('red', 'yellow', 'blue', 'cyan')) +
   labs(fill=element_blank()) +
-  theme_bw(base_size=14) +
+  theme_bw(base_size=12) +
   theme(legend.position = c(0.75, 0.7)) +
   theme(legend.background = element_rect(colour = 'grey50', fill = 'white', 
                                          linetype='solid')) +
@@ -104,7 +104,7 @@ ggplot(aes(EA, Amp_Det_Pro)) +
   stat_poly_eq(label.x=.5, label.y=.95,
                color='white', use_label(c("adj.R2","p")),
                size=6) +
-  dark_theme_grey(base_size=20)
+  theme_bw(base_size=12)
 
 # -----------------------------------------------------------------------------
 # Multiple regression
