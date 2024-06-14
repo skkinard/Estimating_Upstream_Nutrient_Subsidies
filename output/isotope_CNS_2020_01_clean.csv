@@ -134,7 +134,7 @@ L.macrochirus,Resident,Lepomis,TR,2020-01-15,120,1,-18.82210381,18.96891997,6.66
 L.macrochirus,Resident,Lepomis,TR,2020-01-15,120,2,-18.2289969,19.12028795,5.7,49.97,15.54,0.85,Centrarchiformes,Centrarchidae,macrochirus,Fish,Freshwater,Freshwater,NA
 L.macrochirus,Resident,Lepomis,TR,2020-01-15,120,3,-18.70327931,17.73577548,6.92,43.51,13.53,0.97,Centrarchiformes,Centrarchidae,macrochirus,Fish,Freshwater,Freshwater,NA
 L.macrochirus,Resident,Lepomis,TR,2020-01-15,120,4,-17.67730257,19.4345151,6.83,48.01,14.72,0.93,Centrarchiformes,Centrarchidae,macrochirus,Fish,Freshwater,Freshwater,NA
-O.aureus,Resident,Oreochromis,TR,2020-01-15,120,1,-17.09153161,16.99609061,6.45,46.75,14.84,1.04,Cichliformes,Cichlidae,aureus,Fish,Freshwater,Freshwater,NA
+O.aureus,Transient,Oreochromis,TR,2020-01-15,120,1,-17.09153161,16.99609061,6.45,46.75,14.84,1.04,Cichliformes,Cichlidae,aureus,Fish,Euryhaline,Euryhaline,NA
 P.latipinna,Transient,Poecilia,TR,2020-01-15,40,1,-14.57082727,19.39577768,5.7,40.06,12.57,0.91,Cyprinodontiformes,Poeciliidae,latipinna,Fish,Euryhaline,Euryhaline,NA
 P.latipinna,Transient,Poecilia,TR,2020-01-15,40,1,-14.57082727,19.39577768,8.88,40.06,12.57,0.93,Cyprinodontiformes,Poeciliidae,latipinna,Fish,Euryhaline,Euryhaline,NA
 P.latipinna,Transient,Poecilia,TR,2020-01-15,40,2,-18.02790929,17.21506963,6.02,42.79,13.43,0.94,Cyprinodontiformes,Poeciliidae,latipinna,Fish,Euryhaline,Euryhaline,NA

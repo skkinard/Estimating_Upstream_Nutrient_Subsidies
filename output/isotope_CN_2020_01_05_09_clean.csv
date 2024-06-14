@@ -134,7 +134,7 @@ L.macrochirus,Resident,Lepomis,TR,2020-01-15,120,1,-18.82210381,18.96891997,6.66
 L.macrochirus,Resident,Lepomis,TR,2020-01-15,120,2,-18.2289969,19.12028795,5.7,49.97,15.54,0.85,Centrarchiformes,Centrarchidae,macrochirus,Fish,Freshwater,Freshwater,NA
 L.macrochirus,Resident,Lepomis,TR,2020-01-15,120,3,-18.70327931,17.73577548,6.92,43.51,13.53,0.97,Centrarchiformes,Centrarchidae,macrochirus,Fish,Freshwater,Freshwater,NA
 L.macrochirus,Resident,Lepomis,TR,2020-01-15,120,4,-17.67730257,19.4345151,6.83,48.01,14.72,0.93,Centrarchiformes,Centrarchidae,macrochirus,Fish,Freshwater,Freshwater,NA
-O.aureus,Resident,Oreochromis,TR,2020-01-15,120,1,-17.09153161,16.99609061,6.45,46.75,14.84,1.04,Cichliformes,Cichlidae,aureus,Fish,Freshwater,Freshwater,NA
+O.aureus,Transient,Oreochromis,TR,2020-01-15,120,1,-17.09153161,16.99609061,6.45,46.75,14.84,1.04,Cichliformes,Cichlidae,aureus,Fish,Euryhaline,Euryhaline,NA
 P.latipinna,Transient,Poecilia,TR,2020-01-15,40,1,-14.57082727,19.39577768,5.7,40.06,12.57,0.91,Cyprinodontiformes,Poeciliidae,latipinna,Fish,Euryhaline,Euryhaline,NA
 P.latipinna,Transient,Poecilia,TR,2020-01-15,40,1,-14.57082727,19.39577768,8.88,40.06,12.57,0.93,Cyprinodontiformes,Poeciliidae,latipinna,Fish,Euryhaline,Euryhaline,NA
 P.latipinna,Transient,Poecilia,TR,2020-01-15,40,2,-18.02790929,17.21506963,6.02,42.79,13.43,0.94,Cyprinodontiformes,Poeciliidae,latipinna,Fish,Euryhaline,Euryhaline,NA
@@ -510,9 +510,9 @@ M.salmoides,Resident,Micropterus,WM,2020-05-15,195,1,-26.241949784632972,16.1389
 M.salmoides,Resident,Micropterus,SF,2020-05-15,342,1,-23.1382338383587,18.722359860890517,NA,45.72,14.88,NA,Centrarchiformes,Centrarchidae,salmoides,Fish,Freshwater,Freshwater,NA
 N.texanus,Resident,Notropis,EM,2020-05-15,38,1,-24.769413237571193,14.462062587273632,NA,40.28,10.97,NA,Cypriniformes,Leuciscidae,texanus,Fish,Freshwater,Freshwater,NA
 N.texanus,Resident,Notropis,GC,2020-05-15,60,1,-27.67432295188058,9.130795953806684,NA,47.23,13.58,NA,Cypriniformes,Leuciscidae,texanus,Fish,Freshwater,Freshwater,NA
-O.aureus,Resident,Oreochromis,SF,2020-05-15,17,2,-26.470383733425223,15.364634507503617,NA,42.64,12.63,NA,Cichliformes,Cichlidae,aureus,Fish,Freshwater,Freshwater,NA
-O.aureus,Resident,Oreochromis,SF,2020-05-15,72,1,-24.2720373386495,15.119937141813551,NA,44.53,13.8,NA,Cichliformes,Cichlidae,aureus,Fish,Freshwater,Freshwater,NA
-O.aureus,Resident,Oreochromis,TR,2020-05-15,164,1,-20.118685957009856,17.376112054412296,NA,46.07,14.39,NA,Cichliformes,Cichlidae,aureus,Fish,Freshwater,Freshwater,NA
+O.aureus,Transient,Oreochromis,SF,2020-05-15,17,2,-26.470383733425223,15.364634507503617,NA,42.64,12.63,NA,Cichliformes,Cichlidae,aureus,Fish,Euryhaline,Euryhaline,NA
+O.aureus,Transient,Oreochromis,SF,2020-05-15,72,1,-24.2720373386495,15.119937141813551,NA,44.53,13.8,NA,Cichliformes,Cichlidae,aureus,Fish,Euryhaline,Euryhaline,NA
+O.aureus,Transient,Oreochromis,TR,2020-05-15,164,1,-20.118685957009856,17.376112054412296,NA,46.07,14.39,NA,Cichliformes,Cichlidae,aureus,Fish,Euryhaline,Euryhaline,NA
 P.clarkii,Resident,Procambarus,AR,2020-05-15,49,2,-24.165927298244014,13.85852959352476,NA,45.7,13.67,NA,Decapoda,Cambaridae,clarkii,Invertebrate,Freshwater,Freshwater,NA
 P.clarkii,Resident,Procambarus,WM,2020-05-15,50,4,-26.884591661009804,11.172064775405977,NA,43.2,12.95,NA,Decapoda,Cambaridae,clarkii,Invertebrate,Freshwater,Freshwater,NA
 P.clarkii,Resident,Procambarus,WM,2020-05-15,57,3,-25.537118424991736,10.330324832231865,NA,43.79,12.95,NA,Decapoda,Cambaridae,clarkii,Invertebrate,Freshwater,Freshwater,NA
@@ -607,7 +607,7 @@ H.cyanoguttatus,Resident,Herichthys,TR,2020-09-15,97,7,-18.21,17.1,NA,45.69,13.9
 H.cyanoguttatus,Resident,Herichthys,TR,2020-09-15,86,8,-17.79,16.26,NA,45.91,13.98,NA,Cichliformes,Cichlidae,cyanoguttatus,Fish,Freshwater,Freshwater,NA
 H.cyanoguttatus,Resident,Herichthys,TR,2020-09-15,49,9,-16.63,16.81,NA,45.39,13.87,NA,Cichliformes,Cichlidae,cyanoguttatus,Fish,Freshwater,Freshwater,NA
 H.cyanoguttatus,Resident,Herichthys,TR,2020-09-15,43,0,-19.44,15.74,NA,44.53,13.62,NA,Cichliformes,Cichlidae,cyanoguttatus,Fish,Freshwater,Freshwater,NA
-O.aureus,Resident,Oreochromis,TR,2020-09-15,79,1,-21.06,13.6,NA,44.81,13.8,NA,Cichliformes,Cichlidae,aureus,Fish,Freshwater,Freshwater,NA
+O.aureus,Transient,Oreochromis,TR,2020-09-15,79,1,-21.06,13.6,NA,44.81,13.8,NA,Cichliformes,Cichlidae,aureus,Fish,Euryhaline,Euryhaline,NA
 F.grandis,Transient,Fundulus,TR,2020-09-15,80,1,-16.69,16.25,NA,44.65,13.99,NA,Cyprinodontiformes,Fundulidae,grandis,Fish,Euryhaline,Euryhaline,NA
 F.grandis,Transient,Fundulus,TR,2020-09-15,79,2,-18.95,15.42,NA,45.08,13.64,NA,Cyprinodontiformes,Fundulidae,grandis,Fish,Euryhaline,Euryhaline,NA
 F.grandis,Transient,Fundulus,TR,2020-09-15,73,3,-19.69,14.7,NA,45.28,13.54,NA,Cyprinodontiformes,Fundulidae,grandis,Fish,Euryhaline,Euryhaline,NA
@@ -664,7 +664,7 @@ A.mexicanus,Resident,Astyanax,SF,2020-09-15,64,4,-22.77,15.56,NA,43.44,12.98,NA,
 A.mexicanus,Resident,Astyanax,SF,2020-09-15,62,5,-22.5,15.8,NA,46.12,14,NA,Characiformes,Characidae,mexicanus,Fish,Freshwater,Freshwater,NA
 A.mexicanus,Resident,Astyanax,SF,2020-09-15,70,6,-23.19,16.53,NA,46.52,14.17,NA,Characiformes,Characidae,mexicanus,Fish,Freshwater,Freshwater,NA
 A.mexicanus,Resident,Astyanax,SF,2020-09-15,61,7,-22.63,16.01,NA,46.64,14.04,NA,Characiformes,Characidae,mexicanus,Fish,Freshwater,Freshwater,NA
-O.aureus,Resident,Oreochromis,SF,2020-09-15,56,1,-25.07,15.53,NA,46.88,14.18,NA,Cichliformes,Cichlidae,aureus,Fish,Freshwater,Freshwater,NA
+O.aureus,Transient,Oreochromis,SF,2020-09-15,56,1,-25.07,15.53,NA,46.88,14.18,NA,Cichliformes,Cichlidae,aureus,Fish,Euryhaline,Euryhaline,NA
 L.cyanellus,Resident,Lepomis,SF,2020-09-15,42,1,-25.05,14.96,NA,40.86,12.37,NA,Centrarchiformes,Centrarchidae,cyanellus,Fish,Freshwater,Freshwater,NA
 P.formosa,Resident,Poecilia,SF,2020-09-15,61,1,-24.08,16.35,NA,46.31,14.26,NA,Cyprinodontiformes,Poeciliidae,formosa,Fish,Freshwater,Freshwater,NA
 P.formosa,Resident,Poecilia,SF,2020-09-15,52,2,-23.48,16.28,NA,45.78,14.02,NA,Cyprinodontiformes,Poeciliidae,formosa,Fish,Freshwater,Freshwater,NA

@@ -36,17 +36,45 @@ msites <- d %>% add_sitevars() %>% filter(site_type != 'Estuary') %>%
 for(i in msites) {
   mmix_guild <- run_simmr(my_data = d,
                           my_location = i,
-                          my_group = 'order') %>%
+                          my_group = 'guild') %>%
     full_join(mmix_guild) }
 
-mmix_order <- mmix_guild %>%
+mmix_guild <- mmix_guild %>%
+  mutate(dataset = 'guild')
+
+#----------------------------------------------------------------------------
+# CS mixing model: Order
+#----------------------------------------------------------------------------
+# blank table
+mmix_order <- tibble(
+  deviance = numeric(),
+  Fresh = numeric(),
+  Estuarine = numeric(),
+  m_group = character(),
+  site = character(),
+  statistic = character() )
+
+# sites
+msites <- d %>% add_sitevars() %>% filter(site_type != 'Estuary') %>%
+  pull(site_code) %>% unique()
+
+#  test <- run_simmr(my_data=d, my_location='TR', my_group='order')
+
+# loop mixing models across sites and aggregate statistics and quantile info
+for(i in msites) {
+  mmix_order <- run_simmr(my_data = d,
+                          my_location = i,
+                          my_group = 'order') %>%
+    full_join(mmix_order) }
+
+mmix_order <- mmix_order %>%
   mutate(dataset = 'order')
 
 #----------------------------------------------------------------------------
 # CS mixing model: transient_type
 #----------------------------------------------------------------------------
 # blank table
-mmix_trophic <- tibble(
+mmix_transient <- tibble(
   deviance = numeric(),
   Aquatic = numeric(),
   Terrestrial = numeric(),
@@ -56,12 +84,12 @@ mmix_trophic <- tibble(
 
 # loop mixing models across sites and aggregate statistics and quantile info
 for(i in msites) {
-  mmix_trophic <- run_simmr(my_data = d,
+  mmix_transient <- run_simmr(my_data = d,
                             my_location = i,
                             my_group = 'transient_type') %>%
-    full_join(mmix_trophic) }
+    full_join(mmix_transient) }
 
-mmix_transient <- mmix_trophic %>%
+mmix_transient <- mmix_transient %>%
   mutate(dataset = 'transient_type')
 
 #----------------------------------------------------------------------------
@@ -98,7 +126,8 @@ mmix_species <- mmix_species %>%
 #----------------------------------------------------------------------------
 # Combine all mmix
 #----------------------------------------------------------------------------
-mmix_all <- full_join(mmix_order, mmix_transient) %>%
+mmix_all <- full_join(mmix_order, mmix_guild) %>%
+  full_join(mmix_transient) %>%
   full_join(mmix_species) %>%
   select(Estuarine, site, statistic, m_group, dataset) %>%
   mutate(Estuarine = 100*Estuarine) %>%

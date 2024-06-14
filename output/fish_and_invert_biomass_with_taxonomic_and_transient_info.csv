@@ -40,7 +40,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,0.1668770754697681,0,AR,2017-Q3,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.1668770754697681,0,AR,2017-Q3,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.1668770754697681,0,AR,2017-Q3,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.1668770754697681,0,AR,2017-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.1668770754697681,0,AR,2017-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.1668770754697681,0,AR,2017-Q3,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.1668770754697681,0,AR,2017-Q3,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.1668770754697681,0,AR,2017-Q3,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -166,7 +166,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,12.85635382845681,0,AR,2017-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,12.85635382845681,0,AR,2017-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,12.85635382845681,0,AR,2017-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,12.85635382845681,0,AR,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,12.85635382845681,0,AR,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,12.85635382845681,0,AR,2017-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 9.730185160333333,NA,NA,12.85635382845681,75.68386254892985,AR,2017-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 4.9765e-5,NA,NA,12.85635382845681,3.8708486608269915e-4,AR,2017-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -321,7 +321,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,4.4858650086247795,0,AR,2018-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.4858650086247795,0,AR,2018-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.4858650086247795,0,AR,2018-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,4.4858650086247795,0,AR,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,4.4858650086247795,0,AR,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,4.4858650086247795,0,AR,2018-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.06343357033333334,NA,NA,4.4858650086247795,1.4140766655120551,AR,2018-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.4858650086247795,0,AR,2018-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -476,7 +476,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.582179190573409,0,AR,2018-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.582179190573409,0,AR,2018-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.582179190573409,0,AR,2018-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,3.582179190573409,0,AR,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,3.582179190573409,0,AR,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.582179190573409,0,AR,2018-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.4196743606666667,NA,NA,3.582179190573409,11.715616063290465,AR,2018-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.582179190573409,0,AR,2018-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -631,7 +631,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,5.068304016927193,0,AR,2018-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,5.068304016927193,0,AR,2018-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,5.068304016927193,0,AR,2018-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,5.068304016927193,0,AR,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,5.068304016927193,0,AR,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,5.068304016927193,0,AR,2018-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.06343357033333334,NA,NA,5.068304016927193,1.2515739016735579,AR,2018-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,5.068304016927193,0,AR,2018-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -815,7 +815,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,0.865880699276762,0,AR,2019-Q1,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.865880699276762,0,AR,2019-Q1,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.865880699276762,0,AR,2019-Q1,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.865880699276762,0,AR,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.865880699276762,0,AR,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.865880699276762,0,AR,2019-Q1,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0.0014428859973254,NA,1,0.865880699276762,0.16663796739326667,AR,2019-Q1,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.865880699276762,0,AR,2019-Q1,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -864,7 +864,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.23634859216204449,NA,1,0.5407720964479483,43.705766942210204,AR,2019-Q3,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.5407720964479483,0,AR,2019-Q3,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.5407720964479483,0,AR,2019-Q3,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.5407720964479483,0,AR,2019-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.5407720964479483,0,AR,2019-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.5407720964479483,0,AR,2019-Q3,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.5407720964479483,0,AR,2019-Q3,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.5407720964479483,0,AR,2019-Q3,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -990,7 +990,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.011194832838267,0,AR,2020-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.011194832838267,0,AR,2020-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.011194832838267,0,AR,2020-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,3.011194832838267,0,AR,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,3.011194832838267,0,AR,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.011194832838267,0,AR,2020-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.0377849165,NA,NA,3.011194832838267,1.2548147362615194,AR,2020-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.011194832838267,0,AR,2020-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -1145,7 +1145,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.1995700093047144,0,AR,2020-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.1995700093047144,0,AR,2020-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.1995700093047144,0,AR,2020-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,3.1995700093047144,0,AR,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,3.1995700093047144,0,AR,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.1995700093047144,0,AR,2020-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.03062385,NA,NA,3.1995700093047144,0.9571239232441344,AR,2020-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.002393747,NA,NA,3.1995700093047144,0.07481464675061682,AR,2020-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -1329,7 +1329,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.02134011358867327,0.03017947805968412,2,0.8754173819282132,2.4377073187271057,AR,2020-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,0,2,0.8754173819282132,0,AR,2020-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,0,2,0.8754173819282132,0,AR,2020-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,0,2,0.8754173819282132,0,AR,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,0.8754173819282132,0,AR,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,0,2,0.8754173819282132,0,AR,2020-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,0,2,0.8754173819282132,0,AR,2020-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,0,2,0.8754173819282132,0,AR,2020-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -1454,7 +1454,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.5978040263110693,0,EM,2017-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 3.0567733333333334e-4,NA,NA,2.5978040263110693,0.011766758779237128,EM,2017-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.5978040263110693,0,EM,2017-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,2.5978040263110693,0,EM,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,2.5978040263110693,0,EM,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.5978040263110693,0,EM,2017-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.5978040263110693,0,EM,2017-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.5978040263110693,0,EM,2017-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -1609,7 +1609,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.070471868693322,0,EM,2018-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.070471868693322,0,EM,2018-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.070471868693322,0,EM,2018-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,3.070471868693322,0,EM,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,3.070471868693322,0,EM,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.070471868693322,0,EM,2018-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.20310169633333333,NA,NA,3.070471868693322,6.614673738071596,EM,2018-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.070471868693322,0,EM,2018-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -1764,7 +1764,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,4.0391623168466415,0,EM,2018-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.0391623168466415,0,EM,2018-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.0391623168466415,0,EM,2018-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,4.0391623168466415,0,EM,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,4.0391623168466415,0,EM,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,4.0391623168466415,0,EM,2018-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 1.329676039,NA,NA,4.0391623168466415,32.919599033050815,EM,2018-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.0391623168466415,0,EM,2018-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -1919,7 +1919,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,4.926419072733781,0,EM,2018-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.926419072733781,0,EM,2018-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.926419072733781,0,EM,2018-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,4.926419072733781,0,EM,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,4.926419072733781,0,EM,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,4.926419072733781,0,EM,2018-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.08838996033333334,NA,NA,4.926419072733781,1.7942030312147959,EM,2018-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.926419072733781,0,EM,2018-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -2104,7 +2104,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,0.5400819307382819,0,EM,2019-Q1,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0.00340999897096967,NA,1,0.5400819307382819,0.6313854948467291,EM,2019-Q1,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.5400819307382819,0,EM,2019-Q1,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.5400819307382819,0,EM,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.5400819307382819,0,EM,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0.05941947234490814,NA,1,0.5400819307382819,11.001936736465675,EM,2019-Q1,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.5400819307382819,0,EM,2019-Q1,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0.00160549519017122,NA,1,0.5400819307382819,0.29726882141317673,EM,2019-Q1,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -2153,7 +2153,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.01063831068440512,NA,1,0.24776230584946127,4.293756731045637,EM,2019-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0.0026567807863974,NA,1,0.24776230584946127,1.0723103247237464,EM,2019-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.24776230584946127,0,EM,2019-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.24776230584946127,0,EM,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.24776230584946127,0,EM,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.24776230584946127,0,EM,2019-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.24776230584946127,0,EM,2019-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.24776230584946127,0,EM,2019-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -2278,7 +2278,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,7.519666833500109,0,EM,2020-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.519666833500109,0,EM,2020-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.519666833500109,0,EM,2020-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,7.519666833500109,0,EM,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,7.519666833500109,0,EM,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,7.519666833500109,0,EM,2020-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 1.4997433975,NA,NA,7.519666833500109,19.94427985583942,EM,2020-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.519666833500109,0,EM,2020-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -2433,7 +2433,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.6450755972078195,0,EM,2020-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.6450755972078195,0,EM,2020-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.6450755972078195,0,EM,2020-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,3.6450755972078195,0,EM,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,3.6450755972078195,0,EM,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.6450755972078195,0,EM,2020-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.022608268,NA,NA,3.6450755972078195,0.6202414023269712,EM,2020-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.6450755972078195,0,EM,2020-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -2588,7 +2588,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,0.8330729737850254,0,EM,2020-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,0.8330729737850254,0,EM,2020-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,0.8330729737850254,0,EM,2020-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,0.8330729737850254,0,EM,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.8330729737850254,0,EM,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,0.8330729737850254,0,EM,2020-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.10056868799999999,NA,NA,0.8330729737850254,12.072014237008696,EM,2020-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,0.8330729737850254,0,EM,2020-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -2667,7 +2667,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,7.391460931220852,0,EM,2020-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,7.391460931220852,0,EM,2020-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0.00116949832850963,NA,1,7.391460931220852,0.015822289252315148,EM,2020-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,7.391460931220852,0,EM,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,7.391460931220852,0,EM,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0.18340283751032385,NA,1,7.391460931220852,2.4812799420429474,EM,2020-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,7.391460931220852,0,EM,2020-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,7.391460931220852,0,EM,2020-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -2792,7 +2792,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.0217598196283313,0,GC,2017-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.0217598196283313,0,GC,2017-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.0217598196283313,0,GC,2017-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,3.0217598196283313,0,GC,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,3.0217598196283313,0,GC,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.0217598196283313,0,GC,2017-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.16635199766666667,NA,NA,3.0217598196283313,5.505136331024732,GC,2017-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.0217598196283313,0,GC,2017-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -2947,7 +2947,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,4.5597516275075884,0,GC,2018-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.5597516275075884,0,GC,2018-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.5597516275075884,0,GC,2018-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,4.5597516275075884,0,GC,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,4.5597516275075884,0,GC,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,4.5597516275075884,0,GC,2018-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.045368726666666664,NA,NA,4.5597516275075884,0.9949824107298081,GC,2018-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.5597516275075884,0,GC,2018-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -3102,7 +3102,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.036593327297654,0,GC,2018-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.036593327297654,0,GC,2018-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.036593327297654,0,GC,2018-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,3.036593327297654,0,GC,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,3.036593327297654,0,GC,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.036593327297654,0,GC,2018-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.06049163566666666,NA,NA,3.036593327297654,1.99208880303046,GC,2018-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.036593327297654,0,GC,2018-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -3257,7 +3257,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.559216902249475,0,GC,2018-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.559216902249475,0,GC,2018-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.559216902249475,0,GC,2018-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,3.559216902249475,0,GC,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,3.559216902249475,0,GC,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.559216902249475,0,GC,2018-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.12098327099999999,NA,NA,3.559216902249475,3.3991542050594576,GC,2018-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.559216902249475,0,GC,2018-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -3412,7 +3412,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,0.12365991885513863,0,GC,2018-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,0.12365991885513863,0,GC,2018-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,0.12365991885513863,0,GC,2018-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,0.12365991885513863,0,GC,2018-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.12365991885513863,0,GC,2018-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,0.12365991885513863,0,GC,2018-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,0.12365991885513863,0,GC,2018-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,0.12365991885513863,0,GC,2018-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -3491,7 +3491,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.02460183922804903,NA,1,0.13636332953986577,18.041389361101434,GC,2019-Q1,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.13636332953986577,0,GC,2019-Q1,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.13636332953986577,0,GC,2019-Q1,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.13636332953986577,0,GC,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.13636332953986577,0,GC,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.13636332953986577,0,GC,2019-Q1,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.13636332953986577,0,GC,2019-Q1,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.13636332953986577,0,GC,2019-Q1,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -3540,7 +3540,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.4851762065719252,NA,1,2.299017947325849,21.103628492168497,GC,2019-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 2.8315450047741795e-4,NA,1,2.299017947325849,0.01231632405509383,GC,2019-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,2.299017947325849,0,GC,2019-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,2.299017947325849,0,GC,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,2.299017947325849,0,GC,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,2.299017947325849,0,GC,2019-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,2.299017947325849,0,GC,2019-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,2.299017947325849,0,GC,2019-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -3665,7 +3665,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.9836344061555415,0,GC,2020-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.9836344061555415,0,GC,2020-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.9836344061555415,0,GC,2020-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,2.9836344061555415,0,GC,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,2.9836344061555415,0,GC,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.9836344061555415,0,GC,2020-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.1531655445,NA,NA,2.9836344061555415,5.133522531581077,GC,2020-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.9836344061555415,0,GC,2020-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -3820,7 +3820,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.2850494083636455,0,GC,2020-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.2850494083636455,0,GC,2020-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.2850494083636455,0,GC,2020-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,1.2850494083636455,0,GC,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,1.2850494083636455,0,GC,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.2850494083636455,0,GC,2020-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.616935498,NA,NA,1.2850494083636455,48.0086986527306,GC,2020-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.001063648,NA,NA,1.2850494083636455,0.08277098087258969,GC,2020-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -3975,7 +3975,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.438398685708099,0,GC,2020-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.438398685708099,0,GC,2020-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.438398685708099,0,GC,2020-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,2.438398685708099,0,GC,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,2.438398685708099,0,GC,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.438398685708099,0,GC,2020-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.022831961999999997,NA,NA,2.438398685708099,0.9363506523286084,GC,2020-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 1.419475e-4,NA,NA,2.438398685708099,0.005821340900156331,GC,2020-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -4054,7 +4054,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.02066634222031798,NA,1,3.4170928247818724,0.604793117425401,GC,2020-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,3.4170928247818724,0,GC,2020-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,3.4170928247818724,0,GC,2020-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,3.4170928247818724,0,GC,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,3.4170928247818724,0,GC,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,3.4170928247818724,0,GC,2020-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,3.4170928247818724,0,GC,2020-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,3.4170928247818724,0,GC,2020-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -4180,7 +4180,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.408237243681974,0,MR,2017-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.408237243681974,0,MR,2017-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.408237243681974,0,MR,2017-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,1.408237243681974,0,MR,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,1.408237243681974,0,MR,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.408237243681974,0,MR,2017-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.140553865,NA,NA,1.408237243681974,9.98083708058368,MR,2017-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.408237243681974,0,MR,2017-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -4335,7 +4335,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.8603650776090974,0,MR,2018-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.8603650776090974,0,MR,2018-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.8603650776090974,0,MR,2018-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,1.8603650776090974,0,MR,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,1.8603650776090974,0,MR,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.8603650776090974,0,MR,2018-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.23425644166666665,NA,NA,1.8603650776090974,12.591960819202658,MR,2018-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.8603650776090974,0,MR,2018-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -4490,7 +4490,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,4.672556712237133,0,MR,2018-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.672556712237133,0,MR,2018-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.672556712237133,0,MR,2018-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,4.672556712237133,0,MR,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,4.672556712237133,0,MR,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,4.672556712237133,0,MR,2018-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.9974864973333333,NA,NA,4.672556712237133,21.34776651765357,MR,2018-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.672556712237133,0,MR,2018-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -4645,7 +4645,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.044451918120834,0,MR,2018-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.044451918120834,0,MR,2018-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.044451918120834,0,MR,2018-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,2.044451918120834,0,MR,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,2.044451918120834,0,MR,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.044451918120834,0,MR,2018-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.011712822,NA,NA,2.044451918120834,0.5729076774163457,MR,2018-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.044451918120834,0,MR,2018-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -4829,7 +4829,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,0.02517736270664609,0,MR,2019-Q1,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 8.40325997774253e-4,NA,1,0.02517736270664609,3.3376251816574554,MR,2019-Q1,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.02517736270664609,0,MR,2019-Q1,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.02517736270664609,0,MR,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.02517736270664609,0,MR,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.02517736270664609,0,MR,2019-Q1,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 9.57829345345486e-4,NA,1,0.02517736270664609,3.804327548145648,MR,2019-Q1,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.02517736270664609,0,MR,2019-Q1,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -4878,7 +4878,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,0.05472744613523442,0,MR,2019-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.05472744613523442,0,MR,2019-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.05472744613523442,0,MR,2019-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.05472744613523442,0,MR,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.05472744613523442,0,MR,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.05472744613523442,0,MR,2019-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.05472744613523442,0,MR,2019-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.05472744613523442,0,MR,2019-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -5004,7 +5004,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.2817031695614594,0,MR,2020-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.2817031695614594,0,MR,2020-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.2817031695614594,0,MR,2020-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,3.2817031695614594,0,MR,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,3.2817031695614594,0,MR,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.2817031695614594,0,MR,2020-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.22256718050000002,NA,NA,3.2817031695614594,6.782063123940064,MR,2020-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.2817031695614594,0,MR,2020-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -5159,7 +5159,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,7.48511501187425,0,MR,2020-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.48511501187425,0,MR,2020-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.48511501187425,0,MR,2020-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,7.48511501187425,0,MR,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,7.48511501187425,0,MR,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,7.48511501187425,0,MR,2020-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.222071061,NA,NA,7.48511501187425,2.9668356551330275,MR,2020-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.0030092920000000002,NA,NA,7.48511501187425,0.040203684181553845,MR,2020-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -5314,7 +5314,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.169890504261656,0,MR,2020-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.169890504261656,0,MR,2020-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 7.13115e-5,NA,NA,2.169890504261656,0.0032864100681552597,MR,2020-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,2.169890504261656,0,MR,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,2.169890504261656,0,MR,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0.0189123405,NA,NA,2.169890504261656,0.8715804075300685,MR,2020-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.23885686949999999,NA,NA,2.169890504261656,11.007784449532641,MR,2020-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 2.069525e-4,NA,NA,2.169890504261656,0.009537462816374657,MR,2020-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -5392,7 +5392,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.3278275135732614,NA,1,0.9453995710264497,34.676080212023884,MR,2020-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.9453995710264497,0,MR,2020-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.9453995710264497,0,MR,2020-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.9453995710264497,0,MR,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.9453995710264497,0,MR,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.9453995710264497,0,MR,2020-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0.0154836978003343,NA,1,0.9453995710264497,1.6377940370253359,MR,2020-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.9453995710264497,0,MR,2020-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -5517,7 +5517,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.9524987044833153,0,PD,2017-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.9524987044833153,0,PD,2017-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.9524987044833153,0,PD,2017-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,1.9524987044833153,0,PD,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,1.9524987044833153,0,PD,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.9524987044833153,0,PD,2017-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.01687199,NA,NA,1.9524987044833153,0.8641229805304681,PD,2017-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.9524987044833153,0,PD,2017-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -5672,7 +5672,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.6794175096433517,0,PD,2018-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.6794175096433517,0,PD,2018-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.6794175096433517,0,PD,2018-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,1.6794175096433517,0,PD,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,1.6794175096433517,0,PD,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.6794175096433517,0,PD,2018-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.014611342,NA,NA,1.6794175096433517,0.8700243933447452,PD,2018-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.6794175096433517,0,PD,2018-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -5827,7 +5827,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.592025138874115,0,PD,2018-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.592025138874115,0,PD,2018-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.592025138874115,0,PD,2018-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,2.592025138874115,0,PD,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,2.592025138874115,0,PD,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.592025138874115,0,PD,2018-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.014611342,NA,NA,2.592025138874115,0.5637037149395339,PD,2018-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.592025138874115,0,PD,2018-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -5982,7 +5982,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,4.972792065202841,0,PD,2018-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.972792065202841,0,PD,2018-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.972792065202841,0,PD,2018-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,4.972792065202841,0,PD,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,4.972792065202841,0,PD,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,4.972792065202841,0,PD,2018-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.048801942,NA,NA,4.972792065202841,0.9813790997112477,PD,2018-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.972792065202841,0,PD,2018-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -6167,7 +6167,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,0.08124409591445989,0,PD,2019-Q1,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.08124409591445989,0,PD,2019-Q1,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.08124409591445989,0,PD,2019-Q1,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.08124409591445989,0,PD,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.08124409591445989,0,PD,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.08124409591445989,0,PD,2019-Q1,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.08124409591445989,0,PD,2019-Q1,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.08124409591445989,0,PD,2019-Q1,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -6216,7 +6216,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.5869633204009417,NA,1,1.2317216298101346,47.653894045152065,PD,2019-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.2317216298101346,0,PD,2019-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.2317216298101346,0,PD,2019-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,1.2317216298101346,0,PD,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,1.2317216298101346,0,PD,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.2317216298101346,0,PD,2019-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 5.810300583483969e-4,NA,1,1.2317216298101346,0.04717218925821418,PD,2019-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.2317216298101346,0,PD,2019-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -6341,7 +6341,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,7.46258388246063,0,PD,2020-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.46258388246063,0,PD,2020-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.46258388246063,0,PD,2020-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,7.46258388246063,0,PD,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,7.46258388246063,0,PD,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,7.46258388246063,0,PD,2020-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.2455086555,NA,NA,7.46258388246063,3.28986125136926,PD,2020-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 1.703375e-4,NA,NA,7.46258388246063,0.0022825539073717555,PD,2020-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -6496,7 +6496,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.7606793169129864,0,PD,2020-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7606793169129864,0,PD,2020-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7606793169129864,0,PD,2020-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,1.7606793169129864,0,PD,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,1.7606793169129864,0,PD,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.7606793169129864,0,PD,2020-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.275614649,NA,NA,1.7606793169129864,15.65388122371071,PD,2020-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7606793169129864,0,PD,2020-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -6651,7 +6651,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,4.143320792909887,0,PD,2020-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.143320792909887,0,PD,2020-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.143320792909887,0,PD,2020-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,4.143320792909887,0,PD,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,4.143320792909887,0,PD,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,4.143320792909887,0,PD,2020-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.039383185,NA,NA,4.143320792909887,0.9505222252496861,PD,2020-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.143320792909887,0,PD,2020-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -6807,7 +6807,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.4698642557330692,0,PL,2017-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.4698642557330692,0,PL,2017-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.4698642557330692,0,PL,2017-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,2.4698642557330692,0,PL,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,2.4698642557330692,0,PL,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.4698642557330692,0,PL,2017-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.020431591666666665,NA,NA,2.4698642557330692,0.8272354085549716,PL,2017-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.4698642557330692,0,PL,2017-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -6962,7 +6962,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,5.596569784802734,0,PL,2018-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,5.596569784802734,0,PL,2018-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,5.596569784802734,0,PL,2018-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,5.596569784802734,0,PL,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,5.596569784802734,0,PL,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,5.596569784802734,0,PL,2018-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 1.397217411,NA,NA,5.596569784802734,24.965603302117113,PL,2018-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,5.596569784802734,0,PL,2018-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -7117,7 +7117,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,8.157987312684167,0,PL,2018-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,8.157987312684167,0,PL,2018-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,8.157987312684167,0,PL,2018-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,8.157987312684167,0,PL,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,8.157987312684167,0,PL,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,8.157987312684167,0,PL,2018-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.8787189436666666,NA,NA,8.157987312684167,10.771271270554939,PL,2018-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,8.157987312684167,0,PL,2018-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -7272,7 +7272,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.1423514842029299,0,PL,2018-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.1423514842029299,0,PL,2018-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.1423514842029299,0,PL,2018-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,1.1423514842029299,0,PL,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,1.1423514842029299,0,PL,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.1423514842029299,0,PL,2018-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.22915414266666667,NA,NA,1.1423514842029299,20.05986299624391,PL,2018-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.1423514842029299,0,PL,2018-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -7427,7 +7427,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,4.258869740662358,0,PL,2018-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.258869740662358,0,PL,2018-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.258869740662358,0,PL,2018-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,4.258869740662358,0,PL,2018-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,4.258869740662358,0,PL,2018-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,4.258869740662358,0,PL,2018-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.057288536,NA,NA,4.258869740662358,1.3451582107108597,PL,2018-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,4.258869740662358,0,PL,2018-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -7505,7 +7505,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.01989821479431515,NA,1,0.6859438586544542,2.900851803432928,PL,2019-Q1,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.6859438586544542,0,PL,2019-Q1,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.6859438586544542,0,PL,2019-Q1,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.6859438586544542,0,PL,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.6859438586544542,0,PL,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.6859438586544542,0,PL,2019-Q1,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.6859438586544542,0,PL,2019-Q1,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.6859438586544542,0,PL,2019-Q1,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -7554,7 +7554,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.04921838221784796,NA,1,2.7714894819209945,1.7758819775037848,PL,2019-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,2.7714894819209945,0,PL,2019-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,2.7714894819209945,0,PL,2019-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,2.7714894819209945,0,PL,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,2.7714894819209945,0,PL,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,2.7714894819209945,0,PL,2019-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0.7100663470056365,NA,1,2.7714894819209945,25.620387579947458,PL,2019-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,2.7714894819209945,0,PL,2019-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -7680,7 +7680,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,13.980174320652647,0,PL,2020-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,13.980174320652647,0,PL,2020-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,13.980174320652647,0,PL,2020-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,13.980174320652647,0,PL,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,13.980174320652647,0,PL,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,13.980174320652647,0,PL,2020-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.944034104,NA,NA,13.980174320652647,6.752663324128914,PL,2020-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.0128350845,NA,NA,13.980174320652647,0.09180918782277966,PL,2020-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -7835,7 +7835,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,7.005587403496204,0,PL,2020-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.005587403496204,0,PL,2020-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.005587403496204,0,PL,2020-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,7.005587403496204,0,PL,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,7.005587403496204,0,PL,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,7.005587403496204,0,PL,2020-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 1.521119187,NA,NA,7.005587403496204,21.71294281819782,PL,2020-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 7.38128e-4,NA,NA,7.005587403496204,0.01053627565379643,PL,2020-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -7990,7 +7990,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,5.971753202350776,0,PL,2020-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,5.971753202350776,0,PL,2020-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,5.971753202350776,0,PL,2020-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,5.971753202350776,0,PL,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,5.971753202350776,0,PL,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,5.971753202350776,0,PL,2020-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 1.9581719830000002,NA,NA,5.971753202350776,32.79057115470156,PL,2020-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.001987268,NA,NA,5.971753202350776,0.033277798540263075,PL,2020-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -8068,7 +8068,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.25471916580200193,NA,1,1.8041302119828184,14.118668603307427,PL,2020-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.8041302119828184,0,PL,2020-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.8041302119828184,0,PL,2020-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,1.8041302119828184,0,PL,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,1.8041302119828184,0,PL,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.8041302119828184,0,PL,2020-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0.3721234792264687,NA,1,1.8041302119828184,20.62619852795928,PL,2020-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.8041302119828184,0,PL,2020-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -8117,7 +8117,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,1.8684197606708846,0,SF,2017-Q3,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.8684197606708846,0,SF,2017-Q3,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.8684197606708846,0,SF,2017-Q3,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,1.8684197606708846,0,SF,2017-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,1.8684197606708846,0,SF,2017-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.8684197606708846,0,SF,2017-Q3,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0.03048217858032915,NA,1,1.8684197606708846,1.6314416718320333,SF,2017-Q3,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.8684197606708846,0,SF,2017-Q3,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -8242,7 +8242,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.1051852915637106,0,SF,2017-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.1051852915637106,0,SF,2017-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.1051852915637106,0,SF,2017-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,2.1051852915637106,0,SF,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,2.1051852915637106,0,SF,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.1051852915637106,0,SF,2017-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.1051852915637106,0,SF,2017-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.1051852915637106,0,SF,2017-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -8397,7 +8397,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.994482600324891,0,SF,2018-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.994482600324891,0,SF,2018-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.994482600324891,0,SF,2018-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,2.994482600324891,0,SF,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,2.994482600324891,0,SF,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.994482600324891,0,SF,2018-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.08108173933333333,NA,NA,2.994482600324891,2.7077044737056157,SF,2018-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.994482600324891,0,SF,2018-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -8552,7 +8552,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.5207030170240226,0,SF,2018-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.5207030170240226,0,SF,2018-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.5207030170240226,0,SF,2018-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-2.2875165864528143e-4,3.962094950892798e-4,3,1.5207030170240226,0.015042493904756147,SF,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+2.2875165864528143e-4,3.962094950892798e-4,3,1.5207030170240226,0.015042493904756147,SF,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.5207030170240226,0,SF,2018-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.5207030170240226,0,SF,2018-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.5207030170240226,0,SF,2018-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -8707,7 +8707,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,0.4367017900873955,0,SF,2018-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,0.4367017900873955,0,SF,2018-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,0.4367017900873955,0,SF,2018-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,0.4367017900873955,0,SF,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,0.4367017900873955,0,SF,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,0.4367017900873955,0,SF,2018-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.06246004733333333,NA,NA,0.4367017900873955,14.302677193247462,SF,2018-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,0.4367017900873955,0,SF,2018-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -8892,7 +8892,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,1.2683683655554183,0,SF,2019-Q2,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.2683683655554183,0,SF,2019-Q2,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.2683683655554183,0,SF,2019-Q2,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0.1076129722629554,NA,1,1.2683683655554183,8.484362680855076,SF,2019-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0.1076129722629554,NA,1,1.2683683655554183,8.484362680855076,SF,2019-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.2683683655554183,0,SF,2019-Q2,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0.44436311268518514,NA,1,1.2683683655554183,35.034231754163834,SF,2019-Q2,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.2683683655554183,0,SF,2019-Q2,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -8941,7 +8941,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,1.4684164344075061,0,SF,2019-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.4684164344075061,0,SF,2019-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.4684164344075061,0,SF,2019-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,1.4684164344075061,0,SF,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,1.4684164344075061,0,SF,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.4684164344075061,0,SF,2019-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0.34950703729098526,NA,1,1.4684164344075061,23.801629367626116,SF,2019-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.4684164344075061,0,SF,2019-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -9066,7 +9066,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,6.586498665905336,0,SF,2020-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,6.586498665905336,0,SF,2020-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,6.586498665905336,0,SF,2020-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,6.586498665905336,0,SF,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,6.586498665905336,0,SF,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,6.586498665905336,0,SF,2020-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.056528439,NA,NA,6.586498665905336,0.8582471790758341,SF,2020-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,6.586498665905336,0,SF,2020-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -9221,7 +9221,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,26.77420606066168,0,SF,2020-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,26.77420606066168,0,SF,2020-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,26.77420606066168,0,SF,2020-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0.01305322323374764,NA,1,26.77420606066168,0.048752979655767435,SF,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0.01305322323374764,NA,1,26.77420606066168,0.048752979655767435,SF,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,26.77420606066168,0,SF,2020-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.058049668,NA,NA,26.77420606066168,0.2168119116902225,SF,2020-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,26.77420606066168,0,SF,2020-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -9376,7 +9376,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.221675096121809,0,SF,2020-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.221675096121809,0,SF,2020-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.221675096121809,0,SF,2020-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0.00297308036454758,NA,1,2.221675096121809,0.13382156417639265,SF,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0.00297308036454758,NA,1,2.221675096121809,0.13382156417639265,SF,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.221675096121809,0,SF,2020-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.31120904299999996,NA,NA,2.221675096121809,14.00785576357458,SF,2020-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 2.84e-5,NA,NA,2.221675096121809,0.0012783147297089248,SF,2020-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -9455,7 +9455,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,1.227740324656788,0,SF,2020-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.227740324656788,0,SF,2020-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,1.227740324656788,0,SF,2020-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0.03771022734775108,NA,1,1.227740324656788,3.071514927905694,SF,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0.03771022734775108,NA,1,1.227740324656788,3.071514927905694,SF,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.227740324656788,0,SF,2020-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0.3742891798207317,NA,1,1.227740324656788,30.486021539234155,SF,2020-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,1.227740324656788,0,SF,2020-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -9580,7 +9580,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.8770129002446767,0,TR,2017-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.8770129002446767,0,TR,2017-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.8770129002446767,0,TR,2017-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0.00778148329044604,0.013477924417300788,3,3.8770129002446767,0.20070821249924017,TR,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0.00778148329044604,0.013477924417300788,3,3.8770129002446767,0.20070821249924017,TR,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.8770129002446767,0,TR,2017-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.18102522666666668,NA,NA,3.8770129002446767,4.669193302277695,TR,2017-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.8770129002446767,0,TR,2017-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -9735,7 +9735,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.9193994691602088,0,TR,2018-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.9193994691602088,0,TR,2018-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.9193994691602088,0,TR,2018-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,2.9193994691602088,0,TR,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,2.9193994691602088,0,TR,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.9193994691602088,0,TR,2018-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.07700571133333332,NA,NA,2.9193994691602088,2.6377243726595836,TR,2018-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.9193994691602088,0,TR,2018-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -9890,7 +9890,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.1232961328519804,0,TR,2018-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.1232961328519804,0,TR,2018-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.1232961328519804,0,TR,2018-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,2.1232961328519804,0,TR,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,2.1232961328519804,0,TR,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.1232961328519804,0,TR,2018-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.075554132,NA,NA,2.1232961328519804,3.5583417136693405,TR,2018-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.1232961328519804,0,TR,2018-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -10045,7 +10045,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.9140705913963973,0,TR,2018-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.9140705913963973,0,TR,2018-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.9140705913963973,0,TR,2018-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0.001039198665246465,0.0014696488463915686,2,3.9140705913963973,0.0265503301736752,TR,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0.001039198665246465,0.0014696488463915686,2,3.9140705913963973,0.0265503301736752,TR,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.9140705913963973,0,TR,2018-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.16390818933333334,NA,NA,3.9140705913963973,4.187665641330626,TR,2018-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.9140705913963973,0,TR,2018-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -10230,7 +10230,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.00100325875288272,NA,1,0.017791394472793334,5.639011345720578,TR,2019-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.017791394472793334,0,TR,2019-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.017791394472793334,0,TR,2019-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.017791394472793334,0,TR,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.017791394472793334,0,TR,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.017791394472793334,0,TR,2019-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0.00671103243208926,NA,1,0.017791394472793334,37.720665697968734,TR,2019-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.017791394472793334,0,TR,2019-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -10355,7 +10355,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.870708470865875,0,TR,2020-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.870708470865875,0,TR,2020-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.870708470865875,0,TR,2020-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0.00717984115955174,NA,1,3.870708470865875,0.18549165388179217,TR,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0.00717984115955174,NA,1,3.870708470865875,0.18549165388179217,TR,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.870708470865875,0,TR,2020-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.1658467485,NA,NA,3.870708470865875,4.284661315836586,TR,2020-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.870708470865875,0,TR,2020-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -10510,7 +10510,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.3708596683952934,0,TR,2020-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.3708596683952934,0,TR,2020-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.3708596683952934,0,TR,2020-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0.08723937660105252,NA,1,1.3708596683952934,6.363844426408252,TR,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0.08723937660105252,NA,1,1.3708596683952934,6.363844426408252,TR,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.3708596683952934,0,TR,2020-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.14672380599999998,NA,NA,1.3708596683952934,10.703050748568053,TR,2020-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.3708596683952934,0,TR,2020-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -10665,7 +10665,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,7.871395975711548,0,TR,2020-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.871395975711548,0,TR,2020-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.871395975711548,0,TR,2020-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0.00599519253422133,NA,1,7.871395975711548,0.07616428588677861,TR,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0.00599519253422133,NA,1,7.871395975711548,0.07616428588677861,TR,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0.0014213445,NA,NA,7.871395975711548,0.018057082941650832,TR,2020-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,7.871395975711548,0,TR,2020-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.001163971,NA,NA,7.871395975711548,0.014787351615794947,TR,2020-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -10744,7 +10744,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,2.1478490345013235,0,TR,2020-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,2.1478490345013235,0,TR,2020-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,2.1478490345013235,0,TR,2020-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0.01803151823273833,NA,1,2.1478490345013235,0.8395151587981505,TR,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0.01803151823273833,NA,1,2.1478490345013235,0.8395151587981505,TR,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,2.1478490345013235,0,TR,2020-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0.17716252451989967,NA,1,2.1478490345013235,8.248369493111621,TR,2020-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,2.1478490345013235,0,TR,2020-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -10869,7 +10869,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,2.0318143917617446,0,WM,2017-Q4,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.0318143917617446,0,WM,2017-Q4,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.0318143917617446,0,WM,2017-Q4,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,2.0318143917617446,0,WM,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,2.0318143917617446,0,WM,2017-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,2.0318143917617446,0,WM,2017-Q4,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.033490116,NA,NA,2.0318143917617446,1.6482861887281646,WM,2017-Q4,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,2.0318143917617446,0,WM,2017-Q4,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -11024,7 +11024,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.7735833892121784,0,WM,2018-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7735833892121784,0,WM,2018-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7735833892121784,0,WM,2018-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,2,1.7735833892121784,0,WM,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,2,1.7735833892121784,0,WM,2018-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.7735833892121784,0,WM,2018-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.010782013333333333,NA,NA,1.7735833892121784,0.6079225481539201,WM,2018-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7735833892121784,0,WM,2018-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -11179,7 +11179,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.3670331173581214,0,WM,2018-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.3670331173581214,0,WM,2018-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.3670331173581214,0,WM,2018-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,0,3,1.3670331173581214,0,WM,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,0,3,1.3670331173581214,0,WM,2018-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.3670331173581214,0,WM,2018-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.010474935999999997,NA,NA,1.3670331173581214,0.7662532726524928,WM,2018-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.3670331173581214,0,WM,2018-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -11334,7 +11334,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.3932606641510783,0,WM,2018-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.3932606641510783,0,WM,2018-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.3932606641510783,0,WM,2018-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,3.3932606641510783,0,WM,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,3.3932606641510783,0,WM,2018-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.3932606641510783,0,WM,2018-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.3932606641510783,0,WM,2018-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.3932606641510783,0,WM,2018-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -11519,7 +11519,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,0.02174680091586197,0,WM,2019-Q1,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0.00141611740396762,NA,1,0.02174680091586197,6.511842405908602,WM,2019-Q1,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.02174680091586197,0,WM,2019-Q1,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.02174680091586197,0,WM,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.02174680091586197,0,WM,2019-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.02174680091586197,0,WM,2019-Q1,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.02174680091586197,0,WM,2019-Q1,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.02174680091586197,0,WM,2019-Q1,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -11568,7 +11568,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,1,0.036364193522175445,0,WM,2019-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.036364193522175445,0,WM,2019-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.036364193522175445,0,WM,2019-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.036364193522175445,0,WM,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.036364193522175445,0,WM,2019-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.036364193522175445,0,WM,2019-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.036364193522175445,0,WM,2019-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.036364193522175445,0,WM,2019-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater
@@ -11693,7 +11693,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,3.6111867548151237,0,WM,2020-Q1,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 2.33131e-4,NA,NA,3.6111867548151237,0.006455800151823919,WM,2020-Q1,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,3.6111867548151237,0,WM,2020-Q1,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,3.6111867548151237,0,WM,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,3.6111867548151237,0,WM,2020-Q1,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,3.6111867548151237,0,WM,2020-Q1,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.4770966755,NA,NA,3.6111867548151237,13.211631186447049,WM,2020-Q1,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.001238870999999995,NA,NA,3.6111867548151237,0.034306478288559726,WM,2020-Q1,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -11848,7 +11848,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.7641965136584237,0,WM,2020-Q2,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7641965136584237,0,WM,2020-Q2,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7641965136584237,0,WM,2020-Q2,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,1.7641965136584237,0,WM,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,1.7641965136584237,0,WM,2020-Q2,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.7641965136584237,0,WM,2020-Q2,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.033000346,NA,NA,1.7641965136584237,1.8705595291970623,WM,2020-Q2,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7641965136584237,0,WM,2020-Q2,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -12003,7 +12003,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0,NA,NA,1.7796239544985792,0,WM,2020-Q3,Noctuidae,Lepidoptera,Noctuidae,Noctuidae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7796239544985792,0,WM,2020-Q3,Noteridae,Coleoptera,Noteridae,Noteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0,NA,NA,1.7796239544985792,0,WM,2020-Q3,Notonectidae,Hemiptera,Notonectidae,Notonectidae,NA,Invertebrate,Resident,Freshwater,Freshwater
-0,NA,1,1.7796239544985792,0,WM,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,1.7796239544985792,0,WM,2020-Q3,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,NA,1.7796239544985792,0,WM,2020-Q3,Ochteridae,Hemiptera,Ochteridae,Ochteridae,NA,Invertebrate,Resident,Freshwater,Freshwater
 0.060220589,NA,NA,1.7796239544985792,3.383894043894658,WM,2020-Q3,Oligochaeta,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
 4.315e-6,NA,NA,1.7796239544985792,2.4246695427381903e-4,WM,2020-Q3,Ostracoda,NA,NA,NA,NA,Invertebrate,Resident,Freshwater,Freshwater
@@ -12082,7 +12082,7 @@ biomass_mu,biomass_sd,biomass_n,biomass_etot,biomass_percent,site_code,collectio
 0.03961528438201143,NA,1,0.3211341323349252,12.336055371621125,WM,2020-Q4,M. salmoides,Centrarchiformes,Centrarchidae,Centrarchidae,salmoides,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.3211341323349252,0,WM,2020-Q4,N. gyrinus,Siluriformes,Ictaluridae,Ictaluridae,gyrinus,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.3211341323349252,0,WM,2020-Q4,N. texanus,Cypriniformes,Leuciscidae,Leuciscidae,texanus,Fish,Resident,Freshwater,Freshwater
-0,NA,1,0.3211341323349252,0,WM,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Resident,Freshwater,Freshwater
+0,NA,1,0.3211341323349252,0,WM,2020-Q4,O. aureus,Cichliformes,Cichlidae,Cichlidae,aureus,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.3211341323349252,0,WM,2020-Q4,P. annularis,Centrarchiformes,Centrarchidae,Centrarchidae,annularis,Fish,Resident,Freshwater,Freshwater
 0,NA,1,0.3211341323349252,0,WM,2020-Q4,P. latipinna,Cyprinodontiformes,Poeciliidae,Poeciliidae,latipinna,Fish,Transient,Euryhaline,Euryhaline
 0,NA,1,0.3211341323349252,0,WM,2020-Q4,P. nigromaculatus,Centrarchiformes,Centrarchidae,Centrarchidae,nigromaculatus,Fish,Resident,Freshwater,Freshwater

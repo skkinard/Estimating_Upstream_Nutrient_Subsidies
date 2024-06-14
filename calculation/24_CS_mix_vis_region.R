@@ -161,8 +161,8 @@ plot_scatter_transient <- d_iso %>%
   geom_label(data=d_source_stats, 
              aes(y=mu_sulfur,x=mu_carbon, label=site_type)) +
   scale_shape_manual('', values=21:24) +
-  scale_fill_manual('', values=c('cyan3', 'blue', 'red')) +
-  scale_color_manual('', values=c('cyan3', 'blue', 'red')) +
+  scale_fill_manual('', values=c('cyan3', 'blue', 'yellow')) +
+  scale_color_manual('', values=c('cyan3', 'blue', 'goldenrod3')) +
   labs(x=expression(paste(delta)^13*C),
        y=expression(paste(delta)^34*S)) +
   theme_bw(base_size = 20) +
@@ -194,14 +194,13 @@ plot_scatter_dam <- d_iso %>%
                      xmin=mu_carbon-sd_carbon, 
                      xmax=mu_carbon+sd_carbon), height=0) +
   geom_text_repel(aes(x=carbon, y=sulfur, label=lowest_taxon)) +
-  geom_point(aes(x=carbon, y=sulfur),
-             size=3, shape=21, fill='white') +
-  geom_point(aes(x=carbon, y=sulfur, fill=is_dam),
-             size=3, shape=21, alpha=.8) +
+  geom_point(aes(x=carbon, y=sulfur, color = is_dam, fill=is_dam, shape = is_dam),
+             size=3) +
   geom_label(data=d_source_stats, 
              aes(y=mu_sulfur,x=mu_carbon, label=site_type)) +
   scale_shape_manual('', values=21:24) +
-  scale_fill_manual('', values=c('red', 'blue')) +
+  scale_color_manual('', values = c('brown', 'blue')) +
+  scale_fill_manual('', values=c('yellow', 'skyblue')) +
   labs(x=expression(paste(delta)^13*C),
        y=expression(paste(delta)^34*S)) +
   theme_bw(base_size=20) +
@@ -222,8 +221,8 @@ d_prep <- d %>%
 plot_transient_estuarine <- d_prep %>%
   ggplot(aes(x=m_group, y=mean)) +
   geom_hline(yintercept=50, lty=2, lwd=.5, color='grey') +
-  geom_errorbar(aes(ymin=`2.5%`, ymax=`97.5%`), width = 0.2) +
-    geom_point(size=4) +
+  geom_errorbar(aes(ymin=`2.5%`, ymax=`97.5%`), width = 0.2, color = 'blue') +
+    geom_point(size=4, color= 'blue', fill = 'skyblue', shape = 21) +
   geom_text(data = filter(d_prep, m_group == 'Freshwater'),
             aes(y=`97.5%`+5), label='A', color='red', size= 5) +
   geom_text(data = filter(d_prep, m_group == 'Diadromous'),
@@ -238,8 +237,8 @@ vis_mix_CI <- function(xdata) {
   xdata %>%
     ggplot(aes(x=m_group, y=mean)) +
     geom_hline(yintercept=50, lty=2, lwd=.5, color='grey') +
-    geom_errorbar(aes(ymin=`2.5%`, ymax=`97.5%`), width = 0.2) +
-    geom_point(size=4) +
+    geom_errorbar(aes(ymin=`2.5%`, ymax=`97.5%`), width = 0.2, color = 'blue') +
+    geom_point(size=4, color= 'blue', fill = 'skyblue', shape = 21) +
     geom_text(data = filter(xdata, mean > 50),
               aes(y=`97.5%`+5), label='*', color='red', size= 10) +
     labs(x=element_blank(), y='% Estuarine') +
@@ -272,7 +271,7 @@ plot_rain_dist <- d_vis_mix_CI$data[[1]] %>%
   facet_wrap(~ X_NAME, scales='free_x') +
   stat_poly_eq(label.x=.5, label.y=.95, formula=y~log(x),
                color='black', use_label(c("adj.R2","p")), size=6) +
-  geom_point(size=4, fill='red', shape=21) +
+  geom_point(size=4, fill='skyblue', color='blue', shape=21) +
   scale_fill_viridis_c('Distance (km)', direction=-1) +
   labs(x=element_blank(), y='% Estuarine') +
   ylim(c(0,100)) +
@@ -308,7 +307,8 @@ table_transient_estuarine <- d %>%
   rename(transient_type = m_group, 
          estuarine=mean, lower=`2.5%`, upper=`97.5%`,
          Comparison = dataset) %>%
-  select(Comparison, transient_type, estuarine, lower, upper)
+  select(Comparison, transient_type, estuarine, lower, upper) %>%
+  mutate(Comparison= ifelse(is.na(Comparison), 'Transient', Comparison))
 
 #----------------------------------------------------------------------------
 # Dam x Estuarine
@@ -329,10 +329,12 @@ d_prep_cal <- d %>%
 plot_dam_estuarine <- d_prep_cal %>%
   ggplot(aes(x=m_group)) +
   geom_errorbar(aes(ymin=`2.5%`, ymax=`97.5%`, group=type), 
-                width = 0.2, position=position_dodge(width=.1)) +
+                width = 0.2, position=position_dodge(width=.1),
+                color = 'blue') +
   geom_point(aes(y=x_val, shape=type, fill=type),
              size=4, position=position_dodge(width=.1)) +
-  scale_fill_manual(values=c('black', 'red')) +
+  scale_color_manual(values = c('blue', 'brown')) +
+  scale_fill_manual(values=c('skyblue', 'yellow')) +
   scale_shape_manual(values=c(21, 22)) +
   labs(x=element_blank(), y='% Estuarine') +
   ylim(c(0,100)) +
